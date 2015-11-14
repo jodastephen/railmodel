@@ -1,2 +1,4 @@
-# railmodel
-Modelling journet times by rail
+## Rail Model
+
+Modelling journey times by rail
+http://ukrail.blogspot.co.uk/
