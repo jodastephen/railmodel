@@ -30,19 +30,20 @@ import com.google.common.io.Files;
 /**
  * Calculates journey times for SW London with Crossrail 2 in place.
  */
-public class Crossrail2SWLondonModel extends Model {
+public class Crossrail2EarlsfieldSWLondonModel extends Model {
 
   public static void main(String[] args) throws Exception {
-    Crossrail2SWLondonModel model = new Crossrail2SWLondonModel();
+    Crossrail2EarlsfieldSWLondonModel model = new Crossrail2EarlsfieldSWLondonModel();
     ImmutableList<Station> starts = ImmutableList.of(
-        CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, UMD, USW, UTB, BAL);
+        CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB);
     ImmutableList<Station> ends = ImmutableList.of(
         VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UCL, USP);
 
     List<String> output = new ArrayList<>();
-    output.add("Modelling for SW London with Crossrail 2" + NEWLINE);
-    output.add("========================================" + NEWLINE);
-    output.add("This uses CR2 via Balham, with best efforts guesses of interchange times." + NEWLINE);
+    output.add("Modelling for SW London with Crossrail 2 Swirl" + NEWLINE);
+    output.add("==============================================" + NEWLINE);
+    output.add("This uses CR2 via Earlsfield based on the [Swirl plan](http://ukrail.blogspot.co.uk/2015/11/crossrail-2-swirl.html)," +
+        " with best efforts guesses of interchange times." + NEWLINE);
     output.add(NEWLINE);
     output.add("A selection of interesting journeys is listed, together with calculated route options." + NEWLINE);
     output.add("A key for station codes is at the end." + NEWLINE);
@@ -72,117 +73,92 @@ public class Crossrail2SWLondonModel extends Model {
     output.add(NEWLINE);
     output.add("Feel free to send a pull request for errors and enhancments!." + NEWLINE);
 
-    File file = new File("CR2-SWLondon.md");
+    File file = new File("CR2-Swirl-SWLondon.md");
     String result = Joiner.on("").join(output);
     Files.write(result, file, StandardCharsets.UTF_8);
     System.out.println(result);
   }
 
-  Crossrail2SWLondonModel() {
+  Crossrail2EarlsfieldSWLondonModel() {
     setup();
   }
 
   private void setup() {
     // WAT
-    Route cljwat = Route.of(
-        "SWML",
-        "CLJ-WAT",
-        18,
-        stations(CLJ, VXH, WAT),
-        times(5, 6));
     Route wimwat = Route.of(
         "SWML",
         "WIM-WAT",
-        12,
-        stations(WIM, EAD, CLJ),
-        times(4, 4),
-        cljwat);
-    Route raywat = Route.of(
-        "SWML",
-        "RAY-WAT",
-        8,
-        stations(RAY, WIM),
-        times(4),
-        wimwat);
+        18,
+        stations(WIM, CLJ, VXH, WAT),
+        times(6, 5, 6));
     // 4tph from Twickenham/Loop
     Route twiwat = Route.of(
         "SWML",
         "TWI-WAT",
         4,
-        stations(TWI, KNG, NEM, RAY),
-        times(14, 7, 3),
-        raywat);
+        stations(TWI, KNG, NEM, WIM),
+        times(14, 7, 7),
+        wimwat);
     // 4tph from Dorking/Guildford
     Route lhdwat = Route.of(
         "SWML",
         "LHD-WAT",
         4,
-        stations(LHD, EPS, WCP, RAY),
-        times(8, 7, 6),
-        raywat);
-    // 6tph faster Surbiton, guess -2mins for not stopping WIM/EAD
-    Route surwat1 = Route.of(
-        "SWML fast",
-        "SUR-WAT (fast)",
-        6,
-        stations(SUR, CLJ),
-        times(13),
-        cljwat);
-    // 4tph slower Surbiton, guess -2mins for not stopping NEM
-    Route surwat2 = Route.of(
+        stations(LHD, EPS, WCP, WIM),
+        times(8, 7, 10),
+        wimwat);
+    // 10tph Surbiton
+    Route surwat = Route.of(
         "SWML",
-        "SUR-WAT (slow)",
-        4,
+        "SUR-WAT",
+        10,
         stations(SUR, WIM),
         times(7),
         wimwat);
     addRoute(twiwat);
     addRoute(lhdwat);
-    addRoute(surwat1);
-    addRoute(surwat2);
+    addRoute(surwat);
     // CR2
     // CLJ-CKR known as 3 mins
     // CKR-VIC and VIC-TCR are similar distances
-    // BAL-CLJ set at 3mins although 4mins more likely
-    // WIM-BAL set at 4mins
     Route wimagl = Route.of(
         "CR2",
         "CR2",
         30,
-        stations(WIM, BAL, CLJ, CKR, VIC, TCR, EUS, STP, AGL),
-        times(4, 3, 3, 3, 3, 2, 0, 3));
+        stations(WIM, EAD, CLJ, CKR, VIC, TCR, EUS, STP, AGL),
+        times(3, 3, 3, 3, 3, 2, 0, 3));
     Route rayagl = Route.of(
         "CR2",
         "CR2",
-        20,
+        24,
         stations(RAY, WIM),
         times(4),
         wimagl);
     Route nemagl = Route.of(
         "CR2",
         "CR2",
-        10,
+        12,
         stations(NEM, RAY),
         times(3),
         rayagl);
     Route motagl = Route.of(
         "CR2",
         "CR2",
-        10,
+        12,
         stations(MOT, RAY),
         times(3),
         rayagl);
     Route kngagl = Route.of(
         "CR2",
         "CR2",
-        6,
+        8,
         stations(KNG, NEM),
         times(7),
         nemagl);
     Route shpagl = Route.of(
         "CR2",
         "CR2",
-        4,
+        6,
         stations(SHP, FLW, KNG),
         times(13, 10),
         kngagl);
@@ -196,7 +172,7 @@ public class Crossrail2SWLondonModel extends Model {
     Route cssagl = Route.of(
         "CR2",
         "CR2",
-        4,
+        6,
         stations(CSS, MOT),
         times(11),
         motagl);
@@ -221,6 +197,13 @@ public class Crossrail2SWLondonModel extends Model {
         stations(BAL, CLJ, VIC),
         times(6, 10));
     addRoute(balvic);
+    Route ephzfd = Route.of(
+        "Thameslink",
+        "EPH-ZFD",
+        8,
+        stations(EPH, ZFD),
+        times(10));
+    addRoute(ephzfd);
 
     // Tube lines
     Route unortherncity = Route.of(
@@ -312,37 +295,29 @@ public class Crossrail2SWLondonModel extends Model {
     // change CR2 to WAT at SUR, assume 6 tracks between Surbiton and New Malden
     // gaps between fast trains work out at 4-6 mins with 10min gap twice an hour
     // assume a sensible timetable minimises interchange time
-    addChange(Change.of(SUR, hmcagl, surwat1, 3, 5));
-    addChange(Change.of(SUR, hmcagl, surwat2, 3, 5));
-
-    // change CR2 to WAT at RAY, assume 8tph at gaps of 6 and 9 minutes
-    Change xraycr2wat = Change.of(RAY, rayagl, raywat, 1, 9);
-    addChange(xraycr2wat);
-    // change WAT to CR2 at RAY, 20tph at gaps of 2 and 4 minutes
-    Change xraywatcr2 = Change.of(RAY, raywat, rayagl, 1, 5);
-    addChange(xraywatcr2);
+    addChange(Change.of(SUR, hmcagl, surwat, 3, 5));
 
     // change at Wimbledon
-    Change xwimwatcr2 = Change.of(WIM, wimwat, wimagl, 4, 6);
-    Change xwimcr2wat = Change.of(WIM, wimagl, wimwat, 4, 10);
+    Change xwimwatcr2 = Change.of(WIM, wimwat, wimagl, 1, 4);
+    Change xwimcr2wat = Change.of(WIM, wimagl, wimwat, 1, 4);
     addChange(xwimwatcr2);
-    addChange(xwimcr2wat);  // gaps of 3 to 6 mins
+    addChange(xwimcr2wat);
 
     // change at Balham
-    addChange(Change.of(BAL, wimagl, unortherncity, 2, 4));
-    addChange(Change.of(BAL, unortherncity, wimagl, 2, 4));
+    addChange(Change.of(BAL, unortherncity, balvic, 5, 7));
 
     // change at Clapham Junction
-    Change xcljwatcr2 = Change.of(CLJ, cljwat, wimagl, 4, 6);
+    Change xcljwatcr2 = Change.of(CLJ, wimwat, wimagl, 4, 6);
+    Change xcljcr2wat = Change.of(CLJ, wimagl, wimwat, 4, 6);
     addChange(xcljwatcr2);
-    addChange(Change.of(CLJ, cljwat, balvic, 4, 6));
+    addChange(xcljcr2wat);
+    addChange(Change.of(CLJ, wimwat, balvic, 4, 6));
     addChange(Change.of(CLJ, balvic, wimagl, 4, 6));
-    addChange(Change.of(CLJ, balvic, cljwat, 4, 6));
+    addChange(Change.of(CLJ, balvic, wimwat, 4, 6));
 
     // prefer change at RAY to WIM/CLJ if choice
-    addPreferredChange(xraywatcr2, xwimwatcr2);
-    addPreferredChange(xraywatcr2, xcljwatcr2);
-    addPreferredChange(xraycr2wat, xwimcr2wat);
+    addPreferredChange(xwimwatcr2, xcljwatcr2);
+    addPreferredChange(xwimcr2wat, xcljcr2wat);
 
     // change at Victoria
     addChange(Change.of(VIC, wimagl, udistrict, 4, 6));
@@ -368,6 +343,7 @@ public class Crossrail2SWLondonModel extends Model {
 
     // change at Elephant & Castle
     addChange(Change.of(EPH, unortherncity, ubakerloo, 2, 4));
+    addChange(Change.of(EPH, unortherncity, ephzfd, 8, 16));
 
     // change at London Bridge
     addChange(Change.of(LBG, unortherncity, ujubilee, 2, 4));
@@ -390,14 +366,14 @@ public class Crossrail2SWLondonModel extends Model {
     addChange(Change.of(MOG, cr1, unortherncitysb, 3, 5));
 
     // change at Vauxhall
-    addChange(Change.of(VXH, cljwat, uvictoria, 3, 6));
+    addChange(Change.of(VXH, wimwat, uvictoria, 3, 6));
 
     // change at Waterloo
-    addChange(Change.of(WAT, cljwat, ujubilee, 3, 6));
-    addChange(Change.of(WAT, cljwat, ujubileenb, 3, 6));
-    addChange(Change.of(WAT, cljwat, unorthernwest, 3, 6));
-    addChange(Change.of(WAT, cljwat, ubakerloo, 3, 6));
-    addChange(Change.of(WAT, cljwat, uwandc, 3, 10));  // includes queuing for W&C
+    addChange(Change.of(WAT, wimwat, ujubilee, 3, 6));
+    addChange(Change.of(WAT, wimwat, ujubileenb, 3, 6));
+    addChange(Change.of(WAT, wimwat, unorthernwest, 3, 6));
+    addChange(Change.of(WAT, wimwat, ubakerloo, 3, 6));
+    addChange(Change.of(WAT, wimwat, uwandc, 3, 10));  // includes queuing for W&C
 
     // change at Green Park
     addChange(Change.of(UGP, uvictoria, ujubileenb, 4, 6));

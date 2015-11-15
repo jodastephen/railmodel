@@ -59,7 +59,7 @@ public enum Station {
   UCS("Clapham South"),
   UST("Stockwell"),
   UKN("Kennington"),
-  UEC("Elephant & Castle"),
+  EPH("Elephant & Castle"),
   UBH("Borough"),
   UBK("Bank/Monument"),
   UOS("Old Street"),

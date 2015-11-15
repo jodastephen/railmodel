@@ -143,8 +143,8 @@ public class Crossrail2TootingSWLondonModel extends Model {
     // CR2
     // CLJ-CKR known as 3 mins
     // CKR-VIC and VIC-TCR are similar distances
-    // BAL-CLJ set at 3mins although 4mins more likely
-    // WIM-BAL set at 4mins
+    // UTB-CLJ set at 4mins
+    // WIM-UTB set at 3mins
     Route wimagl = Route.of(
         "CR2",
         "CR2",
@@ -227,7 +227,7 @@ public class Crossrail2TootingSWLondonModel extends Model {
         "Northern (City)",
         "Northern (City)",
         30,
-        stations(UMD, USW, UTB, BAL, UCS, UST, UKN, UEC, UBH, LBG, UBK, MOG, UOS, AGL, STP, EUS),
+        stations(UMD, USW, UTB, BAL, UCS, UST, UKN, EPH, UBH, LBG, UBK, MOG, UOS, AGL, STP, EUS),
         times(2, 4, 4, 2, 5, 5, 2, 1, 2, 2, 2, 1, 3, 2, 2));
     Route unortherncitysb = Route.of(
         "Northern (City)",
@@ -251,7 +251,7 @@ public class Crossrail2TootingSWLondonModel extends Model {
         "Bakerloo",
         "Bakerloo",
         27,
-        stations(UEC, WAT, CHX, UOX, UBS),
+        stations(EPH, WAT, CHX, UOX, UBS),
         times(4, 2, 4, 4));
     Route ujubilee = Route.of(
         "Jubilee",
@@ -370,7 +370,7 @@ public class Crossrail2TootingSWLondonModel extends Model {
     addChange(Change.of(UST, unortherncity, uvictoria, 1, 2));
 
     // change at Elephant & Castle
-    addChange(Change.of(UEC, unortherncity, ubakerloo, 2, 4));
+    addChange(Change.of(EPH, unortherncity, ubakerloo, 2, 4));
 
     // change at London Bridge
     addChange(Change.of(LBG, unortherncity, ujubilee, 2, 4));
