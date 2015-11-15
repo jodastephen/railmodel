@@ -318,12 +318,17 @@ public class Crossrail2SWLondonModel extends Model {
     Change xraycr2wat = Change.of(RAY, rayagl, raywat, 1, 9);
     addChange(xraycr2wat);
     // change WAT to CR2 at RAY, 20tph at gaps of 2 and 4 minutes
-    addChange(Change.of(RAY, raywat, rayagl, 1, 4));
+    Change xraywatcr2 = Change.of(RAY, raywat, rayagl, 1, 4);
+    addChange(xraywatcr2);
 
     // change at Wimbledon
-    addChange(Change.of(WIM, wimwat, wimagl, 4, 6));
+    Change xwimwatcr2 = Change.of(WIM, wimwat, wimagl, 4, 6);
     Change xwimcr2wat = Change.of(WIM, wimagl, wimwat, 4, 10);
+    addChange(xwimwatcr2);
     addChange(xwimcr2wat);  // gaps of 3 to 6 mins
+
+    // prefer change at RAY to WIM if choice
+    addPreferredChange(xraywatcr2, xwimwatcr2);
     addPreferredChange(xraycr2wat, xwimcr2wat);
 
     // change at Balham
