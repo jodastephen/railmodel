@@ -99,6 +99,10 @@ public final class Journey implements Comparable<Journey> {
     return (int) (diff + 0.5);
   }
 
+  public boolean isDirect() {
+    return change1 == null;
+  }
+
   //-------------------------------------------------------------------------
   @Override
   public int compareTo(Journey other) {

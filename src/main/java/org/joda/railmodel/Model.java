@@ -34,6 +34,10 @@ public class Model {
   /**
    * The maximum a journey can be over the shortest to still be printed.
    */
+  private static final int MAX_EXCESS_WHEN_DIRECT = 8;
+  /**
+   * The maximum a journey can be over the shortest to still be printed.
+   */
   private static final int MAX_EXCESS = 15;
 
   private final List<Route> routes = new ArrayList<>();
@@ -74,10 +78,14 @@ public class Model {
     List<Journey> solved = solve(start, end);
     solved.sort(Comparator.naturalOrder());
     Journey first = solved.get(0);
+    int maxExcess = MAX_EXCESS;
+    if (first.isDirect()) {
+      maxExcess = MAX_EXCESS_WHEN_DIRECT;
+    }
     for (Journey journey : solved) {
       if (journey != first) {
         int diff = first.differenceTo(journey);
-        if (diff <= MAX_EXCESS) {
+        if (diff <= maxExcess) {
           buf.append("* ").append(journey).append(" (+").append(diff).append("m)").append("\n");
         }
       } else {

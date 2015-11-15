@@ -48,8 +48,9 @@ public class Crossrail2SWLondonModel extends Model {
     output.add("A key for station codes is at the end.\n");
     output.add("The route options are sorted, with the fastest first.\n");
     output.add("The excess over the fastest route option is listed in brackets.\n");
+    output.add("If the fastest route is direct, then only limited alternatives are shown.\n");
+    output.add("No alternative that takes over 15 minutes longer is shown.\n");
     output.add("The number of trains per hour (tph) is also shown.\n");
-    output.add("\n");
     output.add("\n");
     appendSeparator(output);
     for (Iterator<Station> it = starts.iterator(); it.hasNext();) {
