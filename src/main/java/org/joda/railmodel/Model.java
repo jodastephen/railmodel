@@ -17,17 +17,18 @@ package org.joda.railmodel;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import com.google.common.base.Strings;
+import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ImmutableList;
+import com.google.common.collect.Multimap;
 import com.google.common.primitives.Ints;
 
 /**
@@ -50,7 +51,7 @@ public class Model {
 
   private final List<Route> routes = new ArrayList<>();
   private final List<Change> changes = new ArrayList<>();
-  private final Map<Change, Change> preferredChanges = new HashMap<>();
+  private final Multimap<Change, Change> preferredChanges = ArrayListMultimap.create();
 
   Model() {
   }
@@ -167,10 +168,8 @@ public class Model {
         .collect(Collectors.toList());
     Set<Change> rejected = new HashSet<>();
     for (Change change : allChanges) {
-      Change reject = preferredChanges.get(change);
-      if (reject != null) {
-        rejected.add(reject);
-      }
+      Collection<Change> reject = preferredChanges.get(change);
+      rejected.addAll(reject);
     }
     result.removeAll(rejected);
     return result;

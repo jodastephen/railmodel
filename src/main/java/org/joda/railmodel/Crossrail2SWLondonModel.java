@@ -37,7 +37,7 @@ public class Crossrail2SWLondonModel extends Model {
     ImmutableList<Station> starts = ImmutableList.of(
         CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, UMD, USW, UTB, BAL);
     ImmutableList<Station> ends = ImmutableList.of(
-        VIC, TCR, EUS, AGL, WAT, UGP, CHX, ULS, UGS, UWS, UBS, UBH, LBG, UBK, MOG, UOS, UCL, USP);
+        VIC, TCR, EUS, AGL, WAT, UGP, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UCL, USP);
 
     List<String> output = new ArrayList<>();
     output.add("Modelling for SW London with Crossrail 2" + NEWLINE);
@@ -257,14 +257,14 @@ public class Crossrail2SWLondonModel extends Model {
         "Jubilee",
         "Jubilee",
         36,
-        stations(UBS, BDS, UGP, WAT, LBG, CWF),
-        times(2, 2, 4, 3, 7));
+        stations(UBS, BDS, UGP, UWM, WAT, LBG, CWF),
+        times(2, 2, 2, 2, 3, 7));
     Route ujubileenb = Route.of(
         "Jubilee",
         "Jubilee (Northbound)",
         36,
-        stations(LBG, WAT, UGP, BDS, UBS),
-        times(3, 4, 2, 2));
+        stations(LBG, WAT, UWM, UGP, BDS, UBS),
+        times(3, 2, 2, 2, 2));
     Route uwandc = Route.of(
         "W&C",
         "W&C",
@@ -275,8 +275,8 @@ public class Crossrail2SWLondonModel extends Model {
         "District",
         "District",
         27,
-        stations(VIC, CHX, UBK),   // fudge Embankment as Charing Cross, Monument as Bank
-        times(6, 8));
+        stations(VIC, UWM, CHX, UTM, UBK),   // fudge Embankment as Charing Cross, Monument as Bank
+        times(4, 2, 2, 6));
     Route ucentral = Route.of(
         "Central",
         "Central",
@@ -327,19 +327,21 @@ public class Crossrail2SWLondonModel extends Model {
     addChange(xwimwatcr2);
     addChange(xwimcr2wat);  // gaps of 3 to 6 mins
 
-    // prefer change at RAY to WIM if choice
-    addPreferredChange(xraywatcr2, xwimwatcr2);
-    addPreferredChange(xraycr2wat, xwimcr2wat);
-
     // change at Balham
     addChange(Change.of(BAL, wimagl, unortherncity, 2, 4));
     addChange(Change.of(BAL, unortherncity, wimagl, 2, 4));
 
     // change at Clapham Junction
-    addChange(Change.of(CLJ, cljwat, wimagl, 4, 6));
+    Change xcljwatcr2 = Change.of(CLJ, cljwat, wimagl, 4, 6);
+    addChange(xcljwatcr2);
     addChange(Change.of(CLJ, cljwat, balvic, 4, 6));
     addChange(Change.of(CLJ, balvic, wimagl, 4, 6));
     addChange(Change.of(CLJ, balvic, cljwat, 4, 6));
+
+    // prefer change at RAY to WIM/CLJ if choice
+    addPreferredChange(xraywatcr2, xwimwatcr2);
+    addPreferredChange(xraywatcr2, xcljwatcr2);
+    addPreferredChange(xraycr2wat, xwimcr2wat);
 
     // change at Victoria
     addChange(Change.of(VIC, wimagl, udistrict, 4, 6));
