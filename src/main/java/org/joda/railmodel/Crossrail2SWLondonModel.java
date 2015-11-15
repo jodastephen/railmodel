@@ -40,6 +40,17 @@ public class Crossrail2SWLondonModel extends Model {
         VIC, TCR, EUS, AGL, WAT, UGP, CHX, ULS, UBS, UBH, LBG, UBK, MOG, UOS, UCL, USP);
 
     List<String> output = new ArrayList<>();
+    output.add("Modelling for SW London with Crossrail 2\n");
+    output.add("========================================\n");
+    output.add("This uses CR2 via Balham, with best efforts guesses of interchange times.\n");
+    output.add("\n");
+    output.add("A selection of interesting journeys is listed, together with calculated route options.\n");
+    output.add("A key for station codes is at the end.\n");
+    output.add("The route options are sorted, with the fastest first.\n");
+    output.add("The excess over the fastest route option is listed in brackets.\n");
+    output.add("\n");
+    output.add("\n");
+    appendSeparator(output);
     for (Iterator<Station> it = starts.iterator(); it.hasNext();) {
       Station start = it.next();
       for (Station end : ends) {
@@ -48,70 +59,14 @@ public class Crossrail2SWLondonModel extends Model {
         output.add("\n");
       }
       if (it.hasNext()) {
-        output.add("\n");
-        output.add("----\n");
-        output.add("\n");
+        appendSeparator(output);
       }
     }
+    appendStations(output);
     File file = new File("CR2-SWLondon.md");
     String result = Joiner.on("").join(output);
     Files.write(result, file, StandardCharsets.UTF_8);
     System.out.println(result);
-
-//    System.out.println(model.explain(NEM, VIC));
-//    System.out.println(model.explain(RAY, TCR));
-//
-//    System.out.println(model.explain(WIM, VIC));
-//    System.out.println(model.explain(WIM, TCR));
-//    System.out.println(model.explain(WIM, EUS));
-//    System.out.println(model.explain(WIM, AGL));
-//    System.out.println(model.explain(WIM, UBH));
-//    System.out.println(model.explain(WIM, LBG));
-//    System.out.println(model.explain(WIM, UBK));
-//    System.out.println(model.explain(WIM, MOG));
-//    System.out.println(model.explain(WIM, UOS));
-//    System.out.println(model.explain(WIM, CWF));
-
-//    System.out.println(model.explain(RAY, VIC));
-//    System.out.println(model.explain(RAY, TCR));
-//    System.out.println(model.explain(RAY, EUS));
-//    System.out.println(model.explain(RAY, AGL));
-//    System.out.println(model.explain(RAY, UBH));
-//    System.out.println(model.explain(RAY, LBG));
-//    System.out.println(model.explain(RAY, UBK));
-//    System.out.println(model.explain(RAY, MOG));
-//    System.out.println(model.explain(RAY, UOS));
-//    System.out.println(model.explain(RAY, CWF));
-//    System.out.println(model.explain(RAY, UGP));
-//    System.out.println(model.explain(RAY, CHX));
-//    System.out.println(model.explain(RAY, ULS));
-//    System.out.println(model.explain(RAY, UBS));
-
-//    System.out.println(model.explain(BAL, VIC));
-//    System.out.println(model.explain(BAL, TCR));
-//    System.out.println(model.explain(BAL, EUS));
-//    System.out.println(model.explain(BAL, AGL));
-//    System.out.println(model.explain(BAL, MOG));
-//    System.out.println(model.explain(BAL, UBK));
-//    System.out.println(model.explain(BAL, LBG));
-//    System.out.println(model.explain(BAL, CWF));
-//
-//    System.out.println(model.explain(KNG, WAT));
-//    System.out.println(model.explain(KNG, UBK));
-//    System.out.println(model.explain(KNG, LBG));
-//    System.out.println(model.explain(KNG, UGP));
-//    System.out.println(model.explain(KNG, CWF));
-//
-//    System.out.println(model.explain(CSS, WAT));
-//    System.out.println(model.explain(CSS, UBK));
-//    System.out.println(model.explain(CSS, LBG));
-//    System.out.println(model.explain(CSS, UGP));
-//    System.out.println(model.explain(CSS, CWF));
-//
-//    System.out.println(model.explain(UMD, CWF));
-//    System.out.println(model.explain(UMD, VIC));
-//    System.out.println(model.explain(UMD, TCR));
-//    System.out.println(model.explain(UMD, EUS));
   }
 
   Crossrail2SWLondonModel() {

@@ -16,6 +16,7 @@
 package org.joda.railmodel;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -39,6 +40,21 @@ public class Model {
   private final List<Change> changes = new ArrayList<>();
 
   Model() {
+  }
+
+  static void appendSeparator(List<String> output) {
+    output.add("\n");
+    output.add("----\n");
+    output.add("\n");
+  }
+
+  static void appendStations(List<String> output) {
+    List<Station> stations = new ArrayList<>(Arrays.asList(Station.values()));
+    stations.sort(Comparator.comparing(Station::name));
+    appendSeparator(output);
+    for (Station station : stations) {
+      output.add("* " + station.name() + " " + station.description() + "\n");
+    }
   }
 
   //-------------------------------------------------------------------------

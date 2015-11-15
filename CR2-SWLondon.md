@@ -1,3 +1,16 @@
+Modelling for SW London with Crossrail 2
+========================================
+This uses CR2 via Balham, with best efforts guesses of interchange times.
+
+A selection of interesting journeys is listed, together with calculated route options.
+A key for station codes is at the end.
+The route options are sorted, with the fastest first.
+The excess over the fastest route option is listed in brackets.
+
+
+
+----
+
 From Shepperton to Victoria
 ---------------------------
 * CR2 (from SHP) direct in 50m at 4tph
@@ -2160,3 +2173,58 @@ From Balham to St Pauls
 -----------------------
 * CR2 (from WIM) changing to Central at TCR in 22-24m at 30tph
 
+
+----
+
+* AGL Angel
+* BAL Balham
+* BDS Bond Street
+* CHX Charing Cross
+* CKR Chelsea Kings Road
+* CLJ Clapham Junction
+* CSS Chessington South
+* CWF Canary Wharf
+* EAD Earlsfield
+* EPS Epsom
+* EUS Euston
+* FLW Fulwell
+* HMC Hampton Court
+* KNG Kingston
+* LBG London Bridge
+* LHD Leatherhead
+* LST Liverpool Street
+* MOG Moorgate
+* MOT Motspur Park
+* NEM New Malden
+* RAY Raynes Park
+* SHP Shepperton
+* SNL Stoneleigh
+* STP St Pancras
+* SUR Surbiton
+* TCR Tottenham Court Road
+* TWI Twickenham
+* UBH Borough
+* UBK Bank/Monument
+* UBS Baker Street
+* UCL Chancery Lane
+* UCS Clapham South
+* UEC Elephant & Castle
+* UGP Green Park
+* UHL Holborn
+* UKN Kennington
+* ULS Leicester Square
+* UMD Morden
+* UOS Old Street
+* UOX Oxford Circus
+* USP St Pauls
+* UST Stockwell
+* USW South Wimbledon
+* UTB Tooting Broadway
+* UTM Temple
+* UWM Westminster
+* VIC Victoria
+* VXH Vauxhall
+* WAT Waterloo
+* WCP Worcester Park
+* WIM Wimbledon
+* ZFD Farringdon
