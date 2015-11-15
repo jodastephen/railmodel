@@ -35,7 +35,7 @@ public class Crossrail2TootingSWLondonModel extends Model {
   public static void main(String[] args) throws Exception {
     Crossrail2TootingSWLondonModel model = new Crossrail2TootingSWLondonModel();
     ImmutableList<Station> starts = ImmutableList.of(
-        CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, UMD, USW, UTB);
+        CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB);
     ImmutableList<Station> ends = ImmutableList.of(
         VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UCL, USP);
 
