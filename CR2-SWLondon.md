@@ -16,6 +16,680 @@ Walking may affect the faster route on occasion, notably to Leicester Square, wh
 
 ----
 
+From Chessington South to Victoria
+----------------------------------
+* CR2 direct in 31m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 37-40m at 4tph (+8m)
+
+From Chessington South to Tottenham Court Road
+----------------------------------------------
+* CR2 direct in 34m at 4tph
+
+From Chessington South to Euston
+--------------------------------
+* CR2 direct in 36m at 4tph
+* CR2 changing to Victoria at VIC in 42-44m at 4tph (+7m)
+
+From Chessington South to Angel
+-------------------------------
+* CR2 direct in 39m at 4tph
+
+From Chessington South to Waterloo
+----------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 39-42m at 4tph
+* CR2 changing to RAY-WAT at RAY in 38-46m at 4tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 44-48m at 4tph (+6m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 46-50m at 4tph (+8m)
+
+From Chessington South to Green Park
+------------------------------------
+* CR2 changing to Victoria at VIC in 37-39m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 39-42m at 4tph (+3m)
+* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 40-51m at 4tph (+8m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 45-56m at 4tph (+13m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 50-54m at 4tph (+14m)
+
+From Chessington South to Charing Cross
+---------------------------------------
+* CR2 changing to District at VIC in 41-43m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 42-45m at 4tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 46-50m at 4tph (+6m)
+* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 43-54m at 4tph (+7m)
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 44-55m at 4tph (+8m)
+
+From Chessington South to Leicester Square
+------------------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 44-47m at 4tph
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 46-57m at 4tph (+6m)
+
+From Chessington South to Baker Street
+--------------------------------------
+* CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 44-48m at 4tph
+* CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 45-49m at 4tph (+1m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 49-60m at 4tph (+9m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 54-58m at 4tph (+10m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 54-58m at 4tph (+10m)
+* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 51-62m at 4tph (+11m)
+
+From Chessington South to Borough
+---------------------------------
+* CR2 changing to Northern (City) at BAL in 39-41m at 4tph
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 51-55m at 4tph (+13m)
+* CR2 changing to Northern (City) Southbound at AGL in 52-55m at 4tph (+14m)
+
+From Chessington South to London Bridge
+---------------------------------------
+* CR2 changing to Northern (City) at BAL in 41-43m at 4tph
+* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 44-55m at 4tph (+8m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 49-53m at 4tph (+9m)
+* CR2 changing to Northern (City) Southbound at AGL in 50-53m at 4tph (+10m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 52-56m at 4tph (+12m)
+
+From Chessington South to Bank/Monument
+---------------------------------------
+* CR2 changing to Northern (City) at BAL in 43-45m at 4tph
+* CR2 changing to Central at TCR in 46-48m at 4tph (+3m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 47-51m at 4tph (+5m)
+* CR2 changing to Northern (City) Southbound at AGL in 48-51m at 4tph (+6m)
+* CR2 changing to District at VIC in 49-51m at 4tph (+6m)
+* CR2 changing to RAY-WAT at RAY changing to W&C at WAT in 45-60m at 4tph (+9m)
+
+From Chessington South to Moorgate
+----------------------------------
+* CR2 changing to CR1 at TCR in 42-44m at 4tph
+* CR2 changing to Northern (City) at BAL in 45-47m at 4tph (+3m)
+* CR2 changing to Northern (City) Southbound at AGL in 46-49m at 4tph (+5m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 52-56m at 4tph (+11m)
+
+From Chessington South to Old Street
+------------------------------------
+* CR2 changing to Northern (City) Southbound at AGL in 45-48m at 4tph
+* CR2 changing to Northern (City) at BAL in 46-48m at 4tph (+1m)
+* CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 46-50m at 4tph (+2m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 53-57m at 4tph (+9m)
+
+From Chessington South to Chancery Lane
+---------------------------------------
+* CR2 changing to Central at TCR in 42-44m at 4tph
+
+From Chessington South to St Pauls
+----------------------------------
+* CR2 changing to Central at TCR in 44-46m at 4tph
+
+
+----
+
+From Leatherhead to Victoria
+----------------------------
+* LHD-WAT changing to CR2 at RAY in 39-42m at 4tph
+* LHD-WAT changing to CR2 at WIM in 42-44m at 4tph (+3m)
+* LHD-WAT changing to CR2 at CLJ in 43-45m at 4tph (+4m)
+* LHD-WAT changing to Victoria at VXH in 44-47m at 4tph (+5m)
+* LHD-WAT changing to BAL-VIC at CLJ in 47-49m at 4tph (+8m)
+
+From Leatherhead to Tottenham Court Road
+----------------------------------------
+* LHD-WAT changing to CR2 at RAY in 42-45m at 4tph
+* LHD-WAT changing to CR2 at WIM in 45-47m at 4tph (+3m)
+* LHD-WAT changing to CR2 at CLJ in 46-48m at 4tph (+4m)
+* LHD-WAT changing to Northern (West End) at WAT in 53-56m at 4tph (+11m)
+
+From Leatherhead to Euston
+--------------------------
+* LHD-WAT changing to CR2 at RAY in 44-47m at 4tph
+* LHD-WAT changing to CR2 at WIM in 47-49m at 4tph (+3m)
+* LHD-WAT changing to CR2 at CLJ in 48-50m at 4tph (+4m)
+* LHD-WAT changing to Victoria at VXH in 51-54m at 4tph (+7m)
+* LHD-WAT changing to Northern (West End) at WAT in 57-60m at 4tph (+13m)
+* LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 57-62m at 4tph (+14m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 58-62m at 4tph (+15m)
+
+From Leatherhead to Angel
+-------------------------
+* LHD-WAT changing to CR2 at RAY in 47-50m at 4tph
+* LHD-WAT changing to CR2 at WIM in 50-52m at 4tph (+3m)
+* LHD-WAT changing to CR2 at CLJ in 51-53m at 4tph (+4m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 60-65m at 4tph (+14m)
+
+From Leatherhead to Waterloo
+----------------------------
+* LHD-WAT direct in 44m at 4tph
+
+From Leatherhead to Green Park
+------------------------------
+* LHD-WAT changing to CR2 at RAY changing to Victoria at VIC in 45-50m at 4tph
+* LHD-WAT changing to Victoria at VXH in 46-49m at 4tph (+0m)
+* LHD-WAT changing to CR2 at WIM changing to Victoria at VIC in 48-52m at 4tph (+3m)
+* LHD-WAT changing to CR2 at CLJ changing to Victoria at VIC in 49-53m at 4tph (+4m)
+* LHD-WAT changing to Jubilee (Northbound) at WAT in 51-54m at 4tph (+5m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 53-57m at 4tph (+8m)
+
+From Leatherhead to Charing Cross
+---------------------------------
+* LHD-WAT changing to Bakerloo at WAT in 49-52m at 4tph
+* LHD-WAT changing to CR2 at RAY changing to District at VIC in 49-54m at 4tph (+1m)
+* LHD-WAT changing to Northern (West End) at WAT in 50-53m at 4tph (+1m)
+* LHD-WAT changing to CR2 at WIM changing to District at VIC in 52-56m at 4tph (+4m)
+* LHD-WAT changing to CR2 at CLJ changing to District at VIC in 53-57m at 4tph (+5m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 57-61m at 4tph (+9m)
+
+From Leatherhead to Leicester Square
+------------------------------------
+* LHD-WAT changing to Northern (West End) at WAT in 52-55m at 4tph
+
+From Leatherhead to Baker Street
+--------------------------------
+* LHD-WAT changing to Victoria at VXH changing to Bakerloo at UOX in 53-58m at 4tph
+* LHD-WAT changing to Victoria at VXH changing to Jubilee (Northbound) at UGP in 54-59m at 4tph (+1m)
+* LHD-WAT changing to Jubilee (Northbound) at WAT in 55-58m at 4tph (+1m)
+* LHD-WAT changing to Bakerloo at WAT in 57-60m at 4tph (+3m)
+
+From Leatherhead to Borough
+---------------------------
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 47-52m at 4tph
+* LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 50-54m at 4tph (+3m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 54-59m at 4tph (+7m)
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 60-66m at 4tph (+14m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 60-69m at 4tph (+15m)
+
+From Leatherhead to London Bridge
+---------------------------------
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 49-54m at 4tph
+* LHD-WAT changing to Jubilee at WAT in 50-53m at 4tph (+0m)
+* LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 52-56m at 4tph (+3m)
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 58-64m at 4tph (+10m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 58-67m at 4tph (+11m)
+* LHD-WAT changing to CR2 at WIM changing to Northern (City) Southbound at AGL in 61-66m at 4tph (+12m)
+* LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 62-67m at 4tph (+13m)
+
+From Leatherhead to Bank/Monument
+---------------------------------
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 51-56m at 4tph
+* LHD-WAT changing to W&C at WAT in 51-58m at 4tph (+1m)
+* LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 54-58m at 4tph (+3m)
+* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 54-59m at 4tph (+3m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 54-59m at 4tph (+3m)
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 56-62m at 4tph (+6m)
+* LHD-WAT changing to CR2 at WIM changing to Central at TCR in 57-61m at 4tph (+6m)
+* LHD-WAT changing to CR2 at RAY changing to District at VIC in 57-62m at 4tph (+6m)
+* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 58-62m at 4tph (+7m)
+* LHD-WAT changing to CR2 at WIM changing to Northern (City) Southbound at AGL in 59-64m at 4tph (+8m)
+* LHD-WAT changing to CR2 at WIM changing to District at VIC in 60-64m at 4tph (+9m)
+* LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 60-65m at 4tph (+9m)
+* LHD-WAT changing to CR2 at CLJ changing to District at VIC in 61-65m at 4tph (+10m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 65-69m at 4tph (+14m)
+
+From Leatherhead to Moorgate
+----------------------------
+* LHD-WAT changing to CR2 at RAY changing to CR1 at TCR in 50-55m at 4tph
+* LHD-WAT changing to CR2 at WIM changing to CR1 at TCR in 53-57m at 4tph (+3m)
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 53-58m at 4tph (+3m)
+* LHD-WAT changing to CR2 at CLJ changing to CR1 at TCR in 54-58m at 4tph (+4m)
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 54-60m at 4tph (+5m)
+* LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 56-60m at 4tph (+6m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 56-61m at 4tph (+6m)
+* LHD-WAT changing to CR2 at WIM changing to Northern (City) Southbound at AGL in 57-62m at 4tph (+7m)
+* LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 58-63m at 4tph (+8m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 58-67m at 4tph (+10m)
+
+From Leatherhead to Old Street
+------------------------------
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 53-59m at 4tph
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 54-59m at 4tph (+1m)
+* LHD-WAT changing to CR2 at WIM changing to Northern (City) Southbound at AGL in 56-61m at 4tph (+3m)
+* LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 57-61m at 4tph (+3m)
+* LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 57-62m at 4tph (+4m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 57-62m at 4tph (+4m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 59-68m at 4tph (+8m)
+
+From Leatherhead to Chancery Lane
+---------------------------------
+* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 50-55m at 4tph
+* LHD-WAT changing to CR2 at WIM changing to Central at TCR in 53-57m at 4tph (+3m)
+* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 54-58m at 4tph (+4m)
+
+From Leatherhead to St Pauls
+----------------------------
+* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 52-57m at 4tph
+* LHD-WAT changing to CR2 at WIM changing to Central at TCR in 55-59m at 4tph (+3m)
+* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 56-60m at 4tph (+4m)
+
+
+----
+
+From Epsom to Victoria
+----------------------
+* CR2 direct in 31m at 6tph
+* LHD-WAT changing to Victoria at VXH in 36-39m at 4tph (+7m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 37-40m at 6tph (+8m)
+
+From Epsom to Tottenham Court Road
+----------------------------------
+* CR2 direct in 34m at 6tph
+
+From Epsom to Euston
+--------------------
+* CR2 direct in 36m at 6tph
+* CR2 changing to Victoria at VIC in 42-44m at 6tph (+7m)
+
+From Epsom to Angel
+-------------------
+* CR2 direct in 39m at 6tph
+
+From Epsom to Waterloo
+----------------------
+* LHD-WAT direct in 36m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 39-42m at 6tph (+5m)
+
+From Epsom to Green Park
+------------------------
+* CR2 changing to Victoria at VIC in 37-39m at 6tph
+* LHD-WAT changing to Victoria at VXH in 38-41m at 4tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 39-42m at 6tph (+3m)
+* LHD-WAT changing to Jubilee (Northbound) at WAT in 43-46m at 4tph (+7m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 45-49m at 4tph (+9m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 50-54m at 6tph (+14m)
+
+From Epsom to Charing Cross
+---------------------------
+* CR2 changing to District at VIC in 41-43m at 6tph
+* LHD-WAT changing to Bakerloo at WAT in 41-44m at 4tph (+1m)
+* LHD-WAT changing to Northern (West End) at WAT in 42-45m at 4tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 42-45m at 6tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 46-50m at 6tph (+6m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 49-53m at 4tph (+9m)
+
+From Epsom to Leicester Square
+------------------------------
+* LHD-WAT changing to Northern (West End) at WAT in 44-47m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 44-47m at 6tph (+0m)
+
+From Epsom to Baker Street
+--------------------------
+* CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 44-48m at 6tph
+* CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 45-49m at 6tph (+1m)
+* LHD-WAT changing to Victoria at VXH changing to Bakerloo at UOX in 45-50m at 4tph (+2m)
+* LHD-WAT changing to Victoria at VXH changing to Jubilee (Northbound) at UGP in 46-51m at 4tph (+3m)
+* LHD-WAT changing to Jubilee (Northbound) at WAT in 47-50m at 4tph (+3m)
+* LHD-WAT changing to Bakerloo at WAT in 49-52m at 4tph (+5m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 54-58m at 6tph (+10m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 54-58m at 6tph (+10m)
+
+From Epsom to Borough
+---------------------
+* CR2 changing to Northern (City) at BAL in 39-41m at 6tph
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 46-51m at 4tph (+9m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 51-55m at 6tph (+13m)
+* CR2 changing to Northern (City) Southbound at AGL in 52-55m at 6tph (+14m)
+
+From Epsom to London Bridge
+---------------------------
+* CR2 changing to Northern (City) at BAL in 41-43m at 6tph
+* LHD-WAT changing to Jubilee at WAT in 42-45m at 4tph (+2m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 49-53m at 6tph (+9m)
+* CR2 changing to Northern (City) Southbound at AGL in 50-53m at 6tph (+10m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 52-56m at 6tph (+12m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 50-59m at 4tph (+13m)
+
+From Epsom to Bank/Monument
+---------------------------
+* CR2 changing to Northern (City) at BAL in 43-45m at 6tph
+* LHD-WAT changing to W&C at WAT in 43-50m at 4tph (+3m)
+* CR2 changing to Central at TCR in 46-48m at 6tph (+3m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 46-51m at 4tph (+5m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 47-51m at 6tph (+5m)
+* CR2 changing to Northern (City) Southbound at AGL in 48-51m at 6tph (+6m)
+* CR2 changing to District at VIC in 49-51m at 6tph (+6m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 57-61m at 4tph (+15m)
+
+From Epsom to Moorgate
+----------------------
+* CR2 changing to CR1 at TCR in 42-44m at 6tph
+* CR2 changing to Northern (City) at BAL in 45-47m at 6tph (+3m)
+* CR2 changing to Northern (City) Southbound at AGL in 46-49m at 6tph (+5m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 48-53m at 4tph (+8m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 52-56m at 6tph (+11m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 50-59m at 4tph (+12m)
+
+From Epsom to Old Street
+------------------------
+* CR2 changing to Northern (City) Southbound at AGL in 45-48m at 6tph
+* CR2 changing to Northern (City) at BAL in 46-48m at 6tph (+1m)
+* CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 46-50m at 6tph (+2m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 49-54m at 4tph (+5m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 53-57m at 6tph (+9m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 51-60m at 4tph (+9m)
+
+From Epsom to Chancery Lane
+---------------------------
+* CR2 changing to Central at TCR in 42-44m at 6tph
+
+From Epsom to St Pauls
+----------------------
+* CR2 changing to Central at TCR in 44-46m at 6tph
+
+
+----
+
+From Stoneleigh to Victoria
+---------------------------
+* CR2 direct in 26m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 32-35m at 6tph (+8m)
+
+From Stoneleigh to Tottenham Court Road
+---------------------------------------
+* CR2 direct in 29m at 6tph
+
+From Stoneleigh to Euston
+-------------------------
+* CR2 direct in 31m at 6tph
+* CR2 changing to Victoria at VIC in 37-39m at 6tph (+7m)
+
+From Stoneleigh to Angel
+------------------------
+* CR2 direct in 34m at 6tph
+
+From Stoneleigh to Waterloo
+---------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 34-37m at 6tph
+* CR2 changing to RAY-WAT at RAY in 33-41m at 6tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 39-43m at 6tph (+6m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 41-45m at 6tph (+8m)
+
+From Stoneleigh to Green Park
+-----------------------------
+* CR2 changing to Victoria at VIC in 32-34m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 34-37m at 6tph (+3m)
+* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 35-46m at 6tph (+8m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 40-51m at 6tph (+13m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 45-49m at 6tph (+14m)
+
+From Stoneleigh to Charing Cross
+--------------------------------
+* CR2 changing to District at VIC in 36-38m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 37-40m at 6tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 41-45m at 6tph (+6m)
+* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 38-49m at 6tph (+7m)
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 39-50m at 6tph (+8m)
+
+From Stoneleigh to Leicester Square
+-----------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 39-42m at 6tph
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 41-52m at 6tph (+6m)
+
+From Stoneleigh to Baker Street
+-------------------------------
+* CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 39-43m at 6tph
+* CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 40-44m at 6tph (+1m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 44-55m at 6tph (+9m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 49-53m at 6tph (+10m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 49-53m at 6tph (+10m)
+* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 46-57m at 6tph (+11m)
+
+From Stoneleigh to Borough
+--------------------------
+* CR2 changing to Northern (City) at BAL in 34-36m at 6tph
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 46-50m at 6tph (+13m)
+* CR2 changing to Northern (City) Southbound at AGL in 47-50m at 6tph (+14m)
+
+From Stoneleigh to London Bridge
+--------------------------------
+* CR2 changing to Northern (City) at BAL in 36-38m at 6tph
+* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 39-50m at 6tph (+8m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 44-48m at 6tph (+9m)
+* CR2 changing to Northern (City) Southbound at AGL in 45-48m at 6tph (+10m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 47-51m at 6tph (+12m)
+
+From Stoneleigh to Bank/Monument
+--------------------------------
+* CR2 changing to Northern (City) at BAL in 38-40m at 6tph
+* CR2 changing to Central at TCR in 41-43m at 6tph (+3m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 42-46m at 6tph (+5m)
+* CR2 changing to Northern (City) Southbound at AGL in 43-46m at 6tph (+6m)
+* CR2 changing to District at VIC in 44-46m at 6tph (+6m)
+* CR2 changing to RAY-WAT at RAY changing to W&C at WAT in 40-55m at 6tph (+9m)
+
+From Stoneleigh to Moorgate
+---------------------------
+* CR2 changing to CR1 at TCR in 37-39m at 6tph
+* CR2 changing to Northern (City) at BAL in 40-42m at 6tph (+3m)
+* CR2 changing to Northern (City) Southbound at AGL in 41-44m at 6tph (+5m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 47-51m at 6tph (+11m)
+
+From Stoneleigh to Old Street
+-----------------------------
+* CR2 changing to Northern (City) Southbound at AGL in 40-43m at 6tph
+* CR2 changing to Northern (City) at BAL in 41-43m at 6tph (+1m)
+* CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 41-45m at 6tph (+2m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 48-52m at 6tph (+9m)
+
+From Stoneleigh to Chancery Lane
+--------------------------------
+* CR2 changing to Central at TCR in 37-39m at 6tph
+
+From Stoneleigh to St Pauls
+---------------------------
+* CR2 changing to Central at TCR in 39-41m at 6tph
+
+
+----
+
+From Worcester Park to Victoria
+-------------------------------
+* CR2 direct in 23m at 6tph
+* LHD-WAT changing to Victoria at VXH in 29-32m at 4tph (+8m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 29-32m at 6tph (+8m)
+
+From Worcester Park to Tottenham Court Road
+-------------------------------------------
+* CR2 direct in 26m at 6tph
+
+From Worcester Park to Euston
+-----------------------------
+* CR2 direct in 28m at 6tph
+* CR2 changing to Victoria at VIC in 34-36m at 6tph (+7m)
+
+From Worcester Park to Angel
+----------------------------
+* CR2 direct in 31m at 6tph
+
+From Worcester Park to Waterloo
+-------------------------------
+* LHD-WAT direct in 29m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 31-34m at 6tph (+4m)
+
+From Worcester Park to Green Park
+---------------------------------
+* CR2 changing to Victoria at VIC in 29-31m at 6tph
+* LHD-WAT changing to Victoria at VXH in 31-34m at 4tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 31-34m at 6tph (+3m)
+* LHD-WAT changing to Jubilee (Northbound) at WAT in 36-39m at 4tph (+8m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 38-42m at 4tph (+10m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 42-46m at 6tph (+14m)
+
+From Worcester Park to Charing Cross
+------------------------------------
+* CR2 changing to District at VIC in 33-35m at 6tph
+* LHD-WAT changing to Bakerloo at WAT in 34-37m at 4tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 34-37m at 6tph (+2m)
+* LHD-WAT changing to Northern (West End) at WAT in 35-38m at 4tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 38-42m at 6tph (+6m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 42-46m at 4tph (+10m)
+
+From Worcester Park to Leicester Square
+---------------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 36-39m at 6tph
+* LHD-WAT changing to Northern (West End) at WAT in 37-40m at 4tph (+1m)
+
+From Worcester Park to Baker Street
+-----------------------------------
+* CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 36-40m at 6tph
+* CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 37-41m at 6tph (+1m)
+* LHD-WAT changing to Victoria at VXH changing to Bakerloo at UOX in 38-43m at 4tph (+3m)
+* LHD-WAT changing to Victoria at VXH changing to Jubilee (Northbound) at UGP in 39-44m at 4tph (+4m)
+* LHD-WAT changing to Jubilee (Northbound) at WAT in 40-43m at 4tph (+4m)
+* LHD-WAT changing to Bakerloo at WAT in 42-45m at 4tph (+6m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 46-50m at 6tph (+10m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 46-50m at 6tph (+10m)
+
+From Worcester Park to Borough
+------------------------------
+* CR2 changing to Northern (City) at BAL in 31-33m at 6tph
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 39-44m at 4tph (+10m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 43-47m at 6tph (+13m)
+* CR2 changing to Northern (City) Southbound at AGL in 44-47m at 6tph (+14m)
+
+From Worcester Park to London Bridge
+------------------------------------
+* CR2 changing to Northern (City) at BAL in 33-35m at 6tph
+* LHD-WAT changing to Jubilee at WAT in 35-38m at 4tph (+3m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 41-45m at 6tph (+9m)
+* CR2 changing to Northern (City) Southbound at AGL in 42-45m at 6tph (+10m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 44-48m at 6tph (+12m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 43-52m at 4tph (+14m)
+
+From Worcester Park to Bank/Monument
+------------------------------------
+* CR2 changing to Northern (City) at BAL in 35-37m at 6tph
+* CR2 changing to Central at TCR in 38-40m at 6tph (+3m)
+* LHD-WAT changing to W&C at WAT in 36-43m at 4tph (+4m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 39-43m at 6tph (+5m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 39-44m at 4tph (+6m)
+* CR2 changing to Northern (City) Southbound at AGL in 40-43m at 6tph (+6m)
+* CR2 changing to District at VIC in 41-43m at 6tph (+6m)
+
+From Worcester Park to Moorgate
+-------------------------------
+* CR2 changing to CR1 at TCR in 34-36m at 6tph
+* CR2 changing to Northern (City) at BAL in 37-39m at 6tph (+3m)
+* CR2 changing to Northern (City) Southbound at AGL in 38-41m at 6tph (+5m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 41-46m at 4tph (+9m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 44-48m at 6tph (+11m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 43-52m at 4tph (+13m)
+
+From Worcester Park to Old Street
+---------------------------------
+* CR2 changing to Northern (City) Southbound at AGL in 37-40m at 6tph
+* CR2 changing to Northern (City) at BAL in 38-40m at 6tph (+1m)
+* CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 38-42m at 6tph (+2m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 42-47m at 4tph (+6m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 45-49m at 6tph (+9m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 44-53m at 4tph (+10m)
+
+From Worcester Park to Chancery Lane
+------------------------------------
+* CR2 changing to Central at TCR in 34-36m at 6tph
+
+From Worcester Park to St Pauls
+-------------------------------
+* CR2 changing to Central at TCR in 36-38m at 6tph
+
+
+----
+
+From Motspur Park to Victoria
+-----------------------------
+* CR2 direct in 20m at 10tph
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 26-29m at 10tph (+8m)
+
+From Motspur Park to Tottenham Court Road
+-----------------------------------------
+* CR2 direct in 23m at 10tph
+
+From Motspur Park to Euston
+---------------------------
+* CR2 direct in 25m at 10tph
+* CR2 changing to Victoria at VIC in 31-33m at 10tph (+7m)
+
+From Motspur Park to Angel
+--------------------------
+* CR2 direct in 28m at 10tph
+
+From Motspur Park to Waterloo
+-----------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 28-31m at 10tph
+* CR2 changing to RAY-WAT at RAY in 27-35m at 8tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 33-37m at 10tph (+6m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 35-39m at 10tph (+8m)
+
+From Motspur Park to Green Park
+-------------------------------
+* CR2 changing to Victoria at VIC in 26-28m at 10tph
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 28-31m at 10tph (+3m)
+* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 29-40m at 8tph (+8m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 34-45m at 8tph (+13m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 39-43m at 10tph (+14m)
+
+From Motspur Park to Charing Cross
+----------------------------------
+* CR2 changing to District at VIC in 30-32m at 10tph
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 31-34m at 10tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 35-39m at 10tph (+6m)
+* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 32-43m at 8tph (+7m)
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 33-44m at 8tph (+8m)
+
+From Motspur Park to Leicester Square
+-------------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 33-36m at 10tph
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 35-46m at 8tph (+6m)
+
+From Motspur Park to Baker Street
+---------------------------------
+* CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 33-37m at 10tph
+* CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 34-38m at 10tph (+1m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 38-49m at 8tph (+9m)
+* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 43-47m at 10tph (+10m)
+* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 43-47m at 10tph (+10m)
+* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 40-51m at 8tph (+11m)
+
+From Motspur Park to Borough
+----------------------------
+* CR2 changing to Northern (City) at BAL in 28-30m at 10tph
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 40-44m at 10tph (+13m)
+* CR2 changing to Northern (City) Southbound at AGL in 41-44m at 10tph (+14m)
+
+From Motspur Park to London Bridge
+----------------------------------
+* CR2 changing to Northern (City) at BAL in 30-32m at 10tph
+* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 33-44m at 8tph (+8m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 38-42m at 10tph (+9m)
+* CR2 changing to Northern (City) Southbound at AGL in 39-42m at 10tph (+10m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 41-45m at 10tph (+12m)
+
+From Motspur Park to Bank/Monument
+----------------------------------
+* CR2 changing to Northern (City) at BAL in 32-34m at 10tph
+* CR2 changing to Central at TCR in 35-37m at 10tph (+3m)
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 36-40m at 10tph (+5m)
+* CR2 changing to Northern (City) Southbound at AGL in 37-40m at 10tph (+6m)
+* CR2 changing to District at VIC in 38-40m at 10tph (+6m)
+* CR2 changing to RAY-WAT at RAY changing to W&C at WAT in 34-49m at 8tph (+9m)
+
+From Motspur Park to Moorgate
+-----------------------------
+* CR2 changing to CR1 at TCR in 31-33m at 10tph
+* CR2 changing to Northern (City) at BAL in 34-36m at 10tph (+3m)
+* CR2 changing to Northern (City) Southbound at AGL in 35-38m at 10tph (+5m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 41-45m at 10tph (+11m)
+
+From Motspur Park to Old Street
+-------------------------------
+* CR2 changing to Northern (City) Southbound at AGL in 34-37m at 10tph
+* CR2 changing to Northern (City) at BAL in 35-37m at 10tph (+1m)
+* CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 35-39m at 10tph (+2m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 42-46m at 10tph (+9m)
+
+From Motspur Park to Chancery Lane
+----------------------------------
+* CR2 changing to Central at TCR in 31-33m at 10tph
+
+From Motspur Park to St Pauls
+-----------------------------
+* CR2 changing to Central at TCR in 33-35m at 10tph
+
+
+----
+
 From Shepperton to Victoria
 ---------------------------
 * CR2 direct in 50m at 4tph
@@ -719,680 +1393,6 @@ From New Malden to Chancery Lane
 
 From New Malden to St Pauls
 ---------------------------
-* CR2 changing to Central at TCR in 33-35m at 10tph
-
-
-----
-
-From Chessington South to Victoria
-----------------------------------
-* CR2 direct in 31m at 4tph
-* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 37-40m at 4tph (+8m)
-
-From Chessington South to Tottenham Court Road
-----------------------------------------------
-* CR2 direct in 34m at 4tph
-
-From Chessington South to Euston
---------------------------------
-* CR2 direct in 36m at 4tph
-* CR2 changing to Victoria at VIC in 42-44m at 4tph (+7m)
-
-From Chessington South to Angel
--------------------------------
-* CR2 direct in 39m at 4tph
-
-From Chessington South to Waterloo
-----------------------------------
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 39-42m at 4tph
-* CR2 changing to RAY-WAT at RAY in 38-46m at 4tph (+2m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 44-48m at 4tph (+6m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 46-50m at 4tph (+8m)
-
-From Chessington South to Green Park
-------------------------------------
-* CR2 changing to Victoria at VIC in 37-39m at 4tph
-* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 39-42m at 4tph (+3m)
-* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 40-51m at 4tph (+8m)
-* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 45-56m at 4tph (+13m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 50-54m at 4tph (+14m)
-
-From Chessington South to Charing Cross
----------------------------------------
-* CR2 changing to District at VIC in 41-43m at 4tph
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 42-45m at 4tph (+2m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 46-50m at 4tph (+6m)
-* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 43-54m at 4tph (+7m)
-* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 44-55m at 4tph (+8m)
-
-From Chessington South to Leicester Square
-------------------------------------------
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 44-47m at 4tph
-* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 46-57m at 4tph (+6m)
-
-From Chessington South to Baker Street
---------------------------------------
-* CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 44-48m at 4tph
-* CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 45-49m at 4tph (+1m)
-* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 49-60m at 4tph (+9m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 54-58m at 4tph (+10m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 54-58m at 4tph (+10m)
-* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 51-62m at 4tph (+11m)
-
-From Chessington South to Borough
----------------------------------
-* CR2 changing to Northern (City) at BAL in 39-41m at 4tph
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 51-55m at 4tph (+13m)
-* CR2 changing to Northern (City) Southbound at AGL in 52-55m at 4tph (+14m)
-
-From Chessington South to London Bridge
----------------------------------------
-* CR2 changing to Northern (City) at BAL in 41-43m at 4tph
-* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 44-55m at 4tph (+8m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 49-53m at 4tph (+9m)
-* CR2 changing to Northern (City) Southbound at AGL in 50-53m at 4tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 52-56m at 4tph (+12m)
-
-From Chessington South to Bank/Monument
----------------------------------------
-* CR2 changing to Northern (City) at BAL in 43-45m at 4tph
-* CR2 changing to Central at TCR in 46-48m at 4tph (+3m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 47-51m at 4tph (+5m)
-* CR2 changing to Northern (City) Southbound at AGL in 48-51m at 4tph (+6m)
-* CR2 changing to District at VIC in 49-51m at 4tph (+6m)
-* CR2 changing to RAY-WAT at RAY changing to W&C at WAT in 45-60m at 4tph (+9m)
-
-From Chessington South to Moorgate
-----------------------------------
-* CR2 changing to CR1 at TCR in 42-44m at 4tph
-* CR2 changing to Northern (City) at BAL in 45-47m at 4tph (+3m)
-* CR2 changing to Northern (City) Southbound at AGL in 46-49m at 4tph (+5m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 52-56m at 4tph (+11m)
-
-From Chessington South to Old Street
-------------------------------------
-* CR2 changing to Northern (City) Southbound at AGL in 45-48m at 4tph
-* CR2 changing to Northern (City) at BAL in 46-48m at 4tph (+1m)
-* CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 46-50m at 4tph (+2m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 53-57m at 4tph (+9m)
-
-From Chessington South to Chancery Lane
----------------------------------------
-* CR2 changing to Central at TCR in 42-44m at 4tph
-
-From Chessington South to St Pauls
-----------------------------------
-* CR2 changing to Central at TCR in 44-46m at 4tph
-
-
-----
-
-From Leatherhead to Victoria
-----------------------------
-* LHD-WAT changing to CR2 at RAY in 39-42m at 4tph
-* LHD-WAT changing to CR2 at WIM in 42-44m at 4tph (+3m)
-* LHD-WAT changing to CR2 at CLJ in 43-45m at 4tph (+4m)
-* LHD-WAT changing to Victoria at VXH in 44-47m at 4tph (+5m)
-* LHD-WAT changing to BAL-VIC at CLJ in 47-49m at 4tph (+8m)
-
-From Leatherhead to Tottenham Court Road
-----------------------------------------
-* LHD-WAT changing to CR2 at RAY in 42-45m at 4tph
-* LHD-WAT changing to CR2 at WIM in 45-47m at 4tph (+3m)
-* LHD-WAT changing to CR2 at CLJ in 46-48m at 4tph (+4m)
-* LHD-WAT changing to Northern (West End) at WAT in 53-56m at 4tph (+11m)
-
-From Leatherhead to Euston
---------------------------
-* LHD-WAT changing to CR2 at RAY in 44-47m at 4tph
-* LHD-WAT changing to CR2 at WIM in 47-49m at 4tph (+3m)
-* LHD-WAT changing to CR2 at CLJ in 48-50m at 4tph (+4m)
-* LHD-WAT changing to Victoria at VXH in 51-54m at 4tph (+7m)
-* LHD-WAT changing to Northern (West End) at WAT in 57-60m at 4tph (+13m)
-* LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 57-62m at 4tph (+14m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 58-62m at 4tph (+15m)
-
-From Leatherhead to Angel
--------------------------
-* LHD-WAT changing to CR2 at RAY in 47-50m at 4tph
-* LHD-WAT changing to CR2 at WIM in 50-52m at 4tph (+3m)
-* LHD-WAT changing to CR2 at CLJ in 51-53m at 4tph (+4m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 60-65m at 4tph (+14m)
-
-From Leatherhead to Waterloo
-----------------------------
-* LHD-WAT direct in 44m at 4tph
-
-From Leatherhead to Green Park
-------------------------------
-* LHD-WAT changing to CR2 at RAY changing to Victoria at VIC in 45-50m at 4tph
-* LHD-WAT changing to Victoria at VXH in 46-49m at 4tph (+0m)
-* LHD-WAT changing to CR2 at WIM changing to Victoria at VIC in 48-52m at 4tph (+3m)
-* LHD-WAT changing to CR2 at CLJ changing to Victoria at VIC in 49-53m at 4tph (+4m)
-* LHD-WAT changing to Jubilee (Northbound) at WAT in 51-54m at 4tph (+5m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 53-57m at 4tph (+8m)
-
-From Leatherhead to Charing Cross
----------------------------------
-* LHD-WAT changing to Bakerloo at WAT in 49-52m at 4tph
-* LHD-WAT changing to CR2 at RAY changing to District at VIC in 49-54m at 4tph (+1m)
-* LHD-WAT changing to Northern (West End) at WAT in 50-53m at 4tph (+1m)
-* LHD-WAT changing to CR2 at WIM changing to District at VIC in 52-56m at 4tph (+4m)
-* LHD-WAT changing to CR2 at CLJ changing to District at VIC in 53-57m at 4tph (+5m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 57-61m at 4tph (+9m)
-
-From Leatherhead to Leicester Square
-------------------------------------
-* LHD-WAT changing to Northern (West End) at WAT in 52-55m at 4tph
-
-From Leatherhead to Baker Street
---------------------------------
-* LHD-WAT changing to Victoria at VXH changing to Bakerloo at UOX in 53-58m at 4tph
-* LHD-WAT changing to Victoria at VXH changing to Jubilee (Northbound) at UGP in 54-59m at 4tph (+1m)
-* LHD-WAT changing to Jubilee (Northbound) at WAT in 55-58m at 4tph (+1m)
-* LHD-WAT changing to Bakerloo at WAT in 57-60m at 4tph (+3m)
-
-From Leatherhead to Borough
----------------------------
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 47-52m at 4tph
-* LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 50-54m at 4tph (+3m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 54-59m at 4tph (+7m)
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 60-66m at 4tph (+14m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 60-69m at 4tph (+15m)
-
-From Leatherhead to London Bridge
----------------------------------
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 49-54m at 4tph
-* LHD-WAT changing to Jubilee at WAT in 50-53m at 4tph (+0m)
-* LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 52-56m at 4tph (+3m)
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 58-64m at 4tph (+10m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 58-67m at 4tph (+11m)
-* LHD-WAT changing to CR2 at WIM changing to Northern (City) Southbound at AGL in 61-66m at 4tph (+12m)
-* LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 62-67m at 4tph (+13m)
-
-From Leatherhead to Bank/Monument
----------------------------------
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 51-56m at 4tph
-* LHD-WAT changing to W&C at WAT in 51-58m at 4tph (+1m)
-* LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 54-58m at 4tph (+3m)
-* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 54-59m at 4tph (+3m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 54-59m at 4tph (+3m)
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 56-62m at 4tph (+6m)
-* LHD-WAT changing to CR2 at WIM changing to Central at TCR in 57-61m at 4tph (+6m)
-* LHD-WAT changing to CR2 at RAY changing to District at VIC in 57-62m at 4tph (+6m)
-* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 58-62m at 4tph (+7m)
-* LHD-WAT changing to CR2 at WIM changing to Northern (City) Southbound at AGL in 59-64m at 4tph (+8m)
-* LHD-WAT changing to CR2 at WIM changing to District at VIC in 60-64m at 4tph (+9m)
-* LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 60-65m at 4tph (+9m)
-* LHD-WAT changing to CR2 at CLJ changing to District at VIC in 61-65m at 4tph (+10m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 65-69m at 4tph (+14m)
-
-From Leatherhead to Moorgate
-----------------------------
-* LHD-WAT changing to CR2 at RAY changing to CR1 at TCR in 50-55m at 4tph
-* LHD-WAT changing to CR2 at WIM changing to CR1 at TCR in 53-57m at 4tph (+3m)
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 53-58m at 4tph (+3m)
-* LHD-WAT changing to CR2 at CLJ changing to CR1 at TCR in 54-58m at 4tph (+4m)
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 54-60m at 4tph (+5m)
-* LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 56-60m at 4tph (+6m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 56-61m at 4tph (+6m)
-* LHD-WAT changing to CR2 at WIM changing to Northern (City) Southbound at AGL in 57-62m at 4tph (+7m)
-* LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 58-63m at 4tph (+8m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 58-67m at 4tph (+10m)
-
-From Leatherhead to Old Street
-------------------------------
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 53-59m at 4tph
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 54-59m at 4tph (+1m)
-* LHD-WAT changing to CR2 at WIM changing to Northern (City) Southbound at AGL in 56-61m at 4tph (+3m)
-* LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 57-61m at 4tph (+3m)
-* LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 57-62m at 4tph (+4m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 57-62m at 4tph (+4m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 59-68m at 4tph (+8m)
-
-From Leatherhead to Chancery Lane
----------------------------------
-* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 50-55m at 4tph
-* LHD-WAT changing to CR2 at WIM changing to Central at TCR in 53-57m at 4tph (+3m)
-* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 54-58m at 4tph (+4m)
-
-From Leatherhead to St Pauls
-----------------------------
-* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 52-57m at 4tph
-* LHD-WAT changing to CR2 at WIM changing to Central at TCR in 55-59m at 4tph (+3m)
-* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 56-60m at 4tph (+4m)
-
-
-----
-
-From Epsom to Victoria
-----------------------
-* CR2 direct in 31m at 6tph
-* LHD-WAT changing to Victoria at VXH in 36-39m at 4tph (+7m)
-* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 37-40m at 6tph (+8m)
-
-From Epsom to Tottenham Court Road
-----------------------------------
-* CR2 direct in 34m at 6tph
-
-From Epsom to Euston
---------------------
-* CR2 direct in 36m at 6tph
-* CR2 changing to Victoria at VIC in 42-44m at 6tph (+7m)
-
-From Epsom to Angel
--------------------
-* CR2 direct in 39m at 6tph
-
-From Epsom to Waterloo
-----------------------
-* LHD-WAT direct in 36m at 4tph
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 39-42m at 6tph (+5m)
-
-From Epsom to Green Park
-------------------------
-* CR2 changing to Victoria at VIC in 37-39m at 6tph
-* LHD-WAT changing to Victoria at VXH in 38-41m at 4tph (+2m)
-* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 39-42m at 6tph (+3m)
-* LHD-WAT changing to Jubilee (Northbound) at WAT in 43-46m at 4tph (+7m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 45-49m at 4tph (+9m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 50-54m at 6tph (+14m)
-
-From Epsom to Charing Cross
----------------------------
-* CR2 changing to District at VIC in 41-43m at 6tph
-* LHD-WAT changing to Bakerloo at WAT in 41-44m at 4tph (+1m)
-* LHD-WAT changing to Northern (West End) at WAT in 42-45m at 4tph (+2m)
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 42-45m at 6tph (+2m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 46-50m at 6tph (+6m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 49-53m at 4tph (+9m)
-
-From Epsom to Leicester Square
-------------------------------
-* LHD-WAT changing to Northern (West End) at WAT in 44-47m at 4tph
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 44-47m at 6tph (+0m)
-
-From Epsom to Baker Street
---------------------------
-* CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 44-48m at 6tph
-* CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 45-49m at 6tph (+1m)
-* LHD-WAT changing to Victoria at VXH changing to Bakerloo at UOX in 45-50m at 4tph (+2m)
-* LHD-WAT changing to Victoria at VXH changing to Jubilee (Northbound) at UGP in 46-51m at 4tph (+3m)
-* LHD-WAT changing to Jubilee (Northbound) at WAT in 47-50m at 4tph (+3m)
-* LHD-WAT changing to Bakerloo at WAT in 49-52m at 4tph (+5m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 54-58m at 6tph (+10m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 54-58m at 6tph (+10m)
-
-From Epsom to Borough
----------------------
-* CR2 changing to Northern (City) at BAL in 39-41m at 6tph
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 46-51m at 4tph (+9m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 51-55m at 6tph (+13m)
-* CR2 changing to Northern (City) Southbound at AGL in 52-55m at 6tph (+14m)
-
-From Epsom to London Bridge
----------------------------
-* CR2 changing to Northern (City) at BAL in 41-43m at 6tph
-* LHD-WAT changing to Jubilee at WAT in 42-45m at 4tph (+2m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 49-53m at 6tph (+9m)
-* CR2 changing to Northern (City) Southbound at AGL in 50-53m at 6tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 52-56m at 6tph (+12m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 50-59m at 4tph (+13m)
-
-From Epsom to Bank/Monument
----------------------------
-* CR2 changing to Northern (City) at BAL in 43-45m at 6tph
-* LHD-WAT changing to W&C at WAT in 43-50m at 4tph (+3m)
-* CR2 changing to Central at TCR in 46-48m at 6tph (+3m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 46-51m at 4tph (+5m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 47-51m at 6tph (+5m)
-* CR2 changing to Northern (City) Southbound at AGL in 48-51m at 6tph (+6m)
-* CR2 changing to District at VIC in 49-51m at 6tph (+6m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 57-61m at 4tph (+15m)
-
-From Epsom to Moorgate
-----------------------
-* CR2 changing to CR1 at TCR in 42-44m at 6tph
-* CR2 changing to Northern (City) at BAL in 45-47m at 6tph (+3m)
-* CR2 changing to Northern (City) Southbound at AGL in 46-49m at 6tph (+5m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 48-53m at 4tph (+8m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 52-56m at 6tph (+11m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 50-59m at 4tph (+12m)
-
-From Epsom to Old Street
-------------------------
-* CR2 changing to Northern (City) Southbound at AGL in 45-48m at 6tph
-* CR2 changing to Northern (City) at BAL in 46-48m at 6tph (+1m)
-* CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 46-50m at 6tph (+2m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 49-54m at 4tph (+5m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 53-57m at 6tph (+9m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 51-60m at 4tph (+9m)
-
-From Epsom to Chancery Lane
----------------------------
-* CR2 changing to Central at TCR in 42-44m at 6tph
-
-From Epsom to St Pauls
-----------------------
-* CR2 changing to Central at TCR in 44-46m at 6tph
-
-
-----
-
-From Stoneleigh to Victoria
----------------------------
-* CR2 direct in 26m at 6tph
-* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 32-35m at 6tph (+8m)
-
-From Stoneleigh to Tottenham Court Road
----------------------------------------
-* CR2 direct in 29m at 6tph
-
-From Stoneleigh to Euston
--------------------------
-* CR2 direct in 31m at 6tph
-* CR2 changing to Victoria at VIC in 37-39m at 6tph (+7m)
-
-From Stoneleigh to Angel
-------------------------
-* CR2 direct in 34m at 6tph
-
-From Stoneleigh to Waterloo
----------------------------
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 34-37m at 6tph
-* CR2 changing to RAY-WAT at RAY in 33-41m at 6tph (+2m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 39-43m at 6tph (+6m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 41-45m at 6tph (+8m)
-
-From Stoneleigh to Green Park
------------------------------
-* CR2 changing to Victoria at VIC in 32-34m at 6tph
-* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 34-37m at 6tph (+3m)
-* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 35-46m at 6tph (+8m)
-* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 40-51m at 6tph (+13m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 45-49m at 6tph (+14m)
-
-From Stoneleigh to Charing Cross
---------------------------------
-* CR2 changing to District at VIC in 36-38m at 6tph
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 37-40m at 6tph (+2m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 41-45m at 6tph (+6m)
-* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 38-49m at 6tph (+7m)
-* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 39-50m at 6tph (+8m)
-
-From Stoneleigh to Leicester Square
------------------------------------
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 39-42m at 6tph
-* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 41-52m at 6tph (+6m)
-
-From Stoneleigh to Baker Street
--------------------------------
-* CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 39-43m at 6tph
-* CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 40-44m at 6tph (+1m)
-* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 44-55m at 6tph (+9m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 49-53m at 6tph (+10m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 49-53m at 6tph (+10m)
-* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 46-57m at 6tph (+11m)
-
-From Stoneleigh to Borough
---------------------------
-* CR2 changing to Northern (City) at BAL in 34-36m at 6tph
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 46-50m at 6tph (+13m)
-* CR2 changing to Northern (City) Southbound at AGL in 47-50m at 6tph (+14m)
-
-From Stoneleigh to London Bridge
---------------------------------
-* CR2 changing to Northern (City) at BAL in 36-38m at 6tph
-* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 39-50m at 6tph (+8m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 44-48m at 6tph (+9m)
-* CR2 changing to Northern (City) Southbound at AGL in 45-48m at 6tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 47-51m at 6tph (+12m)
-
-From Stoneleigh to Bank/Monument
---------------------------------
-* CR2 changing to Northern (City) at BAL in 38-40m at 6tph
-* CR2 changing to Central at TCR in 41-43m at 6tph (+3m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 42-46m at 6tph (+5m)
-* CR2 changing to Northern (City) Southbound at AGL in 43-46m at 6tph (+6m)
-* CR2 changing to District at VIC in 44-46m at 6tph (+6m)
-* CR2 changing to RAY-WAT at RAY changing to W&C at WAT in 40-55m at 6tph (+9m)
-
-From Stoneleigh to Moorgate
----------------------------
-* CR2 changing to CR1 at TCR in 37-39m at 6tph
-* CR2 changing to Northern (City) at BAL in 40-42m at 6tph (+3m)
-* CR2 changing to Northern (City) Southbound at AGL in 41-44m at 6tph (+5m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 47-51m at 6tph (+11m)
-
-From Stoneleigh to Old Street
------------------------------
-* CR2 changing to Northern (City) Southbound at AGL in 40-43m at 6tph
-* CR2 changing to Northern (City) at BAL in 41-43m at 6tph (+1m)
-* CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 41-45m at 6tph (+2m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 48-52m at 6tph (+9m)
-
-From Stoneleigh to Chancery Lane
---------------------------------
-* CR2 changing to Central at TCR in 37-39m at 6tph
-
-From Stoneleigh to St Pauls
----------------------------
-* CR2 changing to Central at TCR in 39-41m at 6tph
-
-
-----
-
-From Worcester Park to Victoria
--------------------------------
-* CR2 direct in 23m at 6tph
-* LHD-WAT changing to Victoria at VXH in 29-32m at 4tph (+8m)
-* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 29-32m at 6tph (+8m)
-
-From Worcester Park to Tottenham Court Road
--------------------------------------------
-* CR2 direct in 26m at 6tph
-
-From Worcester Park to Euston
------------------------------
-* CR2 direct in 28m at 6tph
-* CR2 changing to Victoria at VIC in 34-36m at 6tph (+7m)
-
-From Worcester Park to Angel
-----------------------------
-* CR2 direct in 31m at 6tph
-
-From Worcester Park to Waterloo
--------------------------------
-* LHD-WAT direct in 29m at 4tph
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 31-34m at 6tph (+4m)
-
-From Worcester Park to Green Park
----------------------------------
-* CR2 changing to Victoria at VIC in 29-31m at 6tph
-* LHD-WAT changing to Victoria at VXH in 31-34m at 4tph (+3m)
-* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 31-34m at 6tph (+3m)
-* LHD-WAT changing to Jubilee (Northbound) at WAT in 36-39m at 4tph (+8m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 38-42m at 4tph (+10m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 42-46m at 6tph (+14m)
-
-From Worcester Park to Charing Cross
-------------------------------------
-* CR2 changing to District at VIC in 33-35m at 6tph
-* LHD-WAT changing to Bakerloo at WAT in 34-37m at 4tph (+2m)
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 34-37m at 6tph (+2m)
-* LHD-WAT changing to Northern (West End) at WAT in 35-38m at 4tph (+3m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 38-42m at 6tph (+6m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 42-46m at 4tph (+10m)
-
-From Worcester Park to Leicester Square
----------------------------------------
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 36-39m at 6tph
-* LHD-WAT changing to Northern (West End) at WAT in 37-40m at 4tph (+1m)
-
-From Worcester Park to Baker Street
------------------------------------
-* CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 36-40m at 6tph
-* CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 37-41m at 6tph (+1m)
-* LHD-WAT changing to Victoria at VXH changing to Bakerloo at UOX in 38-43m at 4tph (+3m)
-* LHD-WAT changing to Victoria at VXH changing to Jubilee (Northbound) at UGP in 39-44m at 4tph (+4m)
-* LHD-WAT changing to Jubilee (Northbound) at WAT in 40-43m at 4tph (+4m)
-* LHD-WAT changing to Bakerloo at WAT in 42-45m at 4tph (+6m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 46-50m at 6tph (+10m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 46-50m at 6tph (+10m)
-
-From Worcester Park to Borough
-------------------------------
-* CR2 changing to Northern (City) at BAL in 31-33m at 6tph
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 39-44m at 4tph (+10m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 43-47m at 6tph (+13m)
-* CR2 changing to Northern (City) Southbound at AGL in 44-47m at 6tph (+14m)
-
-From Worcester Park to London Bridge
-------------------------------------
-* CR2 changing to Northern (City) at BAL in 33-35m at 6tph
-* LHD-WAT changing to Jubilee at WAT in 35-38m at 4tph (+3m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 41-45m at 6tph (+9m)
-* CR2 changing to Northern (City) Southbound at AGL in 42-45m at 6tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 44-48m at 6tph (+12m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 43-52m at 4tph (+14m)
-
-From Worcester Park to Bank/Monument
-------------------------------------
-* CR2 changing to Northern (City) at BAL in 35-37m at 6tph
-* CR2 changing to Central at TCR in 38-40m at 6tph (+3m)
-* LHD-WAT changing to W&C at WAT in 36-43m at 4tph (+4m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 39-43m at 6tph (+5m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 39-44m at 4tph (+6m)
-* CR2 changing to Northern (City) Southbound at AGL in 40-43m at 6tph (+6m)
-* CR2 changing to District at VIC in 41-43m at 6tph (+6m)
-
-From Worcester Park to Moorgate
--------------------------------
-* CR2 changing to CR1 at TCR in 34-36m at 6tph
-* CR2 changing to Northern (City) at BAL in 37-39m at 6tph (+3m)
-* CR2 changing to Northern (City) Southbound at AGL in 38-41m at 6tph (+5m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 41-46m at 4tph (+9m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 44-48m at 6tph (+11m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 43-52m at 4tph (+13m)
-
-From Worcester Park to Old Street
----------------------------------
-* CR2 changing to Northern (City) Southbound at AGL in 37-40m at 6tph
-* CR2 changing to Northern (City) at BAL in 38-40m at 6tph (+1m)
-* CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 38-42m at 6tph (+2m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 42-47m at 4tph (+6m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 45-49m at 6tph (+9m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 44-53m at 4tph (+10m)
-
-From Worcester Park to Chancery Lane
-------------------------------------
-* CR2 changing to Central at TCR in 34-36m at 6tph
-
-From Worcester Park to St Pauls
--------------------------------
-* CR2 changing to Central at TCR in 36-38m at 6tph
-
-
-----
-
-From Motspur Park to Victoria
------------------------------
-* CR2 direct in 20m at 10tph
-* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 26-29m at 10tph (+8m)
-
-From Motspur Park to Tottenham Court Road
------------------------------------------
-* CR2 direct in 23m at 10tph
-
-From Motspur Park to Euston
----------------------------
-* CR2 direct in 25m at 10tph
-* CR2 changing to Victoria at VIC in 31-33m at 10tph (+7m)
-
-From Motspur Park to Angel
---------------------------
-* CR2 direct in 28m at 10tph
-
-From Motspur Park to Waterloo
------------------------------
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 28-31m at 10tph
-* CR2 changing to RAY-WAT at RAY in 27-35m at 8tph (+2m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 33-37m at 10tph (+6m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 35-39m at 10tph (+8m)
-
-From Motspur Park to Green Park
--------------------------------
-* CR2 changing to Victoria at VIC in 26-28m at 10tph
-* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 28-31m at 10tph (+3m)
-* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 29-40m at 8tph (+8m)
-* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 34-45m at 8tph (+13m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 39-43m at 10tph (+14m)
-
-From Motspur Park to Charing Cross
-----------------------------------
-* CR2 changing to District at VIC in 30-32m at 10tph
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 31-34m at 10tph (+2m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 35-39m at 10tph (+6m)
-* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 32-43m at 8tph (+7m)
-* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 33-44m at 8tph (+8m)
-
-From Motspur Park to Leicester Square
--------------------------------------
-* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 33-36m at 10tph
-* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 35-46m at 8tph (+6m)
-
-From Motspur Park to Baker Street
----------------------------------
-* CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 33-37m at 10tph
-* CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 34-38m at 10tph (+1m)
-* CR2 changing to RAY-WAT at RAY changing to Jubilee (Northbound) at WAT in 38-49m at 8tph (+9m)
-* CR2 changing to Northern (City) at BAL changing to Bakerloo at UEC in 43-47m at 10tph (+10m)
-* CR2 changing to Northern (City) at BAL changing to Jubilee (Northbound) at LBG in 43-47m at 10tph (+10m)
-* CR2 changing to RAY-WAT at RAY changing to Bakerloo at WAT in 40-51m at 8tph (+11m)
-
-From Motspur Park to Borough
-----------------------------
-* CR2 changing to Northern (City) at BAL in 28-30m at 10tph
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 40-44m at 10tph (+13m)
-* CR2 changing to Northern (City) Southbound at AGL in 41-44m at 10tph (+14m)
-
-From Motspur Park to London Bridge
-----------------------------------
-* CR2 changing to Northern (City) at BAL in 30-32m at 10tph
-* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 33-44m at 8tph (+8m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 38-42m at 10tph (+9m)
-* CR2 changing to Northern (City) Southbound at AGL in 39-42m at 10tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 41-45m at 10tph (+12m)
-
-From Motspur Park to Bank/Monument
-----------------------------------
-* CR2 changing to Northern (City) at BAL in 32-34m at 10tph
-* CR2 changing to Central at TCR in 35-37m at 10tph (+3m)
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 36-40m at 10tph (+5m)
-* CR2 changing to Northern (City) Southbound at AGL in 37-40m at 10tph (+6m)
-* CR2 changing to District at VIC in 38-40m at 10tph (+6m)
-* CR2 changing to RAY-WAT at RAY changing to W&C at WAT in 34-49m at 8tph (+9m)
-
-From Motspur Park to Moorgate
------------------------------
-* CR2 changing to CR1 at TCR in 31-33m at 10tph
-* CR2 changing to Northern (City) at BAL in 34-36m at 10tph (+3m)
-* CR2 changing to Northern (City) Southbound at AGL in 35-38m at 10tph (+5m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 41-45m at 10tph (+11m)
-
-From Motspur Park to Old Street
--------------------------------
-* CR2 changing to Northern (City) Southbound at AGL in 34-37m at 10tph
-* CR2 changing to Northern (City) at BAL in 35-37m at 10tph (+1m)
-* CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 35-39m at 10tph (+2m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 42-46m at 10tph (+9m)
-
-From Motspur Park to Chancery Lane
-----------------------------------
-* CR2 changing to Central at TCR in 31-33m at 10tph
-
-From Motspur Park to St Pauls
------------------------------
 * CR2 changing to Central at TCR in 33-35m at 10tph
 
 
