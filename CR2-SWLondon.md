@@ -10,7 +10,7 @@ If the fastest route is direct, then only limited alternatives are shown.
 No alternative that takes over 15 minutes longer is shown.
 The number of trains per hour (tph) is also shown.
 
-Station entry/exit times and walking times are not included.
+Station entry/exit times, buses and walking times are not included.
 Walking may affect the faster route on occasion, notably to Leicester Square, which is easily accessed from the new proposed Shaftesbury Avenue exit of CR2.
 
 
