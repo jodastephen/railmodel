@@ -65,6 +65,9 @@ public class Crossrail2SWLondonModel extends Model {
       }
     }
     appendStations(output);
+    output.add(NEWLINE);
+    output.add("Feel free to send a pull request for errors and enhancments!." + NEWLINE);
+
     File file = new File("CR2-SWLondon.md");
     String result = Joiner.on("").join(output);
     Files.write(result, file, StandardCharsets.UTF_8);
