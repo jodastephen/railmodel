@@ -67,4 +67,10 @@ public final class Change {
     return timeMax;
   }
 
+  //-------------------------------------------------------------------------
+  @Override
+  public String toString() {
+    return "Change at " + station + " from " + route1 + " to " + route2;
+  }
+
 }

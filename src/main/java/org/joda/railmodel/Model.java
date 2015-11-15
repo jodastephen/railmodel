@@ -18,7 +18,11 @@ package org.joda.railmodel;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -46,6 +50,7 @@ public class Model {
 
   private final List<Route> routes = new ArrayList<>();
   private final List<Change> changes = new ArrayList<>();
+  private final Map<Change, Change> preferredChanges = new HashMap<>();
 
   Model() {
   }
@@ -72,6 +77,10 @@ public class Model {
 
   public void addChange(Change change) {
     changes.add(change);
+  }
+
+  public void addPreferredChange(Change preferredChange, Change rejectedChange) {
+    preferredChanges.put(preferredChange, rejectedChange);
   }
 
   //-------------------------------------------------------------------------
@@ -119,8 +128,10 @@ public class Model {
       List<Station> effectiveStations = new ArrayList<>(baseRoute.getFlat().getStations());
       int startIndex = effectiveStations.indexOf(start);
       effectiveStations = effectiveStations.subList(startIndex + 1, effectiveStations.size());
+      Set<Change> allChanges = new HashSet<>();
       for (Station possibleChange : effectiveStations) {
-        List<Change> changes = findChanges(possibleChange, base, baseRoute, end);
+        List<Change> changes = findChanges(possibleChange, allChanges, base, baseRoute, end);
+        allChanges.addAll(changes);
         for (Change change : changes) {
           if (change.getRoute2().containsAfter(end, change.getStation())) {
             journeys.add(Journey.of(start, end, baseRoute, change));
@@ -130,7 +141,8 @@ public class Model {
             int startIndex2 = effectiveStations2.indexOf(change.getStation());
             effectiveStations2 = effectiveStations2.subList(startIndex2 + 1, effectiveStations2.size());
             for (Station possibleChange2 : effectiveStations2) {
-              List<Change> changes2 = findChanges(possibleChange2, base, change.getRoute2(), end);
+              List<Change> changes2 = findChanges(possibleChange2, allChanges, base, change.getRoute2(), end);
+              allChanges.addAll(changes2);
               for (Change change2 : changes2) {
                 if (change2.getRoute2().containsAfter(end, change2.getStation())) {
                   if (!(baseRoute.getService().equals(change2.getRoute2().getService()))) {
@@ -146,13 +158,22 @@ public class Model {
     return journeys;
   }
 
-  private List<Change> findChanges(Station possibleChange, List<Route> allBase, Route baseRoute, Station dest) {
-    return changes.stream()
+  private List<Change> findChanges(Station possibleChange, Set<Change> allChanges, List<Route> allBase, Route baseRoute, Station dest) {
+    List<Change> result = changes.stream()
         .filter(c -> c.getStation().equals(possibleChange))
         .filter(c -> baseRoute.includes(c.getRoute1()))
         .filter(c -> !c.getStation().equals(dest))
         .filter(c -> !isStupidChangeToRouteAvailableAtStartPoint(allBase, c))
         .collect(Collectors.toList());
+    Set<Change> rejected = new HashSet<>();
+    for (Change change : allChanges) {
+      Change reject = preferredChanges.get(change);
+      if (reject != null) {
+        rejected.add(reject);
+      }
+    }
+    result.removeAll(rejected);
+    return result;
   }
 
   private boolean isStupidChangeToRouteAvailableAtStartPoint(List<Route> allBase, Change change) {
