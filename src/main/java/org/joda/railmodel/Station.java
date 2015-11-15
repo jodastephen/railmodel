@@ -64,6 +64,8 @@ public enum Station {
   UBK("Bank/Monument"),
   UOS("Old Street"),
   ULS("Leicester Square"),
+  UGS("Goodge Street"),
+  UWS("Warren Street"),
   UGP("Green Park"),
   UOX("Oxford Circus"),
   UBS("Baker Street"),

@@ -62,6 +62,19 @@ From Chessington South to Leicester Square
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 44-47m at 4tph
 * CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 46-57m at 4tph (+6m)
 
+From Chessington South to Goodge Street
+---------------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 46-49m at 4tph
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 48-59m at 4tph (+6m)
+
+From Chessington South to Warren Street
+---------------------------------------
+* CR2 changing to Victoria at VIC in 41-43m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 43-46m at 4tph (+3m)
+* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 44-55m at 4tph (+8m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 48-51m at 4tph (+8m)
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 50-61m at 4tph (+14m)
+
 From Chessington South to Baker Street
 --------------------------------------
 * CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 44-48m at 4tph
@@ -176,6 +189,20 @@ From Leatherhead to Charing Cross
 From Leatherhead to Leicester Square
 ------------------------------------
 * LHD-WAT changing to Northern (West End) at WAT in 52-55m at 4tph
+
+From Leatherhead to Goodge Street
+---------------------------------
+* LHD-WAT changing to Northern (West End) at WAT in 54-57m at 4tph
+
+From Leatherhead to Warren Street
+---------------------------------
+* LHD-WAT changing to CR2 at RAY changing to Victoria at VIC in 49-54m at 4tph
+* LHD-WAT changing to Victoria at VXH in 50-53m at 4tph (+0m)
+* LHD-WAT changing to CR2 at WIM changing to Victoria at VIC in 52-56m at 4tph (+3m)
+* LHD-WAT changing to CR2 at CLJ changing to Victoria at VIC in 53-57m at 4tph (+4m)
+* LHD-WAT changing to Northern (West End) at WAT in 56-59m at 4tph (+6m)
+* LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 56-61m at 4tph (+7m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 57-61m at 4tph (+8m)
 
 From Leatherhead to Baker Street
 --------------------------------
@@ -304,6 +331,21 @@ From Epsom to Leicester Square
 * LHD-WAT changing to Northern (West End) at WAT in 44-47m at 4tph
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 44-47m at 6tph (+0m)
 
+From Epsom to Goodge Street
+---------------------------
+* LHD-WAT changing to Northern (West End) at WAT in 46-49m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 46-49m at 6tph (+0m)
+
+From Epsom to Warren Street
+---------------------------
+* CR2 changing to Victoria at VIC in 41-43m at 6tph
+* LHD-WAT changing to Victoria at VXH in 42-45m at 4tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 43-46m at 6tph (+3m)
+* LHD-WAT changing to Northern (West End) at WAT in 48-51m at 4tph (+8m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 48-51m at 6tph (+8m)
+* LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 48-53m at 4tph (+9m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 49-53m at 4tph (+9m)
+
 From Epsom to Baker Street
 --------------------------
 * CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 44-48m at 6tph
@@ -417,6 +459,19 @@ From Stoneleigh to Leicester Square
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 39-42m at 6tph
 * CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 41-52m at 6tph (+6m)
 
+From Stoneleigh to Goodge Street
+--------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 41-44m at 6tph
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 43-54m at 6tph (+6m)
+
+From Stoneleigh to Warren Street
+--------------------------------
+* CR2 changing to Victoria at VIC in 36-38m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 38-41m at 6tph (+3m)
+* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 39-50m at 6tph (+8m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 43-46m at 6tph (+8m)
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 45-56m at 6tph (+14m)
+
 From Stoneleigh to Baker Street
 -------------------------------
 * CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 39-43m at 6tph
@@ -520,6 +575,21 @@ From Worcester Park to Leicester Square
 ---------------------------------------
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 36-39m at 6tph
 * LHD-WAT changing to Northern (West End) at WAT in 37-40m at 4tph (+1m)
+
+From Worcester Park to Goodge Street
+------------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 38-41m at 6tph
+* LHD-WAT changing to Northern (West End) at WAT in 39-42m at 4tph (+1m)
+
+From Worcester Park to Warren Street
+------------------------------------
+* CR2 changing to Victoria at VIC in 33-35m at 6tph
+* LHD-WAT changing to Victoria at VXH in 35-38m at 4tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 35-38m at 6tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 40-43m at 6tph (+8m)
+* LHD-WAT changing to Northern (West End) at WAT in 41-44m at 4tph (+9m)
+* LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 41-46m at 4tph (+10m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 42-46m at 4tph (+10m)
 
 From Worcester Park to Baker Street
 -----------------------------------
@@ -633,6 +703,19 @@ From Motspur Park to Leicester Square
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 33-36m at 10tph
 * CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 35-46m at 8tph (+6m)
 
+From Motspur Park to Goodge Street
+----------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 35-38m at 10tph
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 37-48m at 8tph (+6m)
+
+From Motspur Park to Warren Street
+----------------------------------
+* CR2 changing to Victoria at VIC in 30-32m at 10tph
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 32-35m at 10tph (+3m)
+* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 33-44m at 8tph (+8m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 37-40m at 10tph (+8m)
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 39-50m at 8tph (+14m)
+
 From Motspur Park to Baker Street
 ---------------------------------
 * CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 33-37m at 10tph
@@ -735,6 +818,19 @@ From Shepperton to Leicester Square
 -----------------------------------
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 63-66m at 4tph
 * CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 65-76m at 4tph (+6m)
+
+From Shepperton to Goodge Street
+--------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 65-68m at 4tph
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 67-78m at 4tph (+6m)
+
+From Shepperton to Warren Street
+--------------------------------
+* CR2 changing to Victoria at VIC in 60-62m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 62-65m at 4tph (+3m)
+* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 63-74m at 4tph (+8m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 67-70m at 4tph (+8m)
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 69-80m at 4tph (+14m)
 
 From Shepperton to Baker Street
 -------------------------------
@@ -839,6 +935,19 @@ From Fulwell to Leicester Square
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 50-53m at 4tph
 * CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 52-63m at 4tph (+6m)
 
+From Fulwell to Goodge Street
+-----------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 52-55m at 4tph
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 54-65m at 4tph (+6m)
+
+From Fulwell to Warren Street
+-----------------------------
+* CR2 changing to Victoria at VIC in 47-49m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 49-52m at 4tph (+3m)
+* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 50-61m at 4tph (+8m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 54-57m at 4tph (+8m)
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 56-67m at 4tph (+14m)
+
 From Fulwell to Baker Street
 ----------------------------
 * CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 50-54m at 4tph
@@ -942,6 +1051,21 @@ From Kingston to Leicester Square
 ---------------------------------
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 40-43m at 6tph
 * TWI-WAT changing to Northern (West End) at WAT in 41-44m at 4tph (+1m)
+
+From Kingston to Goodge Street
+------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 42-45m at 6tph
+* TWI-WAT changing to Northern (West End) at WAT in 43-46m at 4tph (+1m)
+
+From Kingston to Warren Street
+------------------------------
+* CR2 changing to Victoria at VIC in 37-39m at 6tph
+* TWI-WAT changing to Victoria at VXH in 39-42m at 4tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 39-42m at 6tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 44-47m at 6tph (+8m)
+* TWI-WAT changing to Northern (West End) at WAT in 45-48m at 4tph (+9m)
+* TWI-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 45-50m at 4tph (+10m)
+* TWI-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 46-50m at 4tph (+10m)
 
 From Kingston to Baker Street
 -----------------------------
@@ -1071,6 +1195,25 @@ From Hampton Court to Leicester Square
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 46-49m at 4tph (+2m)
 * CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 48-59m at 4tph (+8m)
 
+From Hampton Court to Goodge Street
+-----------------------------------
+* CR2 changing to SUR-WAT (fast) at SUR changing to Northern (West End) at WAT in 45-50m at 4tph
+* CR2 changing to SUR-WAT (slow) at SUR changing to Northern (West End) at WAT in 47-52m at 4tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 48-51m at 4tph (+2m)
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 50-61m at 4tph (+8m)
+
+From Hampton Court to Warren Street
+-----------------------------------
+* CR2 changing to SUR-WAT (fast) at SUR changing to Victoria at VXH in 41-46m at 4tph
+* CR2 changing to Victoria at VIC in 43-45m at 4tph (+1m)
+* CR2 changing to SUR-WAT (slow) at SUR changing to Victoria at VXH in 43-48m at 4tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 45-48m at 4tph (+3m)
+* CR2 changing to SUR-WAT (fast) at SUR changing to Northern (West End) at WAT in 47-52m at 4tph (+6m)
+* CR2 changing to SUR-WAT (slow) at SUR changing to Northern (West End) at WAT in 49-54m at 4tph (+8m)
+* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 46-57m at 4tph (+8m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 50-53m at 4tph (+8m)
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 52-63m at 4tph (+14m)
+
 From Hampton Court to Baker Street
 ----------------------------------
 * CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 46-50m at 4tph
@@ -1198,6 +1341,28 @@ From Surbiton to Leicester Square
 * SUR-WAT (slow) changing to Northern (West End) at WAT in 34-37m at 4tph (+2m)
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 38-41m at 4tph (+6m)
 * CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 40-51m at 4tph (+12m)
+
+From Surbiton to Goodge Street
+------------------------------
+* SUR-WAT (fast) changing to Northern (West End) at WAT in 34-37m at 6tph
+* SUR-WAT (slow) changing to Northern (West End) at WAT in 36-39m at 4tph (+2m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 40-43m at 4tph (+6m)
+* CR2 changing to RAY-WAT at RAY changing to Northern (West End) at WAT in 42-53m at 4tph (+12m)
+
+From Surbiton to Warren Street
+------------------------------
+* SUR-WAT (fast) changing to Victoria at VXH in 30-33m at 6tph
+* SUR-WAT (slow) changing to Victoria at VXH in 32-35m at 4tph (+2m)
+* CR2 changing to Victoria at VIC in 35-37m at 4tph (+5m)
+* SUR-WAT (fast) changing to Northern (West End) at WAT in 36-39m at 6tph (+6m)
+* SUR-WAT (fast) changing to Bakerloo at WAT changing to Victoria at UOX in 36-41m at 6tph (+7m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 37-40m at 4tph (+7m)
+* SUR-WAT (fast) changing to BAL-VIC at CLJ changing to Victoria at VIC in 37-41m at 6tph (+8m)
+* SUR-WAT (slow) changing to Northern (West End) at WAT in 38-41m at 4tph (+8m)
+* SUR-WAT (slow) changing to Bakerloo at WAT changing to Victoria at UOX in 38-43m at 4tph (+9m)
+* SUR-WAT (slow) changing to BAL-VIC at CLJ changing to Victoria at VIC in 39-43m at 4tph (+10m)
+* CR2 changing to RAY-WAT at RAY changing to Victoria at VXH in 38-49m at 4tph (+12m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 42-45m at 4tph (+12m)
 
 From Surbiton to Baker Street
 -----------------------------
@@ -1332,6 +1497,21 @@ From New Malden to Leicester Square
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 33-36m at 10tph
 * TWI-WAT changing to Northern (West End) at WAT in 34-37m at 4tph (+1m)
 
+From New Malden to Goodge Street
+--------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 35-38m at 10tph
+* TWI-WAT changing to Northern (West End) at WAT in 36-39m at 4tph (+1m)
+
+From New Malden to Warren Street
+--------------------------------
+* CR2 changing to Victoria at VIC in 30-32m at 10tph
+* TWI-WAT changing to Victoria at VXH in 32-35m at 4tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 32-35m at 10tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 37-40m at 10tph (+8m)
+* TWI-WAT changing to Northern (West End) at WAT in 38-41m at 4tph (+9m)
+* TWI-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 38-43m at 4tph (+10m)
+* TWI-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 39-43m at 4tph (+10m)
+
 From New Malden to Baker Street
 -------------------------------
 * CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 33-37m at 10tph
@@ -1444,6 +1624,21 @@ From Raynes Park to Leicester Square
 ------------------------------------
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 30-33m at 20tph
 * RAY-WAT changing to Northern (West End) at WAT in 31-34m at 8tph (+1m)
+
+From Raynes Park to Goodge Street
+---------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 32-35m at 20tph
+* RAY-WAT changing to Northern (West End) at WAT in 33-36m at 8tph (+1m)
+
+From Raynes Park to Warren Street
+---------------------------------
+* CR2 changing to Victoria at VIC in 27-29m at 20tph
+* RAY-WAT changing to Victoria at VXH in 29-32m at 8tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 29-32m at 20tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 34-37m at 20tph (+8m)
+* RAY-WAT changing to Northern (West End) at WAT in 35-38m at 8tph (+9m)
+* RAY-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 35-40m at 8tph (+10m)
+* RAY-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 36-40m at 8tph (+10m)
 
 From Raynes Park to Baker Street
 --------------------------------
@@ -1558,6 +1753,21 @@ From Wimbledon to Leicester Square
 * CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 26-29m at 30tph
 * WIM-WAT changing to Northern (West End) at WAT in 27-30m at 12tph (+1m)
 
+From Wimbledon to Goodge Street
+-------------------------------
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 28-31m at 30tph
+* WIM-WAT changing to Northern (West End) at WAT in 29-32m at 12tph (+1m)
+
+From Wimbledon to Warren Street
+-------------------------------
+* CR2 changing to Victoria at VIC in 23-25m at 30tph
+* WIM-WAT changing to Victoria at VXH in 25-28m at 12tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Victoria at UST in 25-28m at 30tph (+3m)
+* CR2 changing to Northern (City) at BAL changing to Northern (West End) at UKN in 30-33m at 30tph (+8m)
+* WIM-WAT changing to Northern (West End) at WAT in 31-34m at 12tph (+9m)
+* WIM-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 31-36m at 12tph (+10m)
+* WIM-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 32-36m at 12tph (+10m)
+
 From Wimbledon to Baker Street
 ------------------------------
 * CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 26-30m at 27tph
@@ -1669,6 +1879,17 @@ From Morden to Leicester Square
 -------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 30-31m at 30tph
 
+From Morden to Goodge Street
+----------------------------
+* Northern (City) changing to Northern (West End) at UKN in 32-33m at 30tph
+
+From Morden to Warren Street
+----------------------------
+* Northern (City) changing to Victoria at UST in 29-30m at 30tph
+* Northern (City) changing to CR2 at BAL changing to Victoria at VIC in 31-35m at 30tph (+4m)
+* Northern (City) changing to Northern (West End) at UKN in 34-35m at 30tph (+5m)
+* Northern (City) changing to Bakerloo at UEC changing to Victoria at UOX in 39-43m at 27tph (+12m)
+
 From Morden to Baker Street
 ---------------------------
 * Northern (City) changing to Victoria at UST changing to Bakerloo at UOX in 32-35m at 27tph
@@ -1753,6 +1974,17 @@ From South Wimbledon to Leicester Square
 ----------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 28-29m at 30tph
 
+From South Wimbledon to Goodge Street
+-------------------------------------
+* Northern (City) changing to Northern (West End) at UKN in 30-31m at 30tph
+
+From South Wimbledon to Warren Street
+-------------------------------------
+* Northern (City) changing to Victoria at UST in 27-28m at 30tph
+* Northern (City) changing to CR2 at BAL changing to Victoria at VIC in 29-33m at 30tph (+4m)
+* Northern (City) changing to Northern (West End) at UKN in 32-33m at 30tph (+5m)
+* Northern (City) changing to Bakerloo at UEC changing to Victoria at UOX in 37-41m at 27tph (+12m)
+
 From South Wimbledon to Baker Street
 ------------------------------------
 * Northern (City) changing to Victoria at UST changing to Bakerloo at UOX in 30-33m at 27tph
@@ -1836,6 +2068,17 @@ From Tooting Broadway to Charing Cross
 From Tooting Broadway to Leicester Square
 -----------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 24-25m at 30tph
+
+From Tooting Broadway to Goodge Street
+--------------------------------------
+* Northern (City) changing to Northern (West End) at UKN in 26-27m at 30tph
+
+From Tooting Broadway to Warren Street
+--------------------------------------
+* Northern (City) changing to Victoria at UST in 23-24m at 30tph
+* Northern (City) changing to CR2 at BAL changing to Victoria at VIC in 25-29m at 30tph (+4m)
+* Northern (City) changing to Northern (West End) at UKN in 28-29m at 30tph (+5m)
+* Northern (City) changing to Bakerloo at UEC changing to Victoria at UOX in 33-37m at 27tph (+12m)
 
 From Tooting Broadway to Baker Street
 -------------------------------------
@@ -1927,6 +2170,20 @@ From Balham to Leicester Square
 * Northern (City) changing to Northern (West End) at UKN in 20-21m at 30tph
 * BAL-VIC changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 29-34m at 12tph (+11m)
 
+From Balham to Goodge Street
+----------------------------
+* Northern (City) changing to Northern (West End) at UKN in 22-23m at 30tph
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 31-36m at 12tph (+11m)
+
+From Balham to Warren Street
+----------------------------
+* Northern (City) changing to Victoria at UST in 19-20m at 30tph
+* CR2 changing to Victoria at VIC in 19-21m at 30tph (+1m)
+* Northern (City) changing to Northern (West End) at UKN in 24-25m at 30tph (+5m)
+* BAL-VIC changing to Victoria at VIC in 26-28m at 12tph (+8m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Victoria at VXH in 27-32m at 12tph (+10m)
+* Northern (City) changing to Bakerloo at UEC changing to Victoria at UOX in 29-33m at 27tph (+12m)
+
 From Balham to Baker Street
 ---------------------------
 * Northern (City) changing to Victoria at UST changing to Bakerloo at UOX in 22-25m at 27tph
@@ -2010,6 +2267,7 @@ From Balham to St Pauls
 * UCS Clapham South
 * UEC Elephant & Castle
 * UGP Green Park
+* UGS Goodge Street
 * UHL Holborn
 * UKN Kennington
 * ULS Leicester Square
@@ -2022,6 +2280,7 @@ From Balham to St Pauls
 * UTB Tooting Broadway
 * UTM Temple
 * UWM Westminster
+* UWS Warren Street
 * VIC Victoria
 * VXH Vauxhall
 * WAT Waterloo

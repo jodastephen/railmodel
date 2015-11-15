@@ -37,7 +37,7 @@ public class Crossrail2SWLondonModel extends Model {
     ImmutableList<Station> starts = ImmutableList.of(
         CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, UMD, USW, UTB, BAL);
     ImmutableList<Station> ends = ImmutableList.of(
-        VIC, TCR, EUS, AGL, WAT, UGP, CHX, ULS, UBS, UBH, LBG, UBK, MOG, UOS, UCL, USP);
+        VIC, TCR, EUS, AGL, WAT, UGP, CHX, ULS, UGS, UWS, UBS, UBH, LBG, UBK, MOG, UOS, UCL, USP);
 
     List<String> output = new ArrayList<>();
     output.add("Modelling for SW London with Crossrail 2" + NEWLINE);
@@ -239,14 +239,14 @@ public class Crossrail2SWLondonModel extends Model {
         "Northern (West End)",
         "Northern (West End)",
         30,
-        stations(UKN, WAT, CHX, ULS, TCR, EUS),
-        times(2, 3, 2, 1, 4));
+        stations(UKN, WAT, CHX, ULS, TCR, UGS, UWS, EUS),
+        times(2, 3, 2, 1, 1, 2, 1));
     Route uvictoria = Route.of(
         "Victoria",
         "Victoria",
         36,
-        stations(UST, VXH, VIC, UGP, UOX, EUS),
-        times(2, 3, 2, 2, 3));
+        stations(UST, VXH, VIC, UGP, UOX, UWS, EUS),
+        times(2, 3, 2, 2, 2, 1));
     Route ubakerloo = Route.of(
         "Bakerloo",
         "Bakerloo",
