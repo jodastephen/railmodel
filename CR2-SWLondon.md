@@ -136,30 +136,30 @@ From Chessington South to St Pauls
 
 From Leatherhead to Victoria
 ----------------------------
-* LHD-WAT changing to CR2 at RAY in 39-42m at 4tph
-* LHD-WAT changing to CR2 at CLJ in 43-45m at 4tph (+4m)
+* LHD-WAT changing to CR2 at RAY in 39-43m at 4tph
+* LHD-WAT changing to CR2 at CLJ in 43-45m at 4tph (+3m)
 * LHD-WAT changing to Victoria at VXH in 44-47m at 4tph (+5m)
-* LHD-WAT changing to BAL-VIC at CLJ in 47-49m at 4tph (+8m)
+* LHD-WAT changing to BAL-VIC at CLJ in 47-49m at 4tph (+7m)
 
 From Leatherhead to Tottenham Court Road
 ----------------------------------------
-* LHD-WAT changing to CR2 at RAY in 42-45m at 4tph
-* LHD-WAT changing to CR2 at CLJ in 46-48m at 4tph (+4m)
+* LHD-WAT changing to CR2 at RAY in 42-46m at 4tph
+* LHD-WAT changing to CR2 at CLJ in 46-48m at 4tph (+3m)
 * LHD-WAT changing to Northern (West End) at WAT in 53-56m at 4tph (+11m)
 
 From Leatherhead to Euston
 --------------------------
-* LHD-WAT changing to CR2 at RAY in 44-47m at 4tph
-* LHD-WAT changing to CR2 at CLJ in 48-50m at 4tph (+4m)
+* LHD-WAT changing to CR2 at RAY in 44-48m at 4tph
+* LHD-WAT changing to CR2 at CLJ in 48-50m at 4tph (+3m)
 * LHD-WAT changing to Victoria at VXH in 51-54m at 4tph (+7m)
 * LHD-WAT changing to Northern (West End) at WAT in 57-60m at 4tph (+13m)
 * LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 57-62m at 4tph (+14m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 58-62m at 4tph (+15m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 58-62m at 4tph (+14m)
 
 From Leatherhead to Angel
 -------------------------
-* LHD-WAT changing to CR2 at RAY in 47-50m at 4tph
-* LHD-WAT changing to CR2 at CLJ in 51-53m at 4tph (+4m)
+* LHD-WAT changing to CR2 at RAY in 47-51m at 4tph
+* LHD-WAT changing to CR2 at CLJ in 51-53m at 4tph (+3m)
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 60-65m at 4tph (+14m)
 
 From Leatherhead to Waterloo
@@ -168,8 +168,8 @@ From Leatherhead to Waterloo
 
 From Leatherhead to Green Park
 ------------------------------
-* LHD-WAT changing to CR2 at RAY changing to Victoria at VIC in 45-50m at 4tph
-* LHD-WAT changing to Victoria at VXH in 46-49m at 4tph (+0m)
+* LHD-WAT changing to Victoria at VXH in 46-49m at 4tph
+* LHD-WAT changing to CR2 at RAY changing to Victoria at VIC in 45-51m at 4tph (+1m)
 * LHD-WAT changing to CR2 at CLJ changing to Victoria at VIC in 49-53m at 4tph (+4m)
 * LHD-WAT changing to Jubilee (Northbound) at WAT in 51-54m at 4tph (+5m)
 * LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 53-57m at 4tph (+8m)
@@ -177,8 +177,8 @@ From Leatherhead to Green Park
 From Leatherhead to Charing Cross
 ---------------------------------
 * LHD-WAT changing to Bakerloo at WAT in 49-52m at 4tph
-* LHD-WAT changing to CR2 at RAY changing to District at VIC in 49-54m at 4tph (+1m)
 * LHD-WAT changing to Northern (West End) at WAT in 50-53m at 4tph (+1m)
+* LHD-WAT changing to CR2 at RAY changing to District at VIC in 49-55m at 4tph (+2m)
 * LHD-WAT changing to CR2 at CLJ changing to District at VIC in 53-57m at 4tph (+5m)
 * LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 57-61m at 4tph (+9m)
 
@@ -192,8 +192,8 @@ From Leatherhead to Goodge Street
 
 From Leatherhead to Warren Street
 ---------------------------------
-* LHD-WAT changing to CR2 at RAY changing to Victoria at VIC in 49-54m at 4tph
-* LHD-WAT changing to Victoria at VXH in 50-53m at 4tph (+0m)
+* LHD-WAT changing to Victoria at VXH in 50-53m at 4tph
+* LHD-WAT changing to CR2 at RAY changing to Victoria at VIC in 49-55m at 4tph (+1m)
 * LHD-WAT changing to CR2 at CLJ changing to Victoria at VIC in 53-57m at 4tph (+4m)
 * LHD-WAT changing to Northern (West End) at WAT in 56-59m at 4tph (+6m)
 * LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 56-61m at 4tph (+7m)
@@ -208,59 +208,59 @@ From Leatherhead to Baker Street
 
 From Leatherhead to Borough
 ---------------------------
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 47-52m at 4tph
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 47-53m at 4tph
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 54-59m at 4tph (+7m)
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 60-66m at 4tph (+14m)
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 60-67m at 4tph (+14m)
 
 From Leatherhead to London Bridge
 ---------------------------------
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 49-54m at 4tph
-* LHD-WAT changing to Jubilee at WAT in 50-53m at 4tph (+0m)
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 58-64m at 4tph (+10m)
+* LHD-WAT changing to Jubilee at WAT in 50-53m at 4tph
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 49-55m at 4tph (+1m)
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 58-65m at 4tph (+10m)
 * LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 58-69m at 4tph (+12m)
 * LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 62-67m at 4tph (+13m)
 
 From Leatherhead to Bank/Monument
 ---------------------------------
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 51-56m at 4tph
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 51-57m at 4tph
 * LHD-WAT changing to W&C at WAT in 51-58m at 4tph (+1m)
-* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 54-59m at 4tph (+3m)
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 54-59m at 4tph (+3m)
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 56-62m at 4tph (+6m)
-* LHD-WAT changing to CR2 at RAY changing to District at VIC in 57-62m at 4tph (+6m)
-* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 58-62m at 4tph (+7m)
+* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 54-60m at 4tph (+3m)
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 56-63m at 4tph (+6m)
+* LHD-WAT changing to CR2 at RAY changing to District at VIC in 57-63m at 4tph (+6m)
+* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 58-62m at 4tph (+6m)
 * LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 60-65m at 4tph (+9m)
-* LHD-WAT changing to CR2 at CLJ changing to District at VIC in 61-65m at 4tph (+10m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 65-69m at 4tph (+14m)
+* LHD-WAT changing to CR2 at CLJ changing to District at VIC in 61-65m at 4tph (+9m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 65-69m at 4tph (+13m)
 
 From Leatherhead to Moorgate
 ----------------------------
-* LHD-WAT changing to CR2 at RAY changing to CR1 at TCR in 50-55m at 4tph
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 53-58m at 4tph (+3m)
-* LHD-WAT changing to CR2 at CLJ changing to CR1 at TCR in 54-58m at 4tph (+4m)
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 54-60m at 4tph (+5m)
+* LHD-WAT changing to CR2 at RAY changing to CR1 at TCR in 50-56m at 4tph
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 53-59m at 4tph (+3m)
+* LHD-WAT changing to CR2 at CLJ changing to CR1 at TCR in 54-58m at 4tph (+3m)
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 54-61m at 4tph (+5m)
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 56-61m at 4tph (+6m)
 * LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 58-63m at 4tph (+8m)
 * LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 58-69m at 4tph (+11m)
 
 From Leatherhead to Old Street
 ------------------------------
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 53-59m at 4tph
-* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 54-59m at 4tph (+1m)
-* LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 57-62m at 4tph (+4m)
-* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 57-62m at 4tph (+4m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 59-70m at 4tph (+9m)
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 53-60m at 4tph
+* LHD-WAT changing to CR2 at RAY changing to Northern (City) at BAL in 54-60m at 4tph (+1m)
+* LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 57-62m at 4tph (+3m)
+* LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 57-62m at 4tph (+3m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 59-70m at 4tph (+8m)
 
 From Leatherhead to Chancery Lane
 ---------------------------------
-* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 50-55m at 4tph
-* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 54-58m at 4tph (+4m)
+* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 50-56m at 4tph
+* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 54-58m at 4tph (+3m)
 * LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 59-70m at 4tph (+12m)
 
 From Leatherhead to St Pauls
 ----------------------------
-* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 52-57m at 4tph
-* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 56-60m at 4tph (+4m)
+* LHD-WAT changing to CR2 at RAY changing to Central at TCR in 52-58m at 4tph
+* LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 56-60m at 4tph (+3m)
 * LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 57-68m at 4tph (+8m)
 
 
