@@ -48,6 +48,7 @@ public class Crossrail2SWLondonModel extends Model {
     output.add("A key for station codes is at the end.\n");
     output.add("The route options are sorted, with the fastest first.\n");
     output.add("The excess over the fastest route option is listed in brackets.\n");
+    output.add("The number of trains per hour (tph) is also shown.\n");
     output.add("\n");
     output.add("\n");
     appendSeparator(output);
@@ -138,62 +139,62 @@ public class Crossrail2SWLondonModel extends Model {
     // WIM-BAL set at 4mins
     Route wimagl = Route.of(
         "CR2",
-        "CR2 (from WIM)",
+        "CR2",
         30,
         stations(WIM, BAL, CLJ, CKR, VIC, TCR, EUS, STP, AGL),
         times(4, 3, 3, 3, 3, 2, 0, 3));
     Route rayagl = Route.of(
         "CR2",
-        "CR2 (from RAY)",
+        "CR2",
         20,
         stations(RAY, WIM),
         times(4),
         wimagl);
     Route nemagl = Route.of(
         "CR2",
-        "CR2 (from NEM)",
+        "CR2",
         10,
         stations(NEM, RAY),
         times(3),
         rayagl);
     Route motagl = Route.of(
         "CR2",
-        "CR2 (from MOT)",
+        "CR2",
         10,
         stations(MOT, RAY),
         times(3),
         rayagl);
     Route kngagl = Route.of(
         "CR2",
-        "CR2 (from KNG)",
+        "CR2",
         6,
         stations(KNG, NEM),
         times(7),
         nemagl);
     Route shpagl = Route.of(
         "CR2",
-        "CR2 (from SHP)",
+        "CR2",
         4,
         stations(SHP, FLW, KNG),
         times(13, 10),
         kngagl);
     Route hmcagl = Route.of(
         "CR2",
-        "CR2 (from HMC)",
+        "CR2",
         4,
         stations(HMC, SUR, NEM),
         times(8, 5),
         nemagl);
     Route cssagl = Route.of(
         "CR2",
-        "CR2 (from CSS)",
+        "CR2",
         4,
         stations(CSS, MOT),
         times(11),
         motagl);
     Route epsagl = Route.of(
         "CR2",
-        "CR2 (from EPS)",
+        "CR2",
         6,
         stations(EPS, SNL, WCP, MOT),
         times(5, 3, 3),
