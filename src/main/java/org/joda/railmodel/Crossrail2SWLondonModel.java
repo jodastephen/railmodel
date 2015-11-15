@@ -309,8 +309,8 @@ public class Crossrail2SWLondonModel extends Model {
     addChange(Change.of(RAY, raywat, rayagl, 1, 4));
 
     // change at Wimbledon
-    addChange(Change.of(WIM, wimagl, wimwat, 4, 6));
     addChange(Change.of(WIM, wimwat, wimagl, 4, 6));
+    addChange(Change.of(WIM, wimagl, wimwat, 4, 10));  // gaps of 3 to 6 mins
 
     // change at Balham
     addChange(Change.of(BAL, wimagl, unortherncity, 2, 4));
