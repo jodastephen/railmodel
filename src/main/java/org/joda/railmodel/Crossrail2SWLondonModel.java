@@ -271,10 +271,11 @@ public class Crossrail2SWLondonModel extends Model {
         24,
         stations(WAT, UBK),
         times(4));
-    Route udistrict = Route.of(  // TODO: extend district to Wimbledon
+    // district not included WIM-VIC (29mins), complicates model and causes errors for fairly slow journey
+    Route udistrict = Route.of(
         "District",
         "District",
-        27,
+        27,  // only 9tph from WIM-VIC, but terrible journey time so does not matter
         stations(VIC, UWM, CHX, UTM, UBK),   // fudge Embankment as Charing Cross, Monument as Bank
         times(4, 2, 2, 6));
     Route ucentral = Route.of(
