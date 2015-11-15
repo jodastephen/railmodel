@@ -40,25 +40,25 @@ public class Crossrail2SWLondonModel extends Model {
         VIC, TCR, EUS, AGL, WAT, UGP, CHX, ULS, UBS, UBH, LBG, UBK, MOG, UOS, UCL, USP);
 
     List<String> output = new ArrayList<>();
-    output.add("Modelling for SW London with Crossrail 2\n");
-    output.add("========================================\n");
-    output.add("This uses CR2 via Balham, with best efforts guesses of interchange times.\n");
-    output.add("\n");
-    output.add("A selection of interesting journeys is listed, together with calculated route options.\n");
-    output.add("A key for station codes is at the end.\n");
-    output.add("The route options are sorted, with the fastest first.\n");
-    output.add("The excess over the fastest route option is listed in brackets.\n");
-    output.add("If the fastest route is direct, then only limited alternatives are shown.\n");
-    output.add("No alternative that takes over 15 minutes longer is shown.\n");
-    output.add("The number of trains per hour (tph) is also shown.\n");
-    output.add("\n");
+    output.add("Modelling for SW London with Crossrail 2" + NEWLINE);
+    output.add("========================================" + NEWLINE);
+    output.add("This uses CR2 via Balham, with best efforts guesses of interchange times." + NEWLINE);
+    output.add(NEWLINE);
+    output.add("A selection of interesting journeys is listed, together with calculated route options." + NEWLINE);
+    output.add("A key for station codes is at the end." + NEWLINE);
+    output.add("The route options are sorted, with the fastest first." + NEWLINE);
+    output.add("The excess over the fastest route option is listed in brackets." + NEWLINE);
+    output.add("If the fastest route is direct, then only limited alternatives are shown." + NEWLINE);
+    output.add("No alternative that takes over 15 minutes longer is shown." + NEWLINE);
+    output.add("The number of trains per hour (tph) is also shown." + NEWLINE);
+    output.add(NEWLINE);
     appendSeparator(output);
     for (Iterator<Station> it = starts.iterator(); it.hasNext();) {
       Station start = it.next();
       for (Station end : ends) {
         String explain = model.explain(start, end);
         output.add(explain);
-        output.add("\n");
+        output.add(NEWLINE);
       }
       if (it.hasNext()) {
         appendSeparator(output);

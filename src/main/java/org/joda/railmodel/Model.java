@@ -39,6 +39,10 @@ public class Model {
    * The maximum a journey can be over the shortest to still be printed.
    */
   private static final int MAX_EXCESS = 15;
+  /**
+   * The new line character.
+   */
+  static final String NEWLINE = System.lineSeparator();
 
   private final List<Route> routes = new ArrayList<>();
   private final List<Change> changes = new ArrayList<>();
@@ -47,9 +51,9 @@ public class Model {
   }
 
   static void appendSeparator(List<String> output) {
-    output.add("\n");
-    output.add("----\n");
-    output.add("\n");
+    output.add(NEWLINE);
+    output.add("----" + NEWLINE);
+    output.add(NEWLINE);
   }
 
   static void appendStations(List<String> output) {
@@ -57,7 +61,7 @@ public class Model {
     stations.sort(Comparator.comparing(Station::name));
     appendSeparator(output);
     for (Station station : stations) {
-      output.add("* " + station.name() + " " + station.description() + "\n");
+      output.add("* " + station.name() + " " + station.description() + NEWLINE);
     }
   }
 
@@ -73,8 +77,8 @@ public class Model {
   //-------------------------------------------------------------------------
   public String explain(Station start, Station end) {
     StringBuilder buf = new StringBuilder();
-    buf.append("From ").append(start.description()).append(" to ").append(end.description()).append("\n");
-    buf.append(Strings.repeat("-", buf.length() - 1)).append("\n");
+    buf.append("From ").append(start.description()).append(" to ").append(end.description()).append(NEWLINE);
+    buf.append(Strings.repeat("-", buf.length() - NEWLINE.length())).append(NEWLINE);
     List<Journey> solved = solve(start, end);
     solved.sort(Comparator.naturalOrder());
     Journey first = solved.get(0);
@@ -86,10 +90,10 @@ public class Model {
       if (journey != first) {
         int diff = first.differenceTo(journey);
         if (diff <= maxExcess) {
-          buf.append("* ").append(journey).append(" (+").append(diff).append("m)").append("\n");
+          buf.append("* ").append(journey).append(" (+").append(diff).append("m)").append(NEWLINE);
         }
       } else {
-        buf.append("* ").append(journey).append("\n");
+        buf.append("* ").append(journey).append(NEWLINE);
       }
     }
     return buf.toString();
