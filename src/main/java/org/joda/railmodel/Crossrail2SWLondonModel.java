@@ -52,6 +52,10 @@ public class Crossrail2SWLondonModel extends Model {
     output.add("No alternative that takes over 15 minutes longer is shown." + NEWLINE);
     output.add("The number of trains per hour (tph) is also shown." + NEWLINE);
     output.add(NEWLINE);
+    output.add("Station entry/exit times and walking times are not included." + NEWLINE);
+    output.add("Walking may affect the faster route on occasion, notably to Leicester Square, " +
+        "which is easily accessed from the new proposed Shaftesbury Avenue exit of CR2." + NEWLINE);
+    output.add(NEWLINE);
     appendSeparator(output);
     for (Iterator<Station> it = starts.iterator(); it.hasNext();) {
       Station start = it.next();
