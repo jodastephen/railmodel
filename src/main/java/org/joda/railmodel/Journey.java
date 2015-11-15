@@ -92,6 +92,13 @@ public final class Journey implements Comparable<Journey> {
         change2.getRoute2().time(change2.getStation(), end);
   }
 
+  public int differenceTo(Journey other) {
+    double thisTime = (this.timeMax() + this.timeMin()) / 2d;
+    double otherTime = (other.timeMax() + other.timeMin()) / 2d;
+    double diff = otherTime - thisTime;
+    return (int) (diff + 0.5);
+  }
+
   //-------------------------------------------------------------------------
   @Override
   public int compareTo(Journey other) {

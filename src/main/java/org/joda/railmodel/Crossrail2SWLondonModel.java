@@ -17,51 +17,101 @@ package org.joda.railmodel;
 
 import static org.joda.railmodel.Station.*;
 
+import java.io.File;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+import com.google.common.base.Joiner;
+import com.google.common.collect.ImmutableList;
+import com.google.common.io.Files;
+
 /**
  * Calculates journey times for SW London with Crossrail 2 in place.
  */
 public class Crossrail2SWLondonModel extends Model {
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
     Crossrail2SWLondonModel model = new Crossrail2SWLondonModel();
-    System.out.println("Setup complete");
-    System.out.println(model.explain(NEM, VIC));
-    System.out.println(model.explain(RAY, TCR));
+    ImmutableList<Station> starts = ImmutableList.of(
+        SHP, FLW, KNG, HMC, SUR, NEM, CSS, LHD, EPS, SNL, WCP, MOT, RAY, WIM, UMD, USW, UTB, BAL);
+    ImmutableList<Station> ends = ImmutableList.of(
+        VIC, TCR, EUS, AGL, WAT, UGP, CHX, ULS, UBS, UBH, LBG, UBK, MOG, UOS, UCL, USP);
 
-    System.out.println(model.explain(WIM, VIC));
-    System.out.println(model.explain(WIM, TCR));
-    System.out.println(model.explain(WIM, EUS));
-    System.out.println(model.explain(WIM, AGL));
-    System.out.println(model.explain(WIM, MOG));
-    System.out.println(model.explain(WIM, UBK));
-    System.out.println(model.explain(WIM, LBG));
-    System.out.println(model.explain(WIM, CWF));
+    List<String> output = new ArrayList<>();
+    for (Iterator<Station> it = starts.iterator(); it.hasNext();) {
+      Station start = it.next();
+      for (Station end : ends) {
+        String explain = model.explain(start, end);
+        output.add(explain);
+        output.add("\n");
+      }
+      if (it.hasNext()) {
+        output.add("\n");
+        output.add("----\n");
+        output.add("\n");
+      }
+    }
+    File file = new File("CR2-SWLondon.md");
+    String result = Joiner.on("").join(output);
+    Files.write(result, file, StandardCharsets.UTF_8);
+    System.out.println(result);
 
-    System.out.println(model.explain(BAL, VIC));
-    System.out.println(model.explain(BAL, TCR));
-    System.out.println(model.explain(BAL, EUS));
-    System.out.println(model.explain(BAL, AGL));
-    System.out.println(model.explain(BAL, MOG));
-    System.out.println(model.explain(BAL, UBK));
-    System.out.println(model.explain(BAL, LBG));
-    System.out.println(model.explain(BAL, CWF));
+//    System.out.println(model.explain(NEM, VIC));
+//    System.out.println(model.explain(RAY, TCR));
+//
+//    System.out.println(model.explain(WIM, VIC));
+//    System.out.println(model.explain(WIM, TCR));
+//    System.out.println(model.explain(WIM, EUS));
+//    System.out.println(model.explain(WIM, AGL));
+//    System.out.println(model.explain(WIM, UBH));
+//    System.out.println(model.explain(WIM, LBG));
+//    System.out.println(model.explain(WIM, UBK));
+//    System.out.println(model.explain(WIM, MOG));
+//    System.out.println(model.explain(WIM, UOS));
+//    System.out.println(model.explain(WIM, CWF));
 
-    System.out.println(model.explain(KNG, WAT));
-    System.out.println(model.explain(KNG, UBK));
-    System.out.println(model.explain(KNG, LBG));
-    System.out.println(model.explain(KNG, UGP));
-    System.out.println(model.explain(KNG, CWF));
+//    System.out.println(model.explain(RAY, VIC));
+//    System.out.println(model.explain(RAY, TCR));
+//    System.out.println(model.explain(RAY, EUS));
+//    System.out.println(model.explain(RAY, AGL));
+//    System.out.println(model.explain(RAY, UBH));
+//    System.out.println(model.explain(RAY, LBG));
+//    System.out.println(model.explain(RAY, UBK));
+//    System.out.println(model.explain(RAY, MOG));
+//    System.out.println(model.explain(RAY, UOS));
+//    System.out.println(model.explain(RAY, CWF));
+//    System.out.println(model.explain(RAY, UGP));
+//    System.out.println(model.explain(RAY, CHX));
+//    System.out.println(model.explain(RAY, ULS));
+//    System.out.println(model.explain(RAY, UBS));
 
-    System.out.println(model.explain(CSS, WAT));
-    System.out.println(model.explain(CSS, UBK));
-    System.out.println(model.explain(CSS, LBG));
-    System.out.println(model.explain(CSS, UGP));
-    System.out.println(model.explain(CSS, CWF));
-
-    System.out.println(model.explain(UMD, CWF));
-    System.out.println(model.explain(UMD, VIC));
-    System.out.println(model.explain(UMD, TCR));
-    System.out.println(model.explain(UMD, EUS));
+//    System.out.println(model.explain(BAL, VIC));
+//    System.out.println(model.explain(BAL, TCR));
+//    System.out.println(model.explain(BAL, EUS));
+//    System.out.println(model.explain(BAL, AGL));
+//    System.out.println(model.explain(BAL, MOG));
+//    System.out.println(model.explain(BAL, UBK));
+//    System.out.println(model.explain(BAL, LBG));
+//    System.out.println(model.explain(BAL, CWF));
+//
+//    System.out.println(model.explain(KNG, WAT));
+//    System.out.println(model.explain(KNG, UBK));
+//    System.out.println(model.explain(KNG, LBG));
+//    System.out.println(model.explain(KNG, UGP));
+//    System.out.println(model.explain(KNG, CWF));
+//
+//    System.out.println(model.explain(CSS, WAT));
+//    System.out.println(model.explain(CSS, UBK));
+//    System.out.println(model.explain(CSS, LBG));
+//    System.out.println(model.explain(CSS, UGP));
+//    System.out.println(model.explain(CSS, CWF));
+//
+//    System.out.println(model.explain(UMD, CWF));
+//    System.out.println(model.explain(UMD, VIC));
+//    System.out.println(model.explain(UMD, TCR));
+//    System.out.println(model.explain(UMD, EUS));
   }
 
   Crossrail2SWLondonModel() {
@@ -71,17 +121,20 @@ public class Crossrail2SWLondonModel extends Model {
   private void setup() {
     // WAT
     Route cljwat = Route.of(
+        "SWML",
         "CLJ-WAT",
         18,
         stations(CLJ, VXH, WAT),
         times(5, 6));
     Route wimwat = Route.of(
+        "SWML",
         "WIM-WAT",
         12,
         stations(WIM, EAD, CLJ),
         times(4, 4),
         cljwat);
     Route raywat = Route.of(
+        "SWML",
         "RAY-WAT",
         8,
         stations(RAY, WIM),
@@ -89,6 +142,7 @@ public class Crossrail2SWLondonModel extends Model {
         wimwat);
     // 4tph from Twickenham/Loop
     Route twiwat = Route.of(
+        "SWML",
         "TWI-WAT",
         4,
         stations(TWI, KNG, NEM, RAY),
@@ -96,6 +150,7 @@ public class Crossrail2SWLondonModel extends Model {
         raywat);
     // 4tph from Dorking/Guildford
     Route lhdwat = Route.of(
+        "SWML",
         "LHD-WAT",
         4,
         stations(LHD, EPS, WCP, RAY),
@@ -103,6 +158,7 @@ public class Crossrail2SWLondonModel extends Model {
         raywat);
     // 6tph faster Surbiton, guess -2mins for not stopping WIM/EAD
     Route surwat1 = Route.of(
+        "SWML fast",
         "SUR-WAT (fast)",
         6,
         stations(SUR, CLJ),
@@ -110,6 +166,7 @@ public class Crossrail2SWLondonModel extends Model {
         cljwat);
     // 4tph slower Surbiton, guess -2mins for not stopping NEM
     Route surwat2 = Route.of(
+        "SWML",
         "SUR-WAT (slow)",
         4,
         stations(SUR, WIM),
@@ -120,54 +177,67 @@ public class Crossrail2SWLondonModel extends Model {
     addRoute(surwat1);
     addRoute(surwat2);
     // CR2
+    // CLJ-CKR known as 3 mins
+    // CKR-VIC and VIC-TCR are similar distances
+    // BAL-CLJ set at 3mins although 4mins more likely
+    // WIM-BAL set at 4mins
     Route wimagl = Route.of(
+        "CR2",
         "CR2 (from WIM)",
         30,
-        stations(WIM, BAL, CLJ, CKR, VIC, TCR, EUS, AGL),
-        times(4, 4, 3, 3, 3, 2, 3));
+        stations(WIM, BAL, CLJ, CKR, VIC, TCR, EUS, STP, AGL),
+        times(4, 3, 3, 3, 3, 2, 0, 3));
     Route rayagl = Route.of(
+        "CR2",
         "CR2 (from RAY)",
         20,
         stations(RAY, WIM),
         times(4),
         wimagl);
     Route nemagl = Route.of(
+        "CR2",
         "CR2 (from NEM)",
         10,
         stations(NEM, RAY),
         times(3),
         rayagl);
     Route motagl = Route.of(
+        "CR2",
         "CR2 (from MOT)",
         10,
         stations(MOT, RAY),
         times(3),
         rayagl);
     Route kngagl = Route.of(
+        "CR2",
         "CR2 (from KNG)",
         6,
         stations(KNG, NEM),
         times(7),
         nemagl);
     Route shpagl = Route.of(
+        "CR2",
         "CR2 (from SHP)",
         4,
         stations(SHP, FLW, KNG),
         times(13, 10),
         kngagl);
     Route hmcagl = Route.of(
+        "CR2",
         "CR2 (from HMC)",
         4,
         stations(HMC, SUR, NEM),
         times(8, 5),
         nemagl);
     Route cssagl = Route.of(
+        "CR2",
         "CR2 (from CSS)",
         4,
         stations(CSS, MOT),
         times(11),
         motagl);
     Route epsagl = Route.of(
+        "CR2",
         "CR2 (from EPS)",
         6,
         stations(EPS, SNL, WCP, MOT),
@@ -181,6 +251,7 @@ public class Crossrail2SWLondonModel extends Model {
 
     // Southern
     Route balvic = Route.of(
+        "Southern",
         "BAL-VIC",
         12,
         stations(BAL, CLJ, VIC),
@@ -190,55 +261,66 @@ public class Crossrail2SWLondonModel extends Model {
     // Tube lines
     Route unortherncity = Route.of(
         "Northern (City)",
+        "Northern (City)",
         30,
-        stations(UMD, USW, UTB, BAL, UCS, UST, UKN, UEC, LBG, UBK, MOG, AGL, EUS),
-        times(2, 4, 4, 2, 5, 5, 2, 3, 2, 2, 4, 4));
+        stations(UMD, USW, UTB, BAL, UCS, UST, UKN, UEC, UBH, LBG, UBK, MOG, UOS, AGL, STP, EUS),
+        times(2, 4, 4, 2, 5, 5, 2, 1, 2, 2, 2, 1, 3, 2, 2));
     Route unortherncitysb = Route.of(
+        "Northern (City)",
         "Northern (City) Southbound",
         30,
-        stations(EUS, AGL, MOG, UBK, LBG),
-        times(4, 4, 2, 2));
+        stations(EUS, STP, AGL, UOS, MOG, UBK, LBG, UBH),
+        times(2, 2, 3, 1, 2, 2, 2));
     Route unorthernwest = Route.of(
+        "Northern (West End)",
         "Northern (West End)",
         30,
         stations(UKN, WAT, CHX, ULS, TCR, EUS),
         times(2, 3, 2, 1, 4));
     Route uvictoria = Route.of(
         "Victoria",
+        "Victoria",
         36,
         stations(UST, VXH, VIC, UGP, UOX, EUS),
         times(2, 3, 2, 2, 3));
     Route ubakerloo = Route.of(
+        "Bakerloo",
         "Bakerloo",
         27,
         stations(UEC, WAT, CHX, UOX, UBS),
         times(4, 2, 4, 4));
     Route ujubilee = Route.of(
         "Jubilee",
+        "Jubilee",
         36,
         stations(UBS, BDS, UGP, WAT, LBG, CWF),
         times(2, 2, 4, 3, 7));
     Route ujubileenb = Route.of(
+        "Jubilee",
         "Jubilee (Northbound)",
         36,
-        stations(LBG, WAT, UGP, BDS),
-        times(3, 4, 2));
+        stations(LBG, WAT, UGP, BDS, UBS),
+        times(3, 4, 2, 2));
     Route uwandc = Route.of(
+        "W&C",
         "W&C",
         24,
         stations(WAT, UBK),
         times(4));
     Route udistrict = Route.of(  // TODO: extend district to Wimbledon
         "District",
+        "District",
         27,
         stations(VIC, CHX, UBK),   // fudge Embankment as Charing Cross, Monument as Bank
         times(6, 8));
     Route ucentral = Route.of(
         "Central",
+        "Central",
         36,
-        stations(BDS, UOX, TCR, USP, UBK, LST),
-        times(1, 1, 6, 2, 2));
+        stations(BDS, UOX, TCR, UHL, UCL, USP, UBK, LST),
+        times(1, 1, 2, 2, 2, 2, 2));
     Route cr1 = Route.of(
+        "CR1",
         "CR1",
         30,
         stations(BDS, TCR, ZFD, MOG, LST, CWF),
@@ -287,8 +369,8 @@ public class Crossrail2SWLondonModel extends Model {
     addChange(Change.of(VIC, balvic, uvictoria, 4, 6));
 
     // change at TCR
-    addChange(Change.of(TCR, wimagl, cr1, 2, 6));
-    addChange(Change.of(TCR, wimagl, ucentral, 3, 6));
+    addChange(Change.of(TCR, wimagl, cr1, 3, 5));
+    addChange(Change.of(TCR, wimagl, ucentral, 4, 6));
 
     // change at Euston (pointless, might as well change at Angel)
     // addChange(Change.of(EUS, wimagl, unortherncitysb, 4, 8));
@@ -308,9 +390,20 @@ public class Crossrail2SWLondonModel extends Model {
     // change at London Bridge
     addChange(Change.of(LBG, unortherncity, ujubilee, 2, 4));
     addChange(Change.of(LBG, unortherncity, ujubileenb, 2, 4));
+    addChange(Change.of(LBG, ujubilee, unortherncity, 2, 4));
+    addChange(Change.of(LBG, ujubilee, unortherncitysb, 2, 4));
 
     // change at Moorgate
-    addChange(Change.of(MOG, unortherncity, cr1, 2, 4));
+    addChange(Change.of(UBK, ucentral, unortherncity, 4, 6));
+    addChange(Change.of(UBK, ucentral, unortherncitysb, 4, 6));
+    addChange(Change.of(UBK, unortherncity, ucentral, 4, 6));
+    addChange(Change.of(UBK, uwandc, unortherncity, 5, 7));
+    addChange(Change.of(UBK, uwandc, unortherncitysb, 5, 7));
+
+    // change at Moorgate
+    addChange(Change.of(MOG, unortherncity, cr1, 3, 5));
+    addChange(Change.of(MOG, cr1, unortherncity, 3, 5));
+    addChange(Change.of(MOG, cr1, unortherncitysb, 3, 5));
 
     // change at Vauxhall
     addChange(Change.of(VXH, cljwat, uvictoria, 3, 6));
@@ -320,10 +413,14 @@ public class Crossrail2SWLondonModel extends Model {
     addChange(Change.of(WAT, cljwat, ujubileenb, 3, 6));
     addChange(Change.of(WAT, cljwat, unorthernwest, 3, 6));
     addChange(Change.of(WAT, cljwat, ubakerloo, 3, 6));
-    addChange(Change.of(WAT, cljwat, uwandc, 2, 12));  // includes queuing for W&C
+    addChange(Change.of(WAT, cljwat, uwandc, 3, 10));  // includes queuing for W&C
 
     // change at Green Park
     addChange(Change.of(UGP, uvictoria, ujubileenb, 4, 6));
+
+    // change at Oxford Circus
+    addChange(Change.of(UOX, uvictoria, ubakerloo, 1, 3));
+    addChange(Change.of(UOX, ubakerloo, uvictoria, 1, 3));
 
   }
 

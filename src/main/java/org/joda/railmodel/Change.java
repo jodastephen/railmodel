@@ -32,7 +32,7 @@ public final class Change {
   }
 
   //-------------------------------------------------------------------------
-  public Change(Station station, Route route1, Route route2, int timeMin, int timeMax) {
+  private Change(Station station, Route route1, Route route2, int timeMin, int timeMax) {
     if (!route1.getStations().contains(station)) {
       throw new IllegalArgumentException("Route1 does not contain station");
     }

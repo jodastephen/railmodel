@@ -20,95 +20,67 @@ package org.joda.railmodel;
  */
 public enum Station {
 
-  // HMC - Hampton Court
-  HMC,
-  // SUR - Surbiton
-  SUR,
-  // TWI - Twickenham
-  TWI,
-  // SHP - Shepperton
-  SHP,
-  // FLW - Fulwell
-  FLW,
-  // KNG - Kingston
-  KNG,
-  // NEM - New Malden
-  NEM,
-  // CSS - Chessington South
-  CSS,
-  // LHD - Leatherhead
-  LHD,
-  // EPS - Epsom
-  EPS,
-  // SNL - Stoneleigh
-  SNL,
-  // WCP - Worcester Park
-  WCP,
-  // MOT - Motspur Park
-  MOT,
-  // RAY - Raynes Park
-  RAY,
-  // WIM - Wimbledon
-  WIM,
-  // EAD - Earlsfield
-  EAD,
-  // BAL - Balham
-  BAL,
-  // CLJ - Clapham Junction
-  CLJ,
-  // VXH - Vauxhall
-  VXH,
-  // WAT - Waterloo
-  WAT,
-  // CKR - Chelsea Kings Road
-  CKR,
-  // VIC - Victoria
-  VIC,
-  // TCR- Tottenham Court Road
-  TCR,
-  // EUS - Euston St Pancras
-  EUS,
-  // AGL - Angel
-  AGL,
-  // BDS - Bond Street
-  BDS,
-  // ZFD - Farringdon
-  ZFD,
-  // MOG - Moorgate
-  MOG,
-  // LST - Liverpool Street
-  LST,
-  // CWF - Canary Wharf
-  CWF,
-  // CHX - Charing Cross
-  CHX,
-  // LBG - London Bridge
-  LBG,
-  // UMD - Morden
-  UMD,
-  // USW - South Wimbledon
-  USW,
-  // UTB - Tooting Broadway
-  UTB,
-  // UCS - Clapham South
-  UCS,
-  // UST - Stockwell
-  UST,
-  // UST - Kennington
-  UKN,
-  // UEC - Elephant & Castle
-  UEC,
-  // UBK - Bank/Monument
-  UBK,
-  // ULS - Leicester Square
-  ULS,
-  // UGP - Green Park
-  UGP,
-  // UOX - Oxford Circus
-  UOX,
-  // UBS - Baker Street
-  UBS,
-  // USP - St Pauls
-  USP,
+  HMC("Hampton Court"),
+  SUR("Surbiton"),
+  TWI("Twickenham"),
+  SHP("Shepperton"),
+  FLW("Fulwell"),
+  KNG("Kingston"),
+  NEM("New Malden"),
+  CSS("Chessington South"),
+  LHD("Leatherhead"),
+  EPS("Epsom"),
+  SNL("Stoneleigh"),
+  WCP("Worcester Park"),
+  MOT("Motspur Park"),
+  RAY("Raynes Park"),
+  WIM("Wimbledon"),
+  EAD("Earlsfield"),
+  BAL("Balham"),
+  CLJ("Clapham Junction"),
+  VXH("Vauxhall"),
+  WAT("Waterloo"),
+  CKR("Chelsea Kings Road"),
+  VIC("Victoria"),
+  TCR("Tottenham Court Road"),
+  EUS("Euston"),
+  STP("St Pancras"),
+  AGL("Angel"),
+  BDS("Bond Street"),
+  ZFD("Farringdon"),
+  MOG("Moorgate"),
+  LST("Liverpool Street"),
+  CWF("Canary Wharf"),
+  CHX("Charing Cross"),
+  LBG("London Bridge"),
+  UMD("Morden"),
+  USW("South Wimbledon"),
+  UTB("Tooting Broadway"),
+  UCS("Clapham South"),
+  UST("Stockwell"),
+  UKN("Kennington"),
+  UEC("Elephant & Castle"),
+  UBH("Borough"),
+  UBK("Bank/Monument"),
+  UOS("Old Street"),
+  ULS("Leicester Square"),
+  UGP("Green Park"),
+  UOX("Oxford Circus"),
+  UBS("Baker Street"),
+  UHL("Holborn"),
+  UCL("Chancery Lane"),
+  USP("St Pauls"),
+  UWM("Westminster"),
+  UTM("Temple");
+
+  private final String description;
+
+  private Station(String description) {
+    this.description = description;
+  }
+
+  public String description() {
+    return description;
+  }
 
 }

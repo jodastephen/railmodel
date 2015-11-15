@@ -26,6 +26,7 @@ import com.google.common.collect.ImmutableList;
  */
 public final class Route {
 
+  private final String service;
   private final String name;
   private final int frequency;
   private final ImmutableList<Station> stations;
@@ -34,22 +35,23 @@ public final class Route {
   private final Route flat;
 
   //-------------------------------------------------------------------------
-  public static Route of(String name, int frequency, List<Station> stations, List<Integer> times) {
-    return of(name, frequency, stations, times, null);
+  public static Route of(String service, String name, int frequency, List<Station> stations, List<Integer> times) {
+    return of(service, name, frequency, stations, times, null);
   }
 
-  public static Route of(String name, int frequency, List<Station> stations, List<Integer> times, Route nextSegment) {
-    return new Route(name, frequency, stations, times, nextSegment);
+  public static Route of(String service, String name, int frequency, List<Station> stations, List<Integer> times, Route nextSegment) {
+    return new Route(service, name, frequency, stations, times, nextSegment);
   }
 
   //-------------------------------------------------------------------------
-  public Route(String name, int frequency, List<Station> stations, List<Integer> times, Route nextSegment) {
+  private Route(String service, String name, int frequency, List<Station> stations, List<Integer> times, Route nextSegment) {
     if (stations.size() - 1 != times.size()) {
       throw new IllegalArgumentException("Times must be one less than stations");
     }
     if (nextSegment != null && !stations.get(stations.size() - 1).equals(nextSegment.getStations().get(0))) {
       throw new IllegalArgumentException("Invalid next segment");
     }
+    this.service = service;
     this.name = name;
     this.frequency = frequency;
     this.stations = ImmutableList.copyOf(stations);
@@ -65,12 +67,16 @@ public final class Route {
       List<Integer> flatTimes = new ArrayList<>(times);
       flatStations.addAll(flatNext.getStations().subList(1, flatNext.getStations().size()));
       flatTimes.addAll(flatNext.getTimes());
-      return new Route(name, frequency, flatStations, flatTimes, null);
+      return new Route(service, name, frequency, flatStations, flatTimes, null);
     }
     return this;
   }
 
   //-------------------------------------------------------------------------
+  public String getService() {
+    return service;
+  }
+
   public String getName() {
     return name;
   }

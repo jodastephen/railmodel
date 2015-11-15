@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import com.google.common.base.Joiner;
+import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableList;
 import com.google.common.primitives.Ints;
 
@@ -30,8 +30,16 @@ import com.google.common.primitives.Ints;
  */
 public class Model {
 
+  /**
+   * The maximum a journey can be over the shortest to still be printed.
+   */
+  private static final int MAX_EXCESS = 15;
+
   private final List<Route> routes = new ArrayList<>();
   private final List<Change> changes = new ArrayList<>();
+
+  Model() {
+  }
 
   //-------------------------------------------------------------------------
   public void addRoute(Route route) {
@@ -45,10 +53,21 @@ public class Model {
   //-------------------------------------------------------------------------
   public String explain(Station start, Station end) {
     StringBuilder buf = new StringBuilder();
-    buf.append("From ").append(start).append(" to ").append(end).append("\n");
+    buf.append("From ").append(start.description()).append(" to ").append(end.description()).append("\n");
+    buf.append(Strings.repeat("-", buf.length() - 1)).append("\n");
     List<Journey> solved = solve(start, end);
     solved.sort(Comparator.naturalOrder());
-    buf.append(Joiner.on("\n").join(solved)).append("\n");
+    Journey first = solved.get(0);
+    for (Journey journey : solved) {
+      if (journey != first) {
+        int diff = first.differenceTo(journey);
+        if (diff <= MAX_EXCESS) {
+          buf.append("* ").append(journey).append(" (+").append(diff).append("m)").append("\n");
+        }
+      } else {
+        buf.append("* ").append(journey).append("\n");
+      }
+    }
     return buf.toString();
   }
 
@@ -73,7 +92,7 @@ public class Model {
       int startIndex = effectiveStations.indexOf(start);
       effectiveStations = effectiveStations.subList(startIndex + 1, effectiveStations.size());
       for (Station possibleChange : effectiveStations) {
-        List<Change> changes = findChanges(possibleChange, baseRoute, end);
+        List<Change> changes = findChanges(possibleChange, base, baseRoute, end);
         for (Change change : changes) {
           if (change.getRoute2().containsAfter(end, change.getStation())) {
             journeys.add(Journey.of(start, end, baseRoute, change));
@@ -83,10 +102,10 @@ public class Model {
             int startIndex2 = effectiveStations2.indexOf(change.getStation());
             effectiveStations2 = effectiveStations2.subList(startIndex2 + 1, effectiveStations2.size());
             for (Station possibleChange2 : effectiveStations2) {
-              List<Change> changes2 = findChanges(possibleChange2, change.getRoute2(), end);
+              List<Change> changes2 = findChanges(possibleChange2, base, change.getRoute2(), end);
               for (Change change2 : changes2) {
                 if (change2.getRoute2().containsAfter(end, change2.getStation())) {
-                  if (!(baseRoute.getName().contains("CR2") && change2.getRoute2().getName().contains("CR2"))) {
+                  if (!(baseRoute.getService().equals(change2.getRoute2().getService()))) {
                     journeys.add(Journey.of(start, end, baseRoute, change, change2));
                   }
                 }
@@ -99,12 +118,22 @@ public class Model {
     return journeys;
   }
 
-  private List<Change> findChanges(Station possibleChange, Route baseRoute, Station dest) {
+  private List<Change> findChanges(Station possibleChange, List<Route> allBase, Route baseRoute, Station dest) {
     return changes.stream()
         .filter(c -> c.getStation().equals(possibleChange))
         .filter(c -> baseRoute.includes(c.getRoute1()))
         .filter(c -> !c.getStation().equals(dest))
+        .filter(c -> !isStupidChangeToRouteAvailableAtStartPoint(allBase, c))
         .collect(Collectors.toList());
+  }
+
+  private boolean isStupidChangeToRouteAvailableAtStartPoint(List<Route> allBase, Change change) {
+    for (Route route : allBase) {
+      if (route.includes(change.getRoute2())) {
+        return true;
+      }
+    }
+    return false;
   }
 
   //-------------------------------------------------------------------------
