@@ -30,10 +30,10 @@ import com.google.common.io.Files;
 /**
  * Calculates journey times for SW London with Crossrail 2 in place.
  */
-public class Crossrail2SWLondonModel extends Model {
+public class Crossrail2BalhamSWLondonModel extends Model {
 
   public static void main(String[] args) throws Exception {
-    Crossrail2SWLondonModel model = new Crossrail2SWLondonModel();
+    Crossrail2BalhamSWLondonModel model = new Crossrail2BalhamSWLondonModel();
     ImmutableList<Station> starts = ImmutableList.of(
         CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB, BAL);
     ImmutableList<Station> ends = ImmutableList.of(
@@ -78,7 +78,7 @@ public class Crossrail2SWLondonModel extends Model {
     System.out.println(result);
   }
 
-  Crossrail2SWLondonModel() {
+  Crossrail2BalhamSWLondonModel() {
     setup();
   }
 
