@@ -96,7 +96,7 @@ From Chessington South to London Bridge
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 44-55m at 4tph (+8m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 49-53m at 4tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 50-53m at 4tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 52-56m at 4tph (+12m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 52-58m at 4tph (+13m)
 
 From Chessington South to Bank/Monument
 ---------------------------------------
@@ -112,22 +112,24 @@ From Chessington South to Moorgate
 * CR2 changing to CR1 at TCR in 42-44m at 4tph
 * CR2 changing to Northern (City) at BAL in 45-47m at 4tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 46-49m at 4tph (+5m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 52-56m at 4tph (+11m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 52-58m at 4tph (+12m)
 
 From Chessington South to Old Street
 ------------------------------------
 * CR2 changing to Northern (City) Southbound at AGL in 45-48m at 4tph
 * CR2 changing to Northern (City) at BAL in 46-48m at 4tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 46-50m at 4tph (+2m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 53-57m at 4tph (+9m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 53-59m at 4tph (+10m)
 
 From Chessington South to Chancery Lane
 ---------------------------------------
 * CR2 changing to Central at TCR in 42-44m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 51-57m at 4tph (+11m)
 
 From Chessington South to St Pauls
 ----------------------------------
 * CR2 changing to Central at TCR in 44-46m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 49-55m at 4tph (+7m)
 
 
 ----
@@ -217,7 +219,6 @@ From Leatherhead to Borough
 * LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 50-54m at 4tph (+3m)
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 54-59m at 4tph (+7m)
 * LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 60-66m at 4tph (+14m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 60-69m at 4tph (+15m)
 
 From Leatherhead to London Bridge
 ---------------------------------
@@ -225,8 +226,8 @@ From Leatherhead to London Bridge
 * LHD-WAT changing to Jubilee at WAT in 50-53m at 4tph (+0m)
 * LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 52-56m at 4tph (+3m)
 * LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 58-64m at 4tph (+10m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 58-67m at 4tph (+11m)
 * LHD-WAT changing to CR2 at WIM changing to Northern (City) Southbound at AGL in 61-66m at 4tph (+12m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 58-69m at 4tph (+12m)
 * LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 62-67m at 4tph (+13m)
 
 From Leatherhead to Bank/Monument
@@ -257,7 +258,7 @@ From Leatherhead to Moorgate
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 56-61m at 4tph (+6m)
 * LHD-WAT changing to CR2 at WIM changing to Northern (City) Southbound at AGL in 57-62m at 4tph (+7m)
 * LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 58-63m at 4tph (+8m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 58-67m at 4tph (+10m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 58-69m at 4tph (+11m)
 
 From Leatherhead to Old Street
 ------------------------------
@@ -267,19 +268,21 @@ From Leatherhead to Old Street
 * LHD-WAT changing to CR2 at WIM changing to Northern (City) at BAL in 57-61m at 4tph (+3m)
 * LHD-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 57-62m at 4tph (+4m)
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 57-62m at 4tph (+4m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 59-68m at 4tph (+8m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 59-70m at 4tph (+9m)
 
 From Leatherhead to Chancery Lane
 ---------------------------------
 * LHD-WAT changing to CR2 at RAY changing to Central at TCR in 50-55m at 4tph
 * LHD-WAT changing to CR2 at WIM changing to Central at TCR in 53-57m at 4tph (+3m)
 * LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 54-58m at 4tph (+4m)
+* LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 59-70m at 4tph (+12m)
 
 From Leatherhead to St Pauls
 ----------------------------
 * LHD-WAT changing to CR2 at RAY changing to Central at TCR in 52-57m at 4tph
 * LHD-WAT changing to CR2 at WIM changing to Central at TCR in 55-59m at 4tph (+3m)
 * LHD-WAT changing to CR2 at CLJ changing to Central at TCR in 56-60m at 4tph (+4m)
+* LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 57-68m at 4tph (+8m)
 
 
 ----
@@ -370,8 +373,8 @@ From Epsom to London Bridge
 * LHD-WAT changing to Jubilee at WAT in 42-45m at 4tph (+2m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 49-53m at 6tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 50-53m at 6tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 52-56m at 6tph (+12m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 50-59m at 4tph (+13m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 52-58m at 6tph (+13m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 50-61m at 4tph (+14m)
 
 From Epsom to Bank/Monument
 ---------------------------
@@ -390,8 +393,8 @@ From Epsom to Moorgate
 * CR2 changing to Northern (City) at BAL in 45-47m at 6tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 46-49m at 6tph (+5m)
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 48-53m at 4tph (+8m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 52-56m at 6tph (+11m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 50-59m at 4tph (+12m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 52-58m at 6tph (+12m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 50-61m at 4tph (+13m)
 
 From Epsom to Old Street
 ------------------------
@@ -399,16 +402,20 @@ From Epsom to Old Street
 * CR2 changing to Northern (City) at BAL in 46-48m at 6tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 46-50m at 6tph (+2m)
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 49-54m at 4tph (+5m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 53-57m at 6tph (+9m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 51-60m at 4tph (+9m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 53-59m at 6tph (+10m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 51-62m at 4tph (+10m)
 
 From Epsom to Chancery Lane
 ---------------------------
 * CR2 changing to Central at TCR in 42-44m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 51-57m at 6tph (+11m)
+* LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 51-62m at 4tph (+14m)
 
 From Epsom to St Pauls
 ----------------------
 * CR2 changing to Central at TCR in 44-46m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 49-55m at 6tph (+7m)
+* LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 49-60m at 4tph (+10m)
 
 
 ----
@@ -493,7 +500,7 @@ From Stoneleigh to London Bridge
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 39-50m at 6tph (+8m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 44-48m at 6tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 45-48m at 6tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 47-51m at 6tph (+12m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 47-53m at 6tph (+13m)
 
 From Stoneleigh to Bank/Monument
 --------------------------------
@@ -509,22 +516,24 @@ From Stoneleigh to Moorgate
 * CR2 changing to CR1 at TCR in 37-39m at 6tph
 * CR2 changing to Northern (City) at BAL in 40-42m at 6tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 41-44m at 6tph (+5m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 47-51m at 6tph (+11m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 47-53m at 6tph (+12m)
 
 From Stoneleigh to Old Street
 -----------------------------
 * CR2 changing to Northern (City) Southbound at AGL in 40-43m at 6tph
 * CR2 changing to Northern (City) at BAL in 41-43m at 6tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 41-45m at 6tph (+2m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 48-52m at 6tph (+9m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 48-54m at 6tph (+10m)
 
 From Stoneleigh to Chancery Lane
 --------------------------------
 * CR2 changing to Central at TCR in 37-39m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 46-52m at 6tph (+11m)
 
 From Stoneleigh to St Pauls
 ---------------------------
 * CR2 changing to Central at TCR in 39-41m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 44-50m at 6tph (+7m)
 
 
 ----
@@ -615,8 +624,8 @@ From Worcester Park to London Bridge
 * LHD-WAT changing to Jubilee at WAT in 35-38m at 4tph (+3m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 41-45m at 6tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 42-45m at 6tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 44-48m at 6tph (+12m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 43-52m at 4tph (+14m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 44-50m at 6tph (+13m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 43-54m at 4tph (+15m)
 
 From Worcester Park to Bank/Monument
 ------------------------------------
@@ -634,8 +643,8 @@ From Worcester Park to Moorgate
 * CR2 changing to Northern (City) at BAL in 37-39m at 6tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 38-41m at 6tph (+5m)
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 41-46m at 4tph (+9m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 44-48m at 6tph (+11m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 43-52m at 4tph (+13m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 44-50m at 6tph (+12m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 43-54m at 4tph (+14m)
 
 From Worcester Park to Old Street
 ---------------------------------
@@ -643,16 +652,20 @@ From Worcester Park to Old Street
 * CR2 changing to Northern (City) at BAL in 38-40m at 6tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 38-42m at 6tph (+2m)
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 42-47m at 4tph (+6m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 45-49m at 6tph (+9m)
-* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 44-53m at 4tph (+10m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 45-51m at 6tph (+10m)
+* LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 44-55m at 4tph (+11m)
 
 From Worcester Park to Chancery Lane
 ------------------------------------
 * CR2 changing to Central at TCR in 34-36m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 43-49m at 6tph (+11m)
+* LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 44-55m at 4tph (+15m)
 
 From Worcester Park to St Pauls
 -------------------------------
 * CR2 changing to Central at TCR in 36-38m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 41-47m at 6tph (+7m)
+* LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 42-53m at 4tph (+11m)
 
 
 ----
@@ -737,7 +750,7 @@ From Motspur Park to London Bridge
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 33-44m at 8tph (+8m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 38-42m at 10tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 39-42m at 10tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 41-45m at 10tph (+12m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 41-47m at 10tph (+13m)
 
 From Motspur Park to Bank/Monument
 ----------------------------------
@@ -753,22 +766,24 @@ From Motspur Park to Moorgate
 * CR2 changing to CR1 at TCR in 31-33m at 10tph
 * CR2 changing to Northern (City) at BAL in 34-36m at 10tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 35-38m at 10tph (+5m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 41-45m at 10tph (+11m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 41-47m at 10tph (+12m)
 
 From Motspur Park to Old Street
 -------------------------------
 * CR2 changing to Northern (City) Southbound at AGL in 34-37m at 10tph
 * CR2 changing to Northern (City) at BAL in 35-37m at 10tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 35-39m at 10tph (+2m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 42-46m at 10tph (+9m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 42-48m at 10tph (+10m)
 
 From Motspur Park to Chancery Lane
 ----------------------------------
 * CR2 changing to Central at TCR in 31-33m at 10tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 40-46m at 10tph (+11m)
 
 From Motspur Park to St Pauls
 -----------------------------
 * CR2 changing to Central at TCR in 33-35m at 10tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 38-44m at 10tph (+7m)
 
 
 ----
@@ -853,7 +868,7 @@ From Shepperton to London Bridge
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 63-74m at 4tph (+8m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 68-72m at 4tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 69-72m at 4tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 71-75m at 4tph (+12m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 71-77m at 4tph (+13m)
 
 From Shepperton to Bank/Monument
 --------------------------------
@@ -869,22 +884,24 @@ From Shepperton to Moorgate
 * CR2 changing to CR1 at TCR in 61-63m at 4tph
 * CR2 changing to Northern (City) at BAL in 64-66m at 4tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 65-68m at 4tph (+5m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 71-75m at 4tph (+11m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 71-77m at 4tph (+12m)
 
 From Shepperton to Old Street
 -----------------------------
 * CR2 changing to Northern (City) Southbound at AGL in 64-67m at 4tph
 * CR2 changing to Northern (City) at BAL in 65-67m at 4tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 65-69m at 4tph (+2m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 72-76m at 4tph (+9m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 72-78m at 4tph (+10m)
 
 From Shepperton to Chancery Lane
 --------------------------------
 * CR2 changing to Central at TCR in 61-63m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 70-76m at 4tph (+11m)
 
 From Shepperton to St Pauls
 ---------------------------
 * CR2 changing to Central at TCR in 63-65m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 68-74m at 4tph (+7m)
 
 
 ----
@@ -969,7 +986,7 @@ From Fulwell to London Bridge
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 50-61m at 4tph (+8m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 55-59m at 4tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 56-59m at 4tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 58-62m at 4tph (+12m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 58-64m at 4tph (+13m)
 
 From Fulwell to Bank/Monument
 -----------------------------
@@ -985,22 +1002,24 @@ From Fulwell to Moorgate
 * CR2 changing to CR1 at TCR in 48-50m at 4tph
 * CR2 changing to Northern (City) at BAL in 51-53m at 4tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 52-55m at 4tph (+5m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 58-62m at 4tph (+11m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 58-64m at 4tph (+12m)
 
 From Fulwell to Old Street
 --------------------------
 * CR2 changing to Northern (City) Southbound at AGL in 51-54m at 4tph
 * CR2 changing to Northern (City) at BAL in 52-54m at 4tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 52-56m at 4tph (+2m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 59-63m at 4tph (+9m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 59-65m at 4tph (+10m)
 
 From Fulwell to Chancery Lane
 -----------------------------
 * CR2 changing to Central at TCR in 48-50m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 57-63m at 4tph (+11m)
 
 From Fulwell to St Pauls
 ------------------------
 * CR2 changing to Central at TCR in 50-52m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 55-61m at 4tph (+7m)
 
 
 ----
@@ -1091,8 +1110,8 @@ From Kingston to London Bridge
 * TWI-WAT changing to Jubilee at WAT in 39-42m at 4tph (+3m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 45-49m at 6tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 46-49m at 6tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 48-52m at 6tph (+12m)
-* TWI-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 47-56m at 4tph (+14m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 48-54m at 6tph (+13m)
+* TWI-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 47-58m at 4tph (+15m)
 
 From Kingston to Bank/Monument
 ------------------------------
@@ -1110,8 +1129,8 @@ From Kingston to Moorgate
 * CR2 changing to Northern (City) at BAL in 41-43m at 6tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 42-45m at 6tph (+5m)
 * TWI-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 45-50m at 4tph (+9m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 48-52m at 6tph (+11m)
-* TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 47-56m at 4tph (+13m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 48-54m at 6tph (+12m)
+* TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 47-58m at 4tph (+14m)
 
 From Kingston to Old Street
 ---------------------------
@@ -1119,16 +1138,20 @@ From Kingston to Old Street
 * CR2 changing to Northern (City) at BAL in 42-44m at 6tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 42-46m at 6tph (+2m)
 * TWI-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 46-51m at 4tph (+6m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 49-53m at 6tph (+9m)
-* TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 48-57m at 4tph (+10m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 49-55m at 6tph (+10m)
+* TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 48-59m at 4tph (+11m)
 
 From Kingston to Chancery Lane
 ------------------------------
 * CR2 changing to Central at TCR in 38-40m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 47-53m at 6tph (+11m)
+* TWI-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 48-59m at 4tph (+15m)
 
 From Kingston to St Pauls
 -------------------------
 * CR2 changing to Central at TCR in 40-42m at 6tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 45-51m at 6tph (+7m)
+* TWI-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 46-57m at 4tph (+11m)
 
 
 ----
@@ -1241,7 +1264,7 @@ From Hampton Court to London Bridge
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 46-57m at 4tph (+8m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 51-55m at 4tph (+10m)
 * CR2 changing to Northern (City) Southbound at AGL in 52-55m at 4tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 54-58m at 4tph (+13m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 54-60m at 4tph (+14m)
 
 From Hampton Court to Bank/Monument
 -----------------------------------
@@ -1259,22 +1282,24 @@ From Hampton Court to Moorgate
 * CR2 changing to CR1 at TCR in 44-46m at 4tph
 * CR2 changing to Northern (City) at BAL in 47-49m at 4tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 48-51m at 4tph (+5m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 54-58m at 4tph (+11m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 54-60m at 4tph (+12m)
 
 From Hampton Court to Old Street
 --------------------------------
 * CR2 changing to Northern (City) Southbound at AGL in 47-50m at 4tph
 * CR2 changing to Northern (City) at BAL in 48-50m at 4tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 48-52m at 4tph (+2m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 55-59m at 4tph (+9m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 55-61m at 4tph (+10m)
 
 From Hampton Court to Chancery Lane
 -----------------------------------
 * CR2 changing to Central at TCR in 44-46m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 53-59m at 4tph (+11m)
 
 From Hampton Court to St Pauls
 ------------------------------
 * CR2 changing to Central at TCR in 46-48m at 4tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 51-57m at 4tph (+7m)
 
 
 ----
@@ -1386,9 +1411,9 @@ From Surbiton to Borough
 * CR2 changing to Northern (City) at BAL in 33-35m at 4tph
 * SUR-WAT (fast) changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 34-39m at 6tph (+3m)
 * SUR-WAT (slow) changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 36-41m at 4tph (+5m)
-* SUR-WAT (fast) changing to W&C at WAT changing to Northern (City) Southbound at UBK in 40-49m at 6tph (+11m)
-* SUR-WAT (slow) changing to W&C at WAT changing to Northern (City) Southbound at UBK in 42-51m at 4tph (+13m)
+* SUR-WAT (fast) changing to W&C at WAT changing to Northern (City) Southbound at UBK in 40-51m at 6tph (+12m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 45-49m at 4tph (+13m)
+* SUR-WAT (slow) changing to W&C at WAT changing to Northern (City) Southbound at UBK in 42-53m at 4tph (+14m)
 * CR2 changing to Northern (City) Southbound at AGL in 46-49m at 4tph (+14m)
 
 From Surbiton to London Bridge
@@ -1396,10 +1421,10 @@ From Surbiton to London Bridge
 * SUR-WAT (fast) changing to Jubilee at WAT in 30-33m at 6tph
 * SUR-WAT (slow) changing to Jubilee at WAT in 32-35m at 4tph (+2m)
 * CR2 changing to Northern (City) at BAL in 35-37m at 4tph (+5m)
-* SUR-WAT (fast) changing to W&C at WAT changing to Northern (City) Southbound at UBK in 38-47m at 6tph (+11m)
+* SUR-WAT (fast) changing to W&C at WAT changing to Northern (City) Southbound at UBK in 38-49m at 6tph (+12m)
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 38-49m at 4tph (+12m)
-* SUR-WAT (slow) changing to W&C at WAT changing to Northern (City) Southbound at UBK in 40-49m at 4tph (+13m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 43-47m at 4tph (+14m)
+* SUR-WAT (slow) changing to W&C at WAT changing to Northern (City) Southbound at UBK in 40-51m at 4tph (+14m)
 * CR2 changing to Northern (City) Southbound at AGL in 44-47m at 4tph (+14m)
 
 From Surbiton to Bank/Monument
@@ -1424,9 +1449,9 @@ From Surbiton to Moorgate
 * CR2 changing to Northern (City) at BAL in 39-41m at 4tph (+3m)
 * SUR-WAT (slow) changing to Jubilee at WAT changing to Northern (City) at LBG in 38-43m at 4tph (+4m)
 * CR2 changing to Northern (City) Southbound at AGL in 40-43m at 4tph (+5m)
-* SUR-WAT (fast) changing to W&C at WAT changing to Northern (City) at UBK in 38-47m at 6tph (+6m)
-* SUR-WAT (slow) changing to W&C at WAT changing to Northern (City) at UBK in 40-49m at 4tph (+8m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 46-50m at 4tph (+11m)
+* SUR-WAT (fast) changing to W&C at WAT changing to Northern (City) at UBK in 38-49m at 6tph (+7m)
+* SUR-WAT (slow) changing to W&C at WAT changing to Northern (City) at UBK in 40-51m at 4tph (+9m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 46-52m at 4tph (+12m)
 
 From Surbiton to Old Street
 ---------------------------
@@ -1435,17 +1460,23 @@ From Surbiton to Old Street
 * CR2 changing to Northern (City) at BAL in 40-42m at 4tph (+2m)
 * SUR-WAT (slow) changing to Jubilee at WAT changing to Northern (City) at LBG in 39-44m at 4tph (+2m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 40-44m at 4tph (+3m)
-* SUR-WAT (fast) changing to W&C at WAT changing to Northern (City) at UBK in 39-48m at 6tph (+4m)
-* SUR-WAT (slow) changing to W&C at WAT changing to Northern (City) at UBK in 41-50m at 4tph (+6m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 47-51m at 4tph (+10m)
+* SUR-WAT (fast) changing to W&C at WAT changing to Northern (City) at UBK in 39-50m at 6tph (+5m)
+* SUR-WAT (slow) changing to W&C at WAT changing to Northern (City) at UBK in 41-52m at 4tph (+7m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 47-53m at 4tph (+11m)
 
 From Surbiton to Chancery Lane
 ------------------------------
 * CR2 changing to Central at TCR in 36-38m at 4tph
+* SUR-WAT (fast) changing to W&C at WAT changing to Central (Westbound) at UBK in 39-50m at 6tph (+8m)
+* SUR-WAT (slow) changing to W&C at WAT changing to Central (Westbound) at UBK in 41-52m at 4tph (+10m)
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 45-51m at 4tph (+11m)
 
 From Surbiton to St Pauls
 -------------------------
 * CR2 changing to Central at TCR in 38-40m at 4tph
+* SUR-WAT (fast) changing to W&C at WAT changing to Central (Westbound) at UBK in 37-48m at 6tph (+4m)
+* SUR-WAT (slow) changing to W&C at WAT changing to Central (Westbound) at UBK in 39-50m at 4tph (+6m)
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 43-49m at 4tph (+7m)
 
 
 ----
@@ -1536,8 +1567,8 @@ From New Malden to London Bridge
 * TWI-WAT changing to Jubilee at WAT in 32-35m at 4tph (+3m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 38-42m at 10tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 39-42m at 10tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 41-45m at 10tph (+12m)
-* TWI-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 40-49m at 4tph (+14m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 41-47m at 10tph (+13m)
+* TWI-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 40-51m at 4tph (+15m)
 
 From New Malden to Bank/Monument
 --------------------------------
@@ -1555,8 +1586,8 @@ From New Malden to Moorgate
 * CR2 changing to Northern (City) at BAL in 34-36m at 10tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 35-38m at 10tph (+5m)
 * TWI-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 38-43m at 4tph (+9m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 41-45m at 10tph (+11m)
-* TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 40-49m at 4tph (+13m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 41-47m at 10tph (+12m)
+* TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 40-51m at 4tph (+14m)
 
 From New Malden to Old Street
 -----------------------------
@@ -1564,16 +1595,20 @@ From New Malden to Old Street
 * CR2 changing to Northern (City) at BAL in 35-37m at 10tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 35-39m at 10tph (+2m)
 * TWI-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 39-44m at 4tph (+6m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 42-46m at 10tph (+9m)
-* TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 41-50m at 4tph (+10m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 42-48m at 10tph (+10m)
+* TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 41-52m at 4tph (+11m)
 
 From New Malden to Chancery Lane
 --------------------------------
 * CR2 changing to Central at TCR in 31-33m at 10tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 40-46m at 10tph (+11m)
+* TWI-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 41-52m at 4tph (+15m)
 
 From New Malden to St Pauls
 ---------------------------
 * CR2 changing to Central at TCR in 33-35m at 10tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 38-44m at 10tph (+7m)
+* TWI-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 39-50m at 4tph (+11m)
 
 
 ----
@@ -1664,8 +1699,8 @@ From Raynes Park to London Bridge
 * RAY-WAT changing to Jubilee at WAT in 29-32m at 8tph (+3m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 35-39m at 20tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 36-39m at 20tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 38-42m at 20tph (+12m)
-* RAY-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 37-46m at 8tph (+14m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 38-44m at 20tph (+13m)
+* RAY-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 37-48m at 8tph (+15m)
 
 From Raynes Park to Bank/Monument
 ---------------------------------
@@ -1683,8 +1718,8 @@ From Raynes Park to Moorgate
 * CR2 changing to Northern (City) at BAL in 31-33m at 20tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 32-35m at 20tph (+5m)
 * RAY-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 35-40m at 8tph (+9m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 38-42m at 20tph (+11m)
-* RAY-WAT changing to W&C at WAT changing to Northern (City) at UBK in 37-46m at 8tph (+13m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 38-44m at 20tph (+12m)
+* RAY-WAT changing to W&C at WAT changing to Northern (City) at UBK in 37-48m at 8tph (+14m)
 
 From Raynes Park to Old Street
 ------------------------------
@@ -1692,16 +1727,20 @@ From Raynes Park to Old Street
 * CR2 changing to Northern (City) at BAL in 32-34m at 20tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 32-36m at 20tph (+2m)
 * RAY-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 36-41m at 8tph (+6m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 39-43m at 20tph (+9m)
-* RAY-WAT changing to W&C at WAT changing to Northern (City) at UBK in 38-47m at 8tph (+10m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 39-45m at 20tph (+10m)
+* RAY-WAT changing to W&C at WAT changing to Northern (City) at UBK in 38-49m at 8tph (+11m)
 
 From Raynes Park to Chancery Lane
 ---------------------------------
 * CR2 changing to Central at TCR in 28-30m at 20tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 37-43m at 20tph (+11m)
+* RAY-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 38-49m at 8tph (+15m)
 
 From Raynes Park to St Pauls
 ----------------------------
 * CR2 changing to Central at TCR in 30-32m at 20tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 35-41m at 20tph (+7m)
+* RAY-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 36-47m at 8tph (+11m)
 
 
 ----
@@ -1792,8 +1831,8 @@ From Wimbledon to London Bridge
 * WIM-WAT changing to Jubilee at WAT in 25-28m at 12tph (+3m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 31-35m at 30tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 32-35m at 30tph (+10m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 34-38m at 30tph (+12m)
-* WIM-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 33-42m at 12tph (+14m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 34-40m at 30tph (+13m)
+* WIM-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 33-44m at 12tph (+15m)
 
 From Wimbledon to Bank/Monument
 -------------------------------
@@ -1811,8 +1850,8 @@ From Wimbledon to Moorgate
 * CR2 changing to Northern (City) at BAL in 27-29m at 30tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 28-31m at 30tph (+5m)
 * WIM-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 31-36m at 12tph (+9m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 34-38m at 30tph (+11m)
-* WIM-WAT changing to W&C at WAT changing to Northern (City) at UBK in 33-42m at 12tph (+13m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 34-40m at 30tph (+12m)
+* WIM-WAT changing to W&C at WAT changing to Northern (City) at UBK in 33-44m at 12tph (+14m)
 
 From Wimbledon to Old Street
 ----------------------------
@@ -1820,16 +1859,20 @@ From Wimbledon to Old Street
 * CR2 changing to Northern (City) at BAL in 28-30m at 30tph (+1m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 28-32m at 30tph (+2m)
 * WIM-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 32-37m at 12tph (+6m)
-* CR2 changing to Central at TCR changing to Northern (City) at UBK in 35-39m at 30tph (+9m)
-* WIM-WAT changing to W&C at WAT changing to Northern (City) at UBK in 34-43m at 12tph (+10m)
+* CR2 changing to Central at TCR changing to Northern (City) at UBK in 35-41m at 30tph (+10m)
+* WIM-WAT changing to W&C at WAT changing to Northern (City) at UBK in 34-45m at 12tph (+11m)
 
 From Wimbledon to Chancery Lane
 -------------------------------
 * CR2 changing to Central at TCR in 24-26m at 30tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 33-39m at 30tph (+11m)
+* WIM-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 34-45m at 12tph (+15m)
 
 From Wimbledon to St Pauls
 --------------------------
 * CR2 changing to Central at TCR in 26-28m at 30tph
+* CR2 changing to Northern (City) at BAL changing to Central (Westbound) at UBK in 31-37m at 30tph (+7m)
+* WIM-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 32-43m at 12tph (+11m)
 
 
 ----
@@ -1921,10 +1964,12 @@ From Morden to Old Street
 From Morden to Chancery Lane
 ----------------------------
 * Northern (City) changing to CR2 at BAL changing to Central at TCR in 32-36m at 30tph
+* Northern (City) changing to Central (Westbound) at UBK in 37-41m at 30tph (+5m)
 
 From Morden to St Pauls
 -----------------------
 * Northern (City) changing to CR2 at BAL changing to Central at TCR in 34-38m at 30tph
+* Northern (City) changing to Central (Westbound) at UBK in 35-39m at 30tph (+1m)
 
 
 ----
@@ -2016,10 +2061,12 @@ From South Wimbledon to Old Street
 From South Wimbledon to Chancery Lane
 -------------------------------------
 * Northern (City) changing to CR2 at BAL changing to Central at TCR in 30-34m at 30tph
+* Northern (City) changing to Central (Westbound) at UBK in 35-39m at 30tph (+5m)
 
 From South Wimbledon to St Pauls
 --------------------------------
 * Northern (City) changing to CR2 at BAL changing to Central at TCR in 32-36m at 30tph
+* Northern (City) changing to Central (Westbound) at UBK in 33-37m at 30tph (+1m)
 
 
 ----
@@ -2111,10 +2158,12 @@ From Tooting Broadway to Old Street
 From Tooting Broadway to Chancery Lane
 --------------------------------------
 * Northern (City) changing to CR2 at BAL changing to Central at TCR in 26-30m at 30tph
+* Northern (City) changing to Central (Westbound) at UBK in 31-35m at 30tph (+5m)
 
 From Tooting Broadway to St Pauls
 ---------------------------------
 * Northern (City) changing to CR2 at BAL changing to Central at TCR in 28-32m at 30tph
+* Northern (City) changing to Central (Westbound) at UBK in 29-33m at 30tph (+1m)
 
 
 ----
@@ -2225,10 +2274,12 @@ From Balham to Old Street
 From Balham to Chancery Lane
 ----------------------------
 * CR2 changing to Central at TCR in 20-22m at 30tph
+* Northern (City) changing to Central (Westbound) at UBK in 27-31m at 30tph (+8m)
 
 From Balham to St Pauls
 -----------------------
 * CR2 changing to Central at TCR in 22-24m at 30tph
+* Northern (City) changing to Central (Westbound) at UBK in 25-29m at 30tph (+4m)
 
 
 ----

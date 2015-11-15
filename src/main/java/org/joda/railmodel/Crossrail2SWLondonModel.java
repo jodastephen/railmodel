@@ -283,6 +283,12 @@ public class Crossrail2SWLondonModel extends Model {
         36,
         stations(BDS, UOX, TCR, UHL, UCL, USP, UBK, LST),
         times(1, 1, 2, 2, 2, 2, 2));
+    Route ucentralwb = Route.of(
+        "Central",
+        "Central (Westbound)",
+        36,
+        stations(UBK, USP, UCL, UHL),
+        times(2, 2, 2));
     Route cr1 = Route.of(
         "CR1",
         "CR1",
@@ -299,6 +305,7 @@ public class Crossrail2SWLondonModel extends Model {
     addRoute(uwandc);
     addRoute(udistrict);
     addRoute(ucentral);
+    addRoute(ucentralwb);
     addRoute(cr1);
 
     // change CR2 to WAT at SUR, assume 6 tracks between Surbiton and New Malden
@@ -360,12 +367,14 @@ public class Crossrail2SWLondonModel extends Model {
     addChange(Change.of(LBG, ujubilee, unortherncity, 2, 4));
     addChange(Change.of(LBG, ujubilee, unortherncitysb, 2, 4));
 
-    // change at Moorgate
-    addChange(Change.of(UBK, ucentral, unortherncity, 4, 6));
-    addChange(Change.of(UBK, ucentral, unortherncitysb, 4, 6));
-    addChange(Change.of(UBK, unortherncity, ucentral, 4, 6));
-    addChange(Change.of(UBK, uwandc, unortherncity, 5, 7));
-    addChange(Change.of(UBK, uwandc, unortherncitysb, 5, 7));
+    // change at Bank
+    addChange(Change.of(UBK, ucentral, unortherncity, 4, 8));
+    addChange(Change.of(UBK, ucentral, unortherncitysb, 4, 8));
+    addChange(Change.of(UBK, unortherncity, ucentral, 4, 8));
+    addChange(Change.of(UBK, unortherncity, ucentralwb, 4, 8));
+    addChange(Change.of(UBK, uwandc, ucentralwb, 4, 8));
+    addChange(Change.of(UBK, uwandc, unortherncity, 5, 9));
+    addChange(Change.of(UBK, uwandc, unortherncitysb, 5, 9));
 
     // change at Moorgate
     addChange(Change.of(MOG, unortherncity, cr1, 3, 5));
