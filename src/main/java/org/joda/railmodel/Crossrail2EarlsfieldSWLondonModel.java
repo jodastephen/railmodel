@@ -37,7 +37,7 @@ public class Crossrail2EarlsfieldSWLondonModel extends Model {
     ImmutableList<Station> starts = ImmutableList.of(
         CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB);
     ImmutableList<Station> ends = ImmutableList.of(
-        VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UCL, USP);
+        VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UCL, USP, CWF);
 
     List<String> output = new ArrayList<>();
     output.add("Modelling for SW London with Crossrail 2 Swirl" + NEWLINE);
@@ -377,6 +377,9 @@ public class Crossrail2EarlsfieldSWLondonModel extends Model {
 
     // change at Green Park
     addChange(Change.of(UGP, uvictoria, ujubileenb, 4, 6));
+
+    // change at Embankment (this is a fudge)
+    addChange(Change.of(CHX, unorthernwest, udistrict, 3, 6));
 
     // change at Oxford Circus
     addChange(Change.of(UOX, uvictoria, ubakerloo, 1, 3));

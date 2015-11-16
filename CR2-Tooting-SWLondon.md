@@ -152,6 +152,13 @@ From Chessington South to St Pauls
 * CR2 changing to Central at TCR in 44-46m at 4tph
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 52-58m at 4tph (+10m)
 
+From Chessington South to Canary Wharf
+--------------------------------------
+* CR2 changing to CR1 at TCR in 49-51m at 4tph
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 53-57m at 4tph (+5m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 51-62m at 4tph (+7m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 58-62m at 4tph (+10m)
+
 
 ----
 
@@ -236,6 +243,7 @@ From Leatherhead to Westminster
 From Leatherhead to Temple
 --------------------------
 * LHD-WAT changing to CR2 at RAY changing to District at VIC in 51-57m at 4tph
+* LHD-WAT changing to Northern (West End) at WAT changing to District at CHX in 55-61m at 4tph (+4m)
 * LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 59-63m at 4tph (+7m)
 
 From Leatherhead to Farringdon
@@ -264,6 +272,7 @@ From Leatherhead to Bank/Monument
 * LHD-WAT changing to CR2 at RAY changing to Central at TCR in 54-60m at 4tph (+3m)
 * LHD-WAT changing to CR2 at RAY changing to Northern (City) Southbound at AGL in 56-63m at 4tph (+5m)
 * LHD-WAT changing to CR2 at RAY changing to District at VIC in 57-63m at 4tph (+6m)
+* LHD-WAT changing to Northern (West End) at WAT changing to District at CHX in 61-67m at 4tph (+10m)
 * LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 65-69m at 4tph (+13m)
 
 From Leatherhead to Moorgate
@@ -290,6 +299,11 @@ From Leatherhead to St Pauls
 ----------------------------
 * LHD-WAT changing to CR2 at RAY changing to Central at TCR in 52-58m at 4tph
 * LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 57-68m at 4tph (+8m)
+
+From Leatherhead to Canary Wharf
+--------------------------------
+* LHD-WAT changing to Jubilee at WAT in 57-60m at 4tph
+* LHD-WAT changing to CR2 at RAY changing to CR1 at TCR in 57-63m at 4tph (+2m)
 
 
 ----
@@ -384,6 +398,7 @@ From Epsom to Westminster
 From Epsom to Temple
 --------------------
 * CR2 changing to District at VIC in 43-45m at 6tph
+* LHD-WAT changing to Northern (West End) at WAT changing to District at CHX in 47-53m at 4tph (+6m)
 * LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 51-55m at 4tph (+9m)
 
 From Epsom to Farringdon
@@ -417,6 +432,7 @@ From Epsom to Bank/Monument
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 47-51m at 6tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 48-51m at 6tph (+3m)
 * CR2 changing to District at VIC in 49-51m at 6tph (+4m)
+* LHD-WAT changing to Northern (West End) at WAT changing to District at CHX in 53-59m at 4tph (+10m)
 * LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 57-61m at 4tph (+13m)
 
 From Epsom to Moorgate
@@ -448,6 +464,13 @@ From Epsom to St Pauls
 * CR2 changing to Central at TCR in 44-46m at 6tph
 * LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 49-60m at 4tph (+10m)
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 52-58m at 6tph (+10m)
+
+From Epsom to Canary Wharf
+--------------------------
+* CR2 changing to CR1 at TCR in 49-51m at 6tph
+* LHD-WAT changing to Jubilee at WAT in 49-52m at 4tph (+1m)
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 53-57m at 6tph (+5m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 58-62m at 6tph (+10m)
 
 
 ----
@@ -588,6 +611,13 @@ From Stoneleigh to St Pauls
 * CR2 changing to Central at TCR in 39-41m at 6tph
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 47-53m at 6tph (+10m)
 
+From Stoneleigh to Canary Wharf
+-------------------------------
+* CR2 changing to CR1 at TCR in 44-46m at 6tph
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 48-52m at 6tph (+5m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 46-57m at 6tph (+7m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 53-57m at 6tph (+10m)
+
 
 ----
 
@@ -681,6 +711,7 @@ From Worcester Park to Westminster
 From Worcester Park to Temple
 -----------------------------
 * CR2 changing to District at VIC in 35-37m at 6tph
+* LHD-WAT changing to Northern (West End) at WAT changing to District at CHX in 40-46m at 4tph (+7m)
 * LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 44-48m at 4tph (+10m)
 
 From Worcester Park to Farringdon
@@ -713,6 +744,7 @@ From Worcester Park to Bank/Monument
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 39-44m at 4tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 40-43m at 6tph (+3m)
 * CR2 changing to District at VIC in 41-43m at 6tph (+3m)
+* LHD-WAT changing to Northern (West End) at WAT changing to District at CHX in 46-52m at 4tph (+10m)
 * LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 50-54m at 4tph (+13m)
 
 From Worcester Park to Moorgate
@@ -744,6 +776,13 @@ From Worcester Park to St Pauls
 * CR2 changing to Central at TCR in 36-38m at 6tph
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 44-50m at 6tph (+10m)
 * LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 42-53m at 4tph (+11m)
+
+From Worcester Park to Canary Wharf
+-----------------------------------
+* CR2 changing to CR1 at TCR in 41-43m at 6tph
+* LHD-WAT changing to Jubilee at WAT in 42-45m at 4tph (+2m)
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 45-49m at 6tph (+5m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 50-54m at 6tph (+10m)
 
 
 ----
@@ -884,6 +923,13 @@ From Motspur Park to St Pauls
 * CR2 changing to Central at TCR in 33-35m at 10tph
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 41-47m at 10tph (+10m)
 
+From Motspur Park to Canary Wharf
+---------------------------------
+* CR2 changing to CR1 at TCR in 38-40m at 10tph
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 42-46m at 10tph (+5m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 40-51m at 8tph (+7m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 47-51m at 10tph (+10m)
+
 
 ----
 
@@ -1022,6 +1068,13 @@ From Shepperton to St Pauls
 ---------------------------
 * CR2 changing to Central at TCR in 63-65m at 4tph
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 71-77m at 4tph (+10m)
+
+From Shepperton to Canary Wharf
+-------------------------------
+* CR2 changing to CR1 at TCR in 68-70m at 4tph
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 72-76m at 4tph (+5m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 70-81m at 4tph (+7m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 77-81m at 4tph (+10m)
 
 
 ----
@@ -1162,6 +1215,13 @@ From Fulwell to St Pauls
 * CR2 changing to Central at TCR in 50-52m at 4tph
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 58-64m at 4tph (+10m)
 
+From Fulwell to Canary Wharf
+----------------------------
+* CR2 changing to CR1 at TCR in 55-57m at 4tph
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 59-63m at 4tph (+5m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 57-68m at 4tph (+7m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 64-68m at 4tph (+10m)
+
 
 ----
 
@@ -1255,6 +1315,7 @@ From Kingston to Westminster
 From Kingston to Temple
 -----------------------
 * CR2 changing to District at VIC in 39-41m at 6tph
+* TWI-WAT changing to Northern (West End) at WAT changing to District at CHX in 44-50m at 4tph (+7m)
 * TWI-WAT changing to BAL-VIC at CLJ changing to District at VIC in 48-52m at 4tph (+10m)
 
 From Kingston to Farringdon
@@ -1287,6 +1348,7 @@ From Kingston to Bank/Monument
 * TWI-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 43-48m at 4tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 44-47m at 6tph (+3m)
 * CR2 changing to District at VIC in 45-47m at 6tph (+3m)
+* TWI-WAT changing to Northern (West End) at WAT changing to District at CHX in 50-56m at 4tph (+10m)
 * TWI-WAT changing to BAL-VIC at CLJ changing to District at VIC in 54-58m at 4tph (+13m)
 
 From Kingston to Moorgate
@@ -1318,6 +1380,13 @@ From Kingston to St Pauls
 * CR2 changing to Central at TCR in 40-42m at 6tph
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 48-54m at 6tph (+10m)
 * TWI-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 46-57m at 4tph (+11m)
+
+From Kingston to Canary Wharf
+-----------------------------
+* CR2 changing to CR1 at TCR in 45-47m at 6tph
+* TWI-WAT changing to Jubilee at WAT in 46-49m at 4tph (+2m)
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 49-53m at 6tph (+5m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 54-58m at 6tph (+10m)
 
 
 ----
@@ -1492,6 +1561,15 @@ From Hampton Court to St Pauls
 * CR2 changing to Central at TCR in 46-48m at 4tph
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 54-60m at 4tph (+10m)
 
+From Hampton Court to Canary Wharf
+----------------------------------
+* CR2 changing to SUR-WAT (fast) at SUR changing to Jubilee at WAT in 48-53m at 4tph
+* CR2 changing to CR1 at TCR in 51-53m at 4tph (+2m)
+* CR2 changing to SUR-WAT (slow) at SUR changing to Jubilee at WAT in 50-55m at 4tph (+2m)
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 55-59m at 4tph (+7m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 53-64m at 4tph (+8m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 60-64m at 4tph (+12m)
+
 
 ----
 
@@ -1617,7 +1695,9 @@ From Surbiton to Westminster
 
 From Surbiton to Temple
 -----------------------
-* CR2 changing to District at VIC in 37-39m at 4tph
+* SUR-WAT (fast) changing to Northern (West End) at WAT changing to District at CHX in 35-41m at 6tph
+* CR2 changing to District at VIC in 37-39m at 4tph (+0m)
+* SUR-WAT (slow) changing to Northern (West End) at WAT changing to District at CHX in 37-43m at 4tph (+2m)
 * SUR-WAT (fast) changing to BAL-VIC at CLJ changing to District at VIC in 39-43m at 6tph (+3m)
 * SUR-WAT (slow) changing to BAL-VIC at CLJ changing to District at VIC in 41-45m at 4tph (+5m)
 
@@ -1657,7 +1737,9 @@ From Surbiton to Bank/Monument
 * CR2 changing to Central at TCR in 40-42m at 4tph (+7m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 41-45m at 4tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 42-45m at 4tph (+9m)
+* SUR-WAT (fast) changing to Northern (West End) at WAT changing to District at CHX in 41-47m at 6tph (+10m)
 * CR2 changing to District at VIC in 43-45m at 4tph (+10m)
+* SUR-WAT (slow) changing to Northern (West End) at WAT changing to District at CHX in 43-49m at 4tph (+12m)
 * CR2 changing to RAY-WAT at RAY changing to W&C at WAT in 39-54m at 4tph (+12m)
 * SUR-WAT (fast) changing to BAL-VIC at CLJ changing to District at VIC in 45-49m at 6tph (+13m)
 * SUR-WAT (slow) changing to BAL-VIC at CLJ changing to District at VIC in 47-51m at 4tph (+15m)
@@ -1697,6 +1779,14 @@ From Surbiton to St Pauls
 * SUR-WAT (fast) changing to W&C at WAT changing to Central (Westbound) at UBK in 37-48m at 6tph (+4m)
 * SUR-WAT (slow) changing to W&C at WAT changing to Central (Westbound) at UBK in 39-50m at 4tph (+6m)
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 46-52m at 4tph (+10m)
+
+From Surbiton to Canary Wharf
+-----------------------------
+* SUR-WAT (fast) changing to Jubilee at WAT in 37-40m at 6tph
+* SUR-WAT (slow) changing to Jubilee at WAT in 39-42m at 4tph (+2m)
+* CR2 changing to CR1 at TCR in 43-45m at 4tph (+6m)
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 47-51m at 4tph (+11m)
+* CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 45-56m at 4tph (+12m)
 
 
 ----
@@ -1791,6 +1881,7 @@ From New Malden to Westminster
 From New Malden to Temple
 -------------------------
 * CR2 changing to District at VIC in 32-34m at 10tph
+* TWI-WAT changing to Northern (West End) at WAT changing to District at CHX in 37-43m at 4tph (+7m)
 * TWI-WAT changing to BAL-VIC at CLJ changing to District at VIC in 41-45m at 4tph (+10m)
 
 From New Malden to Farringdon
@@ -1823,6 +1914,7 @@ From New Malden to Bank/Monument
 * TWI-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 36-41m at 4tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 37-40m at 10tph (+3m)
 * CR2 changing to District at VIC in 38-40m at 10tph (+3m)
+* TWI-WAT changing to Northern (West End) at WAT changing to District at CHX in 43-49m at 4tph (+10m)
 * TWI-WAT changing to BAL-VIC at CLJ changing to District at VIC in 47-51m at 4tph (+13m)
 
 From New Malden to Moorgate
@@ -1854,6 +1946,13 @@ From New Malden to St Pauls
 * CR2 changing to Central at TCR in 33-35m at 10tph
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 41-47m at 10tph (+10m)
 * TWI-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 39-50m at 4tph (+11m)
+
+From New Malden to Canary Wharf
+-------------------------------
+* CR2 changing to CR1 at TCR in 38-40m at 10tph
+* TWI-WAT changing to Jubilee at WAT in 39-42m at 4tph (+2m)
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 42-46m at 10tph (+5m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 47-51m at 10tph (+10m)
 
 
 ----
@@ -1948,6 +2047,7 @@ From Raynes Park to Westminster
 From Raynes Park to Temple
 --------------------------
 * CR2 changing to District at VIC in 29-31m at 20tph
+* RAY-WAT changing to Northern (West End) at WAT changing to District at CHX in 34-40m at 8tph (+7m)
 * RAY-WAT changing to BAL-VIC at CLJ changing to District at VIC in 38-42m at 8tph (+10m)
 
 From Raynes Park to Farringdon
@@ -1980,6 +2080,7 @@ From Raynes Park to Bank/Monument
 * RAY-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 33-38m at 8tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 34-37m at 20tph (+3m)
 * CR2 changing to District at VIC in 35-37m at 20tph (+3m)
+* RAY-WAT changing to Northern (West End) at WAT changing to District at CHX in 40-46m at 8tph (+10m)
 * RAY-WAT changing to BAL-VIC at CLJ changing to District at VIC in 44-48m at 8tph (+13m)
 
 From Raynes Park to Moorgate
@@ -2011,6 +2112,13 @@ From Raynes Park to St Pauls
 * CR2 changing to Central at TCR in 30-32m at 20tph
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 38-44m at 20tph (+10m)
 * RAY-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 36-47m at 8tph (+11m)
+
+From Raynes Park to Canary Wharf
+--------------------------------
+* CR2 changing to CR1 at TCR in 35-37m at 20tph
+* RAY-WAT changing to Jubilee at WAT in 36-39m at 8tph (+2m)
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 39-43m at 20tph (+5m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 44-48m at 20tph (+10m)
 
 
 ----
@@ -2105,6 +2213,7 @@ From Wimbledon to Westminster
 From Wimbledon to Temple
 ------------------------
 * CR2 changing to District at VIC in 25-27m at 27tph
+* WIM-WAT changing to Northern (West End) at WAT changing to District at CHX in 30-36m at 12tph (+7m)
 * WIM-WAT changing to BAL-VIC at CLJ changing to District at VIC in 34-38m at 12tph (+10m)
 
 From Wimbledon to Farringdon
@@ -2137,6 +2246,7 @@ From Wimbledon to Bank/Monument
 * WIM-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 29-34m at 12tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 30-33m at 30tph (+3m)
 * CR2 changing to District at VIC in 31-33m at 27tph (+3m)
+* WIM-WAT changing to Northern (West End) at WAT changing to District at CHX in 36-42m at 12tph (+10m)
 * WIM-WAT changing to BAL-VIC at CLJ changing to District at VIC in 40-44m at 12tph (+13m)
 
 From Wimbledon to Moorgate
@@ -2168,6 +2278,13 @@ From Wimbledon to St Pauls
 * CR2 changing to Central at TCR in 26-28m at 30tph
 * CR2 changing to Northern (City) at UTB changing to Central (Westbound) at UBK in 34-40m at 30tph (+10m)
 * WIM-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 32-43m at 12tph (+11m)
+
+From Wimbledon to Canary Wharf
+------------------------------
+* CR2 changing to CR1 at TCR in 31-33m at 30tph
+* WIM-WAT changing to Jubilee at WAT in 32-35m at 12tph (+2m)
+* CR2 changing to Northern (City) at UTB changing to Jubilee at LBG in 35-39m at 30tph (+5m)
+* CR2 changing to Northern (City) at UTB changing to CR1 at MOG in 40-44m at 30tph (+10m)
 
 
 ----
@@ -2253,6 +2370,7 @@ From Earlsfield to Westminster
 From Earlsfield to Temple
 -------------------------
 * WIM-WAT changing to CR2 at CLJ changing to District at VIC in 26-30m at 12tph
+* WIM-WAT changing to Northern (West End) at WAT changing to District at CHX in 26-32m at 12tph (+1m)
 * WIM-WAT changing to BAL-VIC at CLJ changing to District at VIC in 30-34m at 12tph (+4m)
 
 From Earlsfield to Farringdon
@@ -2278,6 +2396,7 @@ From Earlsfield to Bank/Monument
 * WIM-WAT changing to CR2 at CLJ changing to Central at TCR in 29-33m at 12tph (+6m)
 * WIM-WAT changing to CR2 at CLJ changing to Northern (City) Southbound at AGL in 31-36m at 12tph (+8m)
 * WIM-WAT changing to CR2 at CLJ changing to District at VIC in 32-36m at 12tph (+9m)
+* WIM-WAT changing to Northern (West End) at WAT changing to District at CHX in 32-38m at 12tph (+10m)
 * WIM-WAT changing to BAL-VIC at CLJ changing to District at VIC in 36-40m at 12tph (+13m)
 
 From Earlsfield to Moorgate
@@ -2302,6 +2421,11 @@ From Earlsfield to St Pauls
 ---------------------------
 * WIM-WAT changing to CR2 at CLJ changing to Central at TCR in 27-31m at 12tph
 * WIM-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 28-39m at 12tph (+5m)
+
+From Earlsfield to Canary Wharf
+-------------------------------
+* WIM-WAT changing to Jubilee at WAT in 28-31m at 12tph
+* WIM-WAT changing to CR2 at CLJ changing to CR1 at TCR in 32-36m at 12tph (+5m)
 
 
 ----
@@ -2392,6 +2516,7 @@ From Morden to Westminster
 From Morden to Temple
 ---------------------
 * Northern (City) changing to CR2 at UTB changing to District at VIC in 30-34m at 27tph
+* Northern (City) changing to Northern (West End) at UKN changing to District at CHX in 33-37m at 27tph (+3m)
 * Northern (City) changing to BAL-VIC at BAL changing to District at VIC in 43-47m at 12tph (+13m)
 
 From Morden to Farringdon
@@ -2429,6 +2554,12 @@ From Morden to St Pauls
 -----------------------
 * Northern (City) changing to CR2 at UTB changing to Central at TCR in 31-35m at 30tph
 * Northern (City) changing to Central (Westbound) at UBK in 35-39m at 30tph (+4m)
+
+From Morden to Canary Wharf
+---------------------------
+* Northern (City) changing to Jubilee at LBG in 36-38m at 30tph
+* Northern (City) changing to CR2 at UTB changing to CR1 at TCR in 36-40m at 30tph (+1m)
+* Northern (City) changing to CR1 at MOG in 41-43m at 30tph (+5m)
 
 
 ----
@@ -2519,6 +2650,7 @@ From South Wimbledon to Westminster
 From South Wimbledon to Temple
 ------------------------------
 * Northern (City) changing to CR2 at UTB changing to District at VIC in 28-32m at 27tph
+* Northern (City) changing to Northern (West End) at UKN changing to District at CHX in 31-35m at 27tph (+3m)
 * Northern (City) changing to BAL-VIC at BAL changing to District at VIC in 41-45m at 12tph (+13m)
 
 From South Wimbledon to Farringdon
@@ -2556,6 +2688,12 @@ From South Wimbledon to St Pauls
 --------------------------------
 * Northern (City) changing to CR2 at UTB changing to Central at TCR in 29-33m at 30tph
 * Northern (City) changing to Central (Westbound) at UBK in 33-37m at 30tph (+4m)
+
+From South Wimbledon to Canary Wharf
+------------------------------------
+* Northern (City) changing to Jubilee at LBG in 34-36m at 30tph
+* Northern (City) changing to CR2 at UTB changing to CR1 at TCR in 34-38m at 30tph (+1m)
+* Northern (City) changing to CR1 at MOG in 39-41m at 30tph (+5m)
 
 
 ----
@@ -2635,6 +2773,7 @@ From Tooting Broadway to Westminster
 From Tooting Broadway to Temple
 -------------------------------
 * CR2 changing to District at VIC in 22-24m at 27tph
+* Northern (City) changing to Northern (West End) at UKN changing to District at CHX in 27-31m at 27tph (+6m)
 
 From Tooting Broadway to Farringdon
 -----------------------------------
@@ -2677,12 +2816,19 @@ From Tooting Broadway to St Pauls
 * CR2 changing to Central at TCR in 23-25m at 30tph
 * Northern (City) changing to Central (Westbound) at UBK in 29-33m at 30tph (+7m)
 
+From Tooting Broadway to Canary Wharf
+-------------------------------------
+* CR2 changing to CR1 at TCR in 28-30m at 30tph
+* Northern (City) changing to Jubilee at LBG in 30-32m at 30tph (+2m)
+* Northern (City) changing to CR1 at MOG in 35-37m at 30tph (+7m)
+
 
 ----
 
 * AGL Angel
 * BAL Balham
 * BDS Bond Street
+* BPW Battersea Power
 * CHX Charing Cross
 * CKR Chelsea Kings Road
 * CLJ Clapham Junction
