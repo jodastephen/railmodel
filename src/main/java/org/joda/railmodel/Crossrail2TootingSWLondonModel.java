@@ -221,6 +221,13 @@ public class Crossrail2TootingSWLondonModel extends Model {
         stations(BAL, CLJ, VIC),
         times(6, 10));
     addRoute(balvic);
+    Route ephzfd = Route.of(
+        "Thameslink",
+        "EPH-ZFD",
+        8,
+        stations(EPH, ZFD),
+        times(10));
+    addRoute(ephzfd);
 
     // Tube lines
     Route unortherncity = Route.of(
@@ -371,6 +378,7 @@ public class Crossrail2TootingSWLondonModel extends Model {
 
     // change at Elephant & Castle
     addChange(Change.of(EPH, unortherncity, ubakerloo, 2, 4));
+    addChange(Change.of(EPH, unortherncity, ephzfd, 8, 16));
 
     // change at London Bridge
     addChange(Change.of(LBG, unortherncity, ujubilee, 2, 4));

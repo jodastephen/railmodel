@@ -2397,6 +2397,7 @@ From Morden to Temple
 From Morden to Farringdon
 -------------------------
 * Northern (City) changing to CR2 at BAL changing to CR1 at TCR in 30-34m at 30tph
+* Northern (City) changing to EPH-ZFD at EPH in 42-50m at 8tph (+14m)
 
 From Morden to Borough
 ----------------------
@@ -2513,6 +2514,7 @@ From South Wimbledon to Temple
 From South Wimbledon to Farringdon
 ----------------------------------
 * Northern (City) changing to CR2 at BAL changing to CR1 at TCR in 28-32m at 30tph
+* Northern (City) changing to EPH-ZFD at EPH in 40-48m at 8tph (+14m)
 
 From South Wimbledon to Borough
 -------------------------------
@@ -2629,6 +2631,7 @@ From Tooting Broadway to Temple
 From Tooting Broadway to Farringdon
 -----------------------------------
 * Northern (City) changing to CR2 at BAL changing to CR1 at TCR in 24-28m at 30tph
+* Northern (City) changing to EPH-ZFD at EPH in 36-44m at 8tph (+14m)
 
 From Tooting Broadway to Borough
 --------------------------------
