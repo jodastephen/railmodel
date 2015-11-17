@@ -41,6 +41,7 @@ public enum Station {
   VXH("Vauxhall"),
   WAT("Waterloo"),
   CKR("Chelsea Kings Road"),
+  BPW("Battersea Power"),
   VIC("Victoria"),
   TCR("Tottenham Court Road"),
   EUS("Euston"),
