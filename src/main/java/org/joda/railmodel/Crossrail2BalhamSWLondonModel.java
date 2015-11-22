@@ -123,7 +123,7 @@ public class Crossrail2BalhamSWLondonModel extends Model {
     // 6tph faster Surbiton, guess -2mins for not stopping WIM/EAD
     Route surwat1 = Route.of(
         "SWML fast",
-        "SUR-WAT (fast)",
+        "SUR-WAT (SUR-CLJ-VXH-WAT)",
         6,
         stations(SUR, CLJ),
         times(13),
@@ -131,7 +131,7 @@ public class Crossrail2BalhamSWLondonModel extends Model {
     // 4tph slower Surbiton, guess -2mins for not stopping NEM
     Route surwat2 = Route.of(
         "SWML",
-        "SUR-WAT (slow)",
+        "SUR-WAT (SUR-WIM-EAD-CLJ-VXH-WAT)",
         4,
         stations(SUR, WIM),
         times(7),

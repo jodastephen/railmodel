@@ -1207,8 +1207,8 @@ From Kingston to Canary Wharf
 From Hampton Court to Victoria
 ------------------------------
 * CR2 direct in 32m at 4tph
-* CR2 changing to SUR-WAT at SUR changing to Victoria at VXH in 35-40m at 4tph (+6m)
-* CR2 changing to SUR-WAT at SUR changing to BAL-VIC at CLJ in 38-42m at 4tph (+8m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Victoria at VXH in 35-40m at 4tph (+6m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to BAL-VIC at CLJ in 38-42m at 4tph (+8m)
 
 From Hampton Court to Tottenham Court Road
 ------------------------------------------
@@ -1218,7 +1218,7 @@ From Hampton Court to Euston
 ----------------------------
 * CR2 direct in 37m at 4tph
 * CR2 changing to Victoria at VIC in 43-45m at 4tph (+7m)
-* CR2 changing to SUR-WAT at SUR changing to Victoria at VXH in 42-47m at 4tph (+8m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Victoria at VXH in 42-47m at 4tph (+8m)
 
 From Hampton Court to Angel
 ---------------------------
@@ -1226,64 +1226,64 @@ From Hampton Court to Angel
 
 From Hampton Court to Waterloo
 ------------------------------
-* CR2 changing to SUR-WAT at SUR in 35-37m at 4tph
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR in 35-37m at 4tph
 * CR2 changing to WIM-WAT at WIM in 38-41m at 4tph (+4m)
 
 From Hampton Court to Green Park
 --------------------------------
 * CR2 changing to Victoria at VIC in 38-40m at 4tph
-* CR2 changing to SUR-WAT at SUR changing to Victoria at VXH in 37-42m at 4tph (+1m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Victoria at VXH in 37-42m at 4tph (+1m)
 * CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 40-46m at 4tph (+4m)
-* CR2 changing to SUR-WAT at SUR changing to Jubilee (Northbound) at WAT in 42-47m at 4tph (+6m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Jubilee (Northbound) at WAT in 42-47m at 4tph (+6m)
 * CR2 changing to WIM-WAT at WIM changing to Jubilee (Northbound) at WAT in 45-51m at 4tph (+9m)
 
 From Hampton Court to Oxford Circus
 -----------------------------------
 * CR2 changing to Victoria at VIC in 40-42m at 4tph
-* CR2 changing to SUR-WAT at SUR changing to Victoria at VXH in 39-44m at 4tph (+1m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Victoria at VXH in 39-44m at 4tph (+1m)
 * CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 42-48m at 4tph (+4m)
-* CR2 changing to SUR-WAT at SUR changing to Bakerloo at WAT in 44-49m at 4tph (+6m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Bakerloo at WAT in 44-49m at 4tph (+6m)
 * CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 47-53m at 4tph (+9m)
 
 From Hampton Court to Charing Cross
 -----------------------------------
-* CR2 changing to SUR-WAT at SUR changing to Bakerloo at WAT in 40-45m at 4tph
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Bakerloo at WAT in 40-45m at 4tph
 * CR2 changing to District at VIC in 42-44m at 4tph (+1m)
-* CR2 changing to SUR-WAT at SUR changing to Northern (West End) at WAT in 41-46m at 4tph (+1m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 41-46m at 4tph (+1m)
 * CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 43-49m at 4tph (+4m)
 * CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 44-50m at 4tph (+5m)
 
 From Hampton Court to Leicester Square
 --------------------------------------
-* CR2 changing to SUR-WAT at SUR changing to Northern (West End) at WAT in 43-48m at 4tph
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 43-48m at 4tph
 * CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 46-52m at 4tph (+4m)
 
 From Hampton Court to Goodge Street
 -----------------------------------
-* CR2 changing to SUR-WAT at SUR changing to Northern (West End) at WAT in 45-50m at 4tph
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 45-50m at 4tph
 * CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 48-54m at 4tph (+4m)
 
 From Hampton Court to Warren Street
 -----------------------------------
 * CR2 changing to Victoria at VIC in 42-44m at 4tph
-* CR2 changing to SUR-WAT at SUR changing to Victoria at VXH in 41-46m at 4tph (+1m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Victoria at VXH in 41-46m at 4tph (+1m)
 * CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 44-50m at 4tph (+4m)
-* CR2 changing to SUR-WAT at SUR changing to Northern (West End) at WAT in 47-52m at 4tph (+7m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 47-52m at 4tph (+7m)
 * CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 50-56m at 4tph (+10m)
 
 From Hampton Court to Baker Street
 ----------------------------------
 * CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 45-49m at 4tph
 * CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 46-50m at 4tph (+1m)
-* CR2 changing to SUR-WAT at SUR changing to Jubilee (Northbound) at WAT in 46-51m at 4tph (+2m)
-* CR2 changing to SUR-WAT at SUR changing to Bakerloo at WAT in 48-53m at 4tph (+4m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Jubilee (Northbound) at WAT in 46-51m at 4tph (+2m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Bakerloo at WAT in 48-53m at 4tph (+4m)
 * CR2 changing to WIM-WAT at WIM changing to Jubilee (Northbound) at WAT in 49-55m at 4tph (+5m)
 * CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 51-57m at 4tph (+7m)
 
 From Hampton Court to Westminster
 ---------------------------------
 * CR2 changing to District at VIC in 40-42m at 4tph
-* CR2 changing to SUR-WAT at SUR changing to Jubilee (Northbound) at WAT in 40-45m at 4tph (+2m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Jubilee (Northbound) at WAT in 40-45m at 4tph (+2m)
 * CR2 changing to WIM-WAT at WIM changing to Jubilee (Northbound) at WAT in 43-49m at 4tph (+5m)
 
 From Hampton Court to Temple
@@ -1302,7 +1302,7 @@ From Hampton Court to Borough
 
 From Hampton Court to London Bridge
 -----------------------------------
-* CR2 changing to SUR-WAT at SUR changing to Jubilee at WAT in 41-46m at 4tph
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Jubilee at WAT in 41-46m at 4tph
 * CR2 changing to WIM-WAT at WIM changing to Jubilee at WAT in 44-50m at 4tph (+4m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 50-54m at 4tph (+9m)
 * CR2 changing to Northern (City) Southbound at AGL in 51-54m at 4tph (+9m)
@@ -1310,7 +1310,7 @@ From Hampton Court to London Bridge
 
 From Hampton Court to Bank/Monument
 -----------------------------------
-* CR2 changing to SUR-WAT at SUR changing to W&C at WAT in 42-51m at 4tph
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to W&C at WAT in 42-51m at 4tph
 * CR2 changing to Central at TCR in 47-49m at 4tph (+2m)
 * CR2 changing to WIM-WAT at WIM changing to W&C at WAT in 45-55m at 4tph (+4m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 48-52m at 4tph (+4m)
@@ -1339,7 +1339,7 @@ From Hampton Court to St Pauls
 
 From Hampton Court to Canary Wharf
 ----------------------------------
-* CR2 changing to SUR-WAT at SUR changing to Jubilee at WAT in 48-53m at 4tph
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Jubilee at WAT in 48-53m at 4tph
 * CR2 changing to CR1 at TCR in 50-52m at 4tph (+1m)
 * CR2 changing to WIM-WAT at WIM changing to Jubilee at WAT in 51-57m at 4tph (+4m)
 
@@ -1349,18 +1349,18 @@ From Hampton Court to Canary Wharf
 From Surbiton to Victoria
 -------------------------
 * CR2 direct in 24m at 4tph
-* SUR-WAT changing to Victoria at VXH in 24-27m at 10tph (+2m)
-* SUR-WAT changing to BAL-VIC at CLJ in 27-29m at 10tph (+4m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Victoria at VXH in 24-27m at 10tph (+2m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to BAL-VIC at CLJ in 27-29m at 10tph (+4m)
 
 From Surbiton to Tottenham Court Road
 -------------------------------------
 * CR2 direct in 27m at 4tph
-* SUR-WAT changing to Northern (West End) at WAT in 33-36m at 10tph (+8m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT in 33-36m at 10tph (+8m)
 
 From Surbiton to Euston
 -----------------------
 * CR2 direct in 29m at 4tph
-* SUR-WAT changing to Victoria at VXH in 31-34m at 10tph (+4m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Victoria at VXH in 31-34m at 10tph (+4m)
 * CR2 changing to Victoria at VIC in 35-37m at 4tph (+7m)
 
 From Surbiton to Angel
@@ -1369,65 +1369,65 @@ From Surbiton to Angel
 
 From Surbiton to Waterloo
 -------------------------
-* SUR-WAT direct in 24m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) direct in 24m at 10tph
 
 From Surbiton to Green Park
 ---------------------------
-* SUR-WAT changing to Victoria at VXH in 26-29m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Victoria at VXH in 26-29m at 10tph
 * CR2 changing to Victoria at VIC in 30-32m at 4tph (+4m)
-* SUR-WAT changing to Jubilee (Northbound) at WAT in 31-34m at 10tph (+5m)
-* SUR-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 33-37m at 10tph (+8m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Jubilee (Northbound) at WAT in 31-34m at 10tph (+5m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to BAL-VIC at CLJ changing to Victoria at VIC in 33-37m at 10tph (+8m)
 
 From Surbiton to Oxford Circus
 ------------------------------
-* SUR-WAT changing to Victoria at VXH in 28-31m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Victoria at VXH in 28-31m at 10tph
 * CR2 changing to Victoria at VIC in 32-34m at 4tph (+4m)
-* SUR-WAT changing to Bakerloo at WAT in 33-36m at 10tph (+5m)
-* SUR-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 35-39m at 10tph (+8m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Bakerloo at WAT in 33-36m at 10tph (+5m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to BAL-VIC at CLJ changing to Victoria at VIC in 35-39m at 10tph (+8m)
 
 From Surbiton to Charing Cross
 ------------------------------
-* SUR-WAT changing to Bakerloo at WAT in 29-32m at 10tph
-* SUR-WAT changing to Northern (West End) at WAT in 30-33m at 10tph (+1m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Bakerloo at WAT in 29-32m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT in 30-33m at 10tph (+1m)
 * CR2 changing to District at VIC in 34-36m at 4tph (+5m)
-* SUR-WAT changing to BAL-VIC at CLJ changing to District at VIC in 37-41m at 10tph (+9m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to BAL-VIC at CLJ changing to District at VIC in 37-41m at 10tph (+9m)
 
 From Surbiton to Leicester Square
 ---------------------------------
-* SUR-WAT changing to Northern (West End) at WAT in 32-35m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT in 32-35m at 10tph
 
 From Surbiton to Goodge Street
 ------------------------------
-* SUR-WAT changing to Northern (West End) at WAT in 34-37m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT in 34-37m at 10tph
 
 From Surbiton to Warren Street
 ------------------------------
-* SUR-WAT changing to Victoria at VXH in 30-33m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Victoria at VXH in 30-33m at 10tph
 * CR2 changing to Victoria at VIC in 34-36m at 4tph (+4m)
-* SUR-WAT changing to Northern (West End) at WAT in 36-39m at 10tph (+6m)
-* SUR-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 36-41m at 10tph (+7m)
-* SUR-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 37-41m at 10tph (+8m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT in 36-39m at 10tph (+6m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Bakerloo at WAT changing to Victoria at UOX in 36-41m at 10tph (+7m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to BAL-VIC at CLJ changing to Victoria at VIC in 37-41m at 10tph (+8m)
 
 From Surbiton to Baker Street
 -----------------------------
-* SUR-WAT changing to Victoria at VXH changing to Bakerloo at UOX in 33-38m at 10tph
-* SUR-WAT changing to Victoria at VXH changing to Jubilee (Northbound) at UGP in 34-39m at 10tph (+1m)
-* SUR-WAT changing to Jubilee (Northbound) at WAT in 35-38m at 10tph (+1m)
-* SUR-WAT changing to Bakerloo at WAT in 37-40m at 10tph (+3m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Victoria at VXH changing to Bakerloo at UOX in 33-38m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Victoria at VXH changing to Jubilee (Northbound) at UGP in 34-39m at 10tph (+1m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Jubilee (Northbound) at WAT in 35-38m at 10tph (+1m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Bakerloo at WAT in 37-40m at 10tph (+3m)
 * CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 37-41m at 4tph (+4m)
 * CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 38-42m at 4tph (+5m)
 
 From Surbiton to Westminster
 ----------------------------
-* SUR-WAT changing to Jubilee (Northbound) at WAT in 29-32m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Jubilee (Northbound) at WAT in 29-32m at 10tph
 * CR2 changing to District at VIC in 32-34m at 4tph (+3m)
-* SUR-WAT changing to BAL-VIC at CLJ changing to District at VIC in 35-39m at 10tph (+7m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to BAL-VIC at CLJ changing to District at VIC in 35-39m at 10tph (+7m)
 
 From Surbiton to Temple
 -----------------------
 * CR2 changing to District at VIC in 36-38m at 4tph
-* SUR-WAT changing to Northern (West End) at WAT changing to District at CHX in 35-41m at 10tph (+1m)
-* SUR-WAT changing to BAL-VIC at CLJ changing to District at VIC in 39-43m at 10tph (+4m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT changing to District at CHX in 35-41m at 10tph (+1m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to BAL-VIC at CLJ changing to District at VIC in 39-43m at 10tph (+4m)
 
 From Surbiton to Farringdon
 ---------------------------
@@ -1435,59 +1435,59 @@ From Surbiton to Farringdon
 
 From Surbiton to Borough
 ------------------------
-* SUR-WAT changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 34-39m at 10tph
-* SUR-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 40-51m at 10tph (+9m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Jubilee at WAT changing to Northern (City) Southbound at LBG in 34-39m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to W&C at WAT changing to Northern (City) Southbound at UBK in 40-51m at 10tph (+9m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 44-48m at 4tph (+10m)
 * CR2 changing to Northern (City) Southbound at AGL in 45-48m at 4tph (+10m)
 * CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 47-53m at 4tph (+14m)
 
 From Surbiton to London Bridge
 ------------------------------
-* SUR-WAT changing to Jubilee at WAT in 30-33m at 10tph
-* SUR-WAT changing to W&C at WAT changing to Northern (City) Southbound at UBK in 38-49m at 10tph (+12m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Jubilee at WAT in 30-33m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to W&C at WAT changing to Northern (City) Southbound at UBK in 38-49m at 10tph (+12m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 42-46m at 4tph (+13m)
 * CR2 changing to Northern (City) Southbound at AGL in 43-46m at 4tph (+13m)
 
 From Surbiton to Bank/Monument
 ------------------------------
-* SUR-WAT changing to W&C at WAT in 31-38m at 10tph
-* SUR-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 34-39m at 10tph (+2m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to W&C at WAT in 31-38m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Jubilee at WAT changing to Northern (City) at LBG in 34-39m at 10tph (+2m)
 * CR2 changing to Central at TCR in 39-41m at 4tph (+6m)
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 40-44m at 4tph (+8m)
 * CR2 changing to Northern (City) Southbound at AGL in 41-44m at 4tph (+8m)
 * CR2 changing to District at VIC in 42-44m at 4tph (+9m)
-* SUR-WAT changing to Northern (West End) at WAT changing to District at CHX in 41-47m at 10tph (+10m)
-* SUR-WAT changing to BAL-VIC at CLJ changing to District at VIC in 45-49m at 10tph (+13m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT changing to District at CHX in 41-47m at 10tph (+10m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to BAL-VIC at CLJ changing to District at VIC in 45-49m at 10tph (+13m)
 
 From Surbiton to Moorgate
 -------------------------
 * CR2 changing to CR1 at TCR in 35-37m at 4tph
-* SUR-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 36-41m at 10tph (+3m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Jubilee at WAT changing to Northern (City) at LBG in 36-41m at 10tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 39-42m at 4tph (+5m)
-* SUR-WAT changing to W&C at WAT changing to Northern (City) at UBK in 38-49m at 10tph (+8m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to W&C at WAT changing to Northern (City) at UBK in 38-49m at 10tph (+8m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 45-51m at 4tph (+12m)
 
 From Surbiton to Old Street
 ---------------------------
-* SUR-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 37-42m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Jubilee at WAT changing to Northern (City) at LBG in 37-42m at 10tph
 * CR2 changing to Northern (City) Southbound at AGL in 38-41m at 4tph (+0m)
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 39-43m at 4tph (+2m)
-* SUR-WAT changing to W&C at WAT changing to Northern (City) at UBK in 39-50m at 10tph (+5m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to W&C at WAT changing to Northern (City) at UBK in 39-50m at 10tph (+5m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 46-52m at 4tph (+10m)
 
 From Surbiton to Chancery Lane
 ------------------------------
 * CR2 changing to Central at TCR in 35-37m at 4tph
-* SUR-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 39-50m at 10tph (+9m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to W&C at WAT changing to Central (Westbound) at UBK in 39-50m at 10tph (+9m)
 
 From Surbiton to St Pauls
 -------------------------
 * CR2 changing to Central at TCR in 37-39m at 4tph
-* SUR-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 37-48m at 10tph (+5m)
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to W&C at WAT changing to Central (Westbound) at UBK in 37-48m at 10tph (+5m)
 
 From Surbiton to Canary Wharf
 -----------------------------
-* SUR-WAT changing to Jubilee at WAT in 37-40m at 10tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Jubilee at WAT in 37-40m at 10tph
 * CR2 changing to CR1 at TCR in 42-44m at 4tph (+5m)
 
 

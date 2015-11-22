@@ -110,7 +110,7 @@ public class Crossrail2EarlsfieldSWLondonModel extends Model {
     // 10tph Surbiton
     Route surwat = Route.of(
         "SWML",
-        "SUR-WAT",
+        "SUR-WAT (SUR-WIM-CLJ-VXH-WAT)",
         10,
         stations(SUR, WIM),
         times(7),
