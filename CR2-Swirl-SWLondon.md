@@ -27,6 +27,7 @@ From Chessington South to Tottenham Court Road
 From Chessington South to Euston
 --------------------------------
 * CR2 direct in 35m at 6tph
+* CR2 changing to Northern (West End) at TCR in 40-42m at 6tph (+6m)
 * CR2 changing to Victoria at VIC in 41-43m at 6tph (+7m)
 
 From Chessington South to Angel
@@ -51,23 +52,27 @@ From Chessington South to Oxford Circus
 
 From Chessington South to Charing Cross
 ---------------------------------------
-* CR2 changing to District at VIC in 40-42m at 6tph
-* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 41-47m at 6tph (+3m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 42-48m at 6tph (+4m)
+* CR2 changing to Northern (West End) Southbound at TCR in 39-41m at 6tph
+* CR2 changing to District at VIC in 40-42m at 6tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 41-47m at 6tph (+4m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 42-48m at 6tph (+5m)
 
 From Chessington South to Leicester Square
 ------------------------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 44-50m at 6tph
+* CR2 changing to Northern (West End) Southbound at TCR in 37-39m at 6tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 44-50m at 6tph (+9m)
 
 From Chessington South to Goodge Street
 ---------------------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 46-52m at 6tph
+* CR2 changing to Northern (West End) at TCR in 37-39m at 6tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 46-52m at 6tph (+11m)
 
 From Chessington South to Warren Street
 ---------------------------------------
-* CR2 changing to Victoria at VIC in 40-42m at 6tph
-* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 42-48m at 6tph (+4m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 48-54m at 6tph (+10m)
+* CR2 changing to Northern (West End) at TCR in 39-41m at 6tph
+* CR2 changing to Victoria at VIC in 40-42m at 6tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 42-48m at 6tph (+5m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 48-54m at 6tph (+11m)
 
 From Chessington South to Baker Street
 --------------------------------------
@@ -121,6 +126,10 @@ From Chessington South to Old Street
 * CR2 changing to Northern (City) Southbound at AGL in 44-47m at 6tph
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 45-49m at 6tph (+2m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 52-58m at 6tph (+10m)
+
+From Chessington South to Holborn
+---------------------------------
+* CR2 changing to Central at TCR in 39-41m at 6tph
 
 From Chessington South to Chancery Lane
 ---------------------------------------
@@ -183,21 +192,25 @@ From Leatherhead to Oxford Circus
 From Leatherhead to Charing Cross
 ---------------------------------
 * LHD-WAT changing to Bakerloo at WAT in 47-50m at 4tph
+* LHD-WAT changing to CR2 at WIM changing to Northern (West End) Southbound at TCR in 47-52m at 4tph (+1m)
 * LHD-WAT changing to Northern (West End) at WAT in 48-51m at 4tph (+1m)
 * LHD-WAT changing to CR2 at WIM changing to District at VIC in 48-53m at 4tph (+2m)
 * LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 55-59m at 4tph (+9m)
 
 From Leatherhead to Leicester Square
 ------------------------------------
-* LHD-WAT changing to Northern (West End) at WAT in 50-53m at 4tph
+* LHD-WAT changing to CR2 at WIM changing to Northern (West End) Southbound at TCR in 45-50m at 4tph
+* LHD-WAT changing to Northern (West End) at WAT in 50-53m at 4tph (+4m)
 
 From Leatherhead to Goodge Street
 ---------------------------------
-* LHD-WAT changing to Northern (West End) at WAT in 52-55m at 4tph
+* LHD-WAT changing to CR2 at WIM changing to Northern (West End) at TCR in 45-50m at 4tph
+* LHD-WAT changing to Northern (West End) at WAT in 52-55m at 4tph (+6m)
 
 From Leatherhead to Warren Street
 ---------------------------------
-* LHD-WAT changing to Victoria at VXH in 48-51m at 4tph
+* LHD-WAT changing to CR2 at WIM changing to Northern (West End) at TCR in 47-52m at 4tph
+* LHD-WAT changing to Victoria at VXH in 48-51m at 4tph (+0m)
 * LHD-WAT changing to CR2 at WIM changing to Victoria at VIC in 48-53m at 4tph (+1m)
 * LHD-WAT changing to Northern (West End) at WAT in 54-57m at 4tph (+6m)
 * LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 54-59m at 4tph (+7m)
@@ -261,6 +274,11 @@ From Leatherhead to Old Street
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 55-60m at 4tph (+3m)
 * LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 57-68m at 4tph (+8m)
 
+From Leatherhead to Holborn
+---------------------------
+* LHD-WAT changing to CR2 at WIM changing to Central at TCR in 47-52m at 4tph
+* LHD-WAT changing to W&C at WAT changing to Central (Westbound) at UBK in 59-70m at 4tph (+15m)
+
 From Leatherhead to Chancery Lane
 ---------------------------------
 * LHD-WAT changing to CR2 at WIM changing to Central at TCR in 49-54m at 4tph
@@ -292,6 +310,7 @@ From Epsom to Tottenham Court Road
 From Epsom to Euston
 --------------------
 * CR2 direct in 35m at 6tph
+* CR2 changing to Northern (West End) at TCR in 40-42m at 6tph (+6m)
 * CR2 changing to Victoria at VIC in 41-43m at 6tph (+7m)
 * LHD-WAT changing to Victoria at VXH in 41-44m at 4tph (+8m)
 
@@ -319,26 +338,30 @@ From Epsom to Oxford Circus
 
 From Epsom to Charing Cross
 ---------------------------
-* LHD-WAT changing to Bakerloo at WAT in 39-42m at 4tph
+* CR2 changing to Northern (West End) Southbound at TCR in 39-41m at 6tph
+* LHD-WAT changing to Bakerloo at WAT in 39-42m at 4tph (+1m)
 * CR2 changing to District at VIC in 40-42m at 6tph (+1m)
-* LHD-WAT changing to Northern (West End) at WAT in 40-43m at 4tph (+1m)
+* LHD-WAT changing to Northern (West End) at WAT in 40-43m at 4tph (+2m)
 * LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 47-51m at 4tph (+9m)
 
 From Epsom to Leicester Square
 ------------------------------
-* LHD-WAT changing to Northern (West End) at WAT in 42-45m at 4tph
+* CR2 changing to Northern (West End) Southbound at TCR in 37-39m at 6tph
+* LHD-WAT changing to Northern (West End) at WAT in 42-45m at 4tph (+6m)
 
 From Epsom to Goodge Street
 ---------------------------
-* LHD-WAT changing to Northern (West End) at WAT in 44-47m at 4tph
+* CR2 changing to Northern (West End) at TCR in 37-39m at 6tph
+* LHD-WAT changing to Northern (West End) at WAT in 44-47m at 4tph (+8m)
 
 From Epsom to Warren Street
 ---------------------------
-* CR2 changing to Victoria at VIC in 40-42m at 6tph
-* LHD-WAT changing to Victoria at VXH in 40-43m at 4tph (+1m)
-* LHD-WAT changing to Northern (West End) at WAT in 46-49m at 4tph (+7m)
-* LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 46-51m at 4tph (+8m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 47-51m at 4tph (+8m)
+* CR2 changing to Northern (West End) at TCR in 39-41m at 6tph
+* CR2 changing to Victoria at VIC in 40-42m at 6tph (+1m)
+* LHD-WAT changing to Victoria at VXH in 40-43m at 4tph (+2m)
+* LHD-WAT changing to Northern (West End) at WAT in 46-49m at 4tph (+8m)
+* LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 46-51m at 4tph (+9m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 47-51m at 4tph (+9m)
 
 From Epsom to Baker Street
 --------------------------
@@ -408,6 +431,10 @@ From Epsom to Old Street
 * LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 49-60m at 4tph (+9m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 52-58m at 6tph (+10m)
 
+From Epsom to Holborn
+---------------------
+* CR2 changing to Central at TCR in 39-41m at 6tph
+
 From Epsom to Chancery Lane
 ---------------------------
 * CR2 changing to Central at TCR in 41-43m at 6tph
@@ -437,6 +464,7 @@ From Stoneleigh to Tottenham Court Road
 From Stoneleigh to Euston
 -------------------------
 * CR2 direct in 30m at 6tph
+* CR2 changing to Northern (West End) at TCR in 35-37m at 6tph (+6m)
 * CR2 changing to Victoria at VIC in 36-38m at 6tph (+7m)
 
 From Stoneleigh to Angel
@@ -461,23 +489,27 @@ From Stoneleigh to Oxford Circus
 
 From Stoneleigh to Charing Cross
 --------------------------------
-* CR2 changing to District at VIC in 35-37m at 6tph
-* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 36-42m at 6tph (+3m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 37-43m at 6tph (+4m)
+* CR2 changing to Northern (West End) Southbound at TCR in 34-36m at 6tph
+* CR2 changing to District at VIC in 35-37m at 6tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 36-42m at 6tph (+4m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 37-43m at 6tph (+5m)
 
 From Stoneleigh to Leicester Square
 -----------------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 39-45m at 6tph
+* CR2 changing to Northern (West End) Southbound at TCR in 32-34m at 6tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 39-45m at 6tph (+9m)
 
 From Stoneleigh to Goodge Street
 --------------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 41-47m at 6tph
+* CR2 changing to Northern (West End) at TCR in 32-34m at 6tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 41-47m at 6tph (+11m)
 
 From Stoneleigh to Warren Street
 --------------------------------
-* CR2 changing to Victoria at VIC in 35-37m at 6tph
-* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 37-43m at 6tph (+4m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 43-49m at 6tph (+10m)
+* CR2 changing to Northern (West End) at TCR in 34-36m at 6tph
+* CR2 changing to Victoria at VIC in 35-37m at 6tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 37-43m at 6tph (+5m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 43-49m at 6tph (+11m)
 
 From Stoneleigh to Baker Street
 -------------------------------
@@ -532,6 +564,10 @@ From Stoneleigh to Old Street
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 40-44m at 6tph (+2m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 47-53m at 6tph (+10m)
 
+From Stoneleigh to Holborn
+--------------------------
+* CR2 changing to Central at TCR in 34-36m at 6tph
+
 From Stoneleigh to Chancery Lane
 --------------------------------
 * CR2 changing to Central at TCR in 36-38m at 6tph
@@ -560,6 +596,7 @@ From Worcester Park to Tottenham Court Road
 From Worcester Park to Euston
 -----------------------------
 * CR2 direct in 27m at 6tph
+* CR2 changing to Northern (West End) at TCR in 32-34m at 6tph (+6m)
 * CR2 changing to Victoria at VIC in 33-35m at 6tph (+7m)
 
 From Worcester Park to Angel
@@ -586,26 +623,30 @@ From Worcester Park to Oxford Circus
 
 From Worcester Park to Charing Cross
 ------------------------------------
-* CR2 changing to District at VIC in 32-34m at 6tph
-* LHD-WAT changing to Bakerloo at WAT in 32-35m at 4tph (+1m)
-* LHD-WAT changing to Northern (West End) at WAT in 33-36m at 4tph (+2m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 40-44m at 4tph (+9m)
+* CR2 changing to Northern (West End) Southbound at TCR in 31-33m at 6tph
+* CR2 changing to District at VIC in 32-34m at 6tph (+1m)
+* LHD-WAT changing to Bakerloo at WAT in 32-35m at 4tph (+2m)
+* LHD-WAT changing to Northern (West End) at WAT in 33-36m at 4tph (+3m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to District at VIC in 40-44m at 4tph (+10m)
 
 From Worcester Park to Leicester Square
 ---------------------------------------
-* LHD-WAT changing to Northern (West End) at WAT in 35-38m at 4tph
+* CR2 changing to Northern (West End) Southbound at TCR in 29-31m at 6tph
+* LHD-WAT changing to Northern (West End) at WAT in 35-38m at 4tph (+7m)
 
 From Worcester Park to Goodge Street
 ------------------------------------
-* LHD-WAT changing to Northern (West End) at WAT in 37-40m at 4tph
+* CR2 changing to Northern (West End) at TCR in 29-31m at 6tph
+* LHD-WAT changing to Northern (West End) at WAT in 37-40m at 4tph (+9m)
 
 From Worcester Park to Warren Street
 ------------------------------------
-* CR2 changing to Victoria at VIC in 32-34m at 6tph
-* LHD-WAT changing to Victoria at VXH in 33-36m at 4tph (+2m)
-* LHD-WAT changing to Northern (West End) at WAT in 39-42m at 4tph (+8m)
-* LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 39-44m at 4tph (+9m)
-* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 40-44m at 4tph (+9m)
+* CR2 changing to Northern (West End) at TCR in 31-33m at 6tph
+* CR2 changing to Victoria at VIC in 32-34m at 6tph (+1m)
+* LHD-WAT changing to Victoria at VXH in 33-36m at 4tph (+3m)
+* LHD-WAT changing to Northern (West End) at WAT in 39-42m at 4tph (+9m)
+* LHD-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 39-44m at 4tph (+10m)
+* LHD-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 40-44m at 4tph (+10m)
 
 From Worcester Park to Baker Street
 -----------------------------------
@@ -675,6 +716,10 @@ From Worcester Park to Old Street
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 44-50m at 6tph (+10m)
 * LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 42-53m at 4tph (+10m)
 
+From Worcester Park to Holborn
+------------------------------
+* CR2 changing to Central at TCR in 31-33m at 6tph
+
 From Worcester Park to Chancery Lane
 ------------------------------------
 * CR2 changing to Central at TCR in 33-35m at 6tph
@@ -704,6 +749,7 @@ From Motspur Park to Tottenham Court Road
 From Motspur Park to Euston
 ---------------------------
 * CR2 direct in 24m at 12tph
+* CR2 changing to Northern (West End) at TCR in 29-31m at 12tph (+6m)
 * CR2 changing to Victoria at VIC in 30-32m at 12tph (+7m)
 
 From Motspur Park to Angel
@@ -728,23 +774,27 @@ From Motspur Park to Oxford Circus
 
 From Motspur Park to Charing Cross
 ----------------------------------
-* CR2 changing to District at VIC in 29-31m at 12tph
-* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 30-36m at 12tph (+3m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 31-37m at 12tph (+4m)
+* CR2 changing to Northern (West End) Southbound at TCR in 28-30m at 12tph
+* CR2 changing to District at VIC in 29-31m at 12tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 30-36m at 12tph (+4m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 31-37m at 12tph (+5m)
 
 From Motspur Park to Leicester Square
 -------------------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 33-39m at 12tph
+* CR2 changing to Northern (West End) Southbound at TCR in 26-28m at 12tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 33-39m at 12tph (+9m)
 
 From Motspur Park to Goodge Street
 ----------------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 35-41m at 12tph
+* CR2 changing to Northern (West End) at TCR in 26-28m at 12tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 35-41m at 12tph (+11m)
 
 From Motspur Park to Warren Street
 ----------------------------------
-* CR2 changing to Victoria at VIC in 29-31m at 12tph
-* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 31-37m at 12tph (+4m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 37-43m at 12tph (+10m)
+* CR2 changing to Northern (West End) at TCR in 28-30m at 12tph
+* CR2 changing to Victoria at VIC in 29-31m at 12tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 31-37m at 12tph (+5m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 37-43m at 12tph (+11m)
 
 From Motspur Park to Baker Street
 ---------------------------------
@@ -799,6 +849,10 @@ From Motspur Park to Old Street
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 34-38m at 12tph (+2m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 41-47m at 12tph (+10m)
 
+From Motspur Park to Holborn
+----------------------------
+* CR2 changing to Central at TCR in 28-30m at 12tph
+
 From Motspur Park to Chancery Lane
 ----------------------------------
 * CR2 changing to Central at TCR in 30-32m at 12tph
@@ -826,6 +880,7 @@ From Shepperton to Tottenham Court Road
 From Shepperton to Euston
 -------------------------
 * CR2 direct in 54m at 6tph
+* CR2 changing to Northern (West End) at TCR in 59-61m at 6tph (+6m)
 * CR2 changing to Victoria at VIC in 60-62m at 6tph (+7m)
 
 From Shepperton to Angel
@@ -850,23 +905,27 @@ From Shepperton to Oxford Circus
 
 From Shepperton to Charing Cross
 --------------------------------
-* CR2 changing to District at VIC in 59-61m at 6tph
-* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 60-66m at 6tph (+3m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 61-67m at 6tph (+4m)
+* CR2 changing to Northern (West End) Southbound at TCR in 58-60m at 6tph
+* CR2 changing to District at VIC in 59-61m at 6tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 60-66m at 6tph (+4m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 61-67m at 6tph (+5m)
 
 From Shepperton to Leicester Square
 -----------------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 63-69m at 6tph
+* CR2 changing to Northern (West End) Southbound at TCR in 56-58m at 6tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 63-69m at 6tph (+9m)
 
 From Shepperton to Goodge Street
 --------------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 65-71m at 6tph
+* CR2 changing to Northern (West End) at TCR in 56-58m at 6tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 65-71m at 6tph (+11m)
 
 From Shepperton to Warren Street
 --------------------------------
-* CR2 changing to Victoria at VIC in 59-61m at 6tph
-* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 61-67m at 6tph (+4m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 67-73m at 6tph (+10m)
+* CR2 changing to Northern (West End) at TCR in 58-60m at 6tph
+* CR2 changing to Victoria at VIC in 59-61m at 6tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 61-67m at 6tph (+5m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 67-73m at 6tph (+11m)
 
 From Shepperton to Baker Street
 -------------------------------
@@ -921,6 +980,10 @@ From Shepperton to Old Street
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 64-68m at 6tph (+2m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 71-77m at 6tph (+10m)
 
+From Shepperton to Holborn
+--------------------------
+* CR2 changing to Central at TCR in 58-60m at 6tph
+
 From Shepperton to Chancery Lane
 --------------------------------
 * CR2 changing to Central at TCR in 60-62m at 6tph
@@ -948,6 +1011,7 @@ From Fulwell to Tottenham Court Road
 From Fulwell to Euston
 ----------------------
 * CR2 direct in 41m at 6tph
+* CR2 changing to Northern (West End) at TCR in 46-48m at 6tph (+6m)
 * CR2 changing to Victoria at VIC in 47-49m at 6tph (+7m)
 
 From Fulwell to Angel
@@ -972,23 +1036,27 @@ From Fulwell to Oxford Circus
 
 From Fulwell to Charing Cross
 -----------------------------
-* CR2 changing to District at VIC in 46-48m at 6tph
-* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 47-53m at 6tph (+3m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 48-54m at 6tph (+4m)
+* CR2 changing to Northern (West End) Southbound at TCR in 45-47m at 6tph
+* CR2 changing to District at VIC in 46-48m at 6tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 47-53m at 6tph (+4m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 48-54m at 6tph (+5m)
 
 From Fulwell to Leicester Square
 --------------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 50-56m at 6tph
+* CR2 changing to Northern (West End) Southbound at TCR in 43-45m at 6tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 50-56m at 6tph (+9m)
 
 From Fulwell to Goodge Street
 -----------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 52-58m at 6tph
+* CR2 changing to Northern (West End) at TCR in 43-45m at 6tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 52-58m at 6tph (+11m)
 
 From Fulwell to Warren Street
 -----------------------------
-* CR2 changing to Victoria at VIC in 46-48m at 6tph
-* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 48-54m at 6tph (+4m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 54-60m at 6tph (+10m)
+* CR2 changing to Northern (West End) at TCR in 45-47m at 6tph
+* CR2 changing to Victoria at VIC in 46-48m at 6tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 48-54m at 6tph (+5m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 54-60m at 6tph (+11m)
 
 From Fulwell to Baker Street
 ----------------------------
@@ -1043,6 +1111,10 @@ From Fulwell to Old Street
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 51-55m at 6tph (+2m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 58-64m at 6tph (+10m)
 
+From Fulwell to Holborn
+-----------------------
+* CR2 changing to Central at TCR in 45-47m at 6tph
+
 From Fulwell to Chancery Lane
 -----------------------------
 * CR2 changing to Central at TCR in 47-49m at 6tph
@@ -1071,6 +1143,7 @@ From Kingston to Tottenham Court Road
 From Kingston to Euston
 -----------------------
 * CR2 direct in 31m at 8tph
+* CR2 changing to Northern (West End) at TCR in 36-38m at 8tph (+6m)
 * CR2 changing to Victoria at VIC in 37-39m at 8tph (+7m)
 
 From Kingston to Angel
@@ -1097,26 +1170,30 @@ From Kingston to Oxford Circus
 
 From Kingston to Charing Cross
 ------------------------------
-* CR2 changing to District at VIC in 36-38m at 8tph
-* TWI-WAT changing to Bakerloo at WAT in 36-39m at 4tph (+1m)
-* TWI-WAT changing to Northern (West End) at WAT in 37-40m at 4tph (+2m)
-* TWI-WAT changing to BAL-VIC at CLJ changing to District at VIC in 44-48m at 4tph (+9m)
+* CR2 changing to Northern (West End) Southbound at TCR in 35-37m at 8tph
+* CR2 changing to District at VIC in 36-38m at 8tph (+1m)
+* TWI-WAT changing to Bakerloo at WAT in 36-39m at 4tph (+2m)
+* TWI-WAT changing to Northern (West End) at WAT in 37-40m at 4tph (+3m)
+* TWI-WAT changing to BAL-VIC at CLJ changing to District at VIC in 44-48m at 4tph (+10m)
 
 From Kingston to Leicester Square
 ---------------------------------
-* TWI-WAT changing to Northern (West End) at WAT in 39-42m at 4tph
+* CR2 changing to Northern (West End) Southbound at TCR in 33-35m at 8tph
+* TWI-WAT changing to Northern (West End) at WAT in 39-42m at 4tph (+7m)
 
 From Kingston to Goodge Street
 ------------------------------
-* TWI-WAT changing to Northern (West End) at WAT in 41-44m at 4tph
+* CR2 changing to Northern (West End) at TCR in 33-35m at 8tph
+* TWI-WAT changing to Northern (West End) at WAT in 41-44m at 4tph (+9m)
 
 From Kingston to Warren Street
 ------------------------------
-* CR2 changing to Victoria at VIC in 36-38m at 8tph
-* TWI-WAT changing to Victoria at VXH in 37-40m at 4tph (+2m)
-* TWI-WAT changing to Northern (West End) at WAT in 43-46m at 4tph (+8m)
-* TWI-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 43-48m at 4tph (+9m)
-* TWI-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 44-48m at 4tph (+9m)
+* CR2 changing to Northern (West End) at TCR in 35-37m at 8tph
+* CR2 changing to Victoria at VIC in 36-38m at 8tph (+1m)
+* TWI-WAT changing to Victoria at VXH in 37-40m at 4tph (+3m)
+* TWI-WAT changing to Northern (West End) at WAT in 43-46m at 4tph (+9m)
+* TWI-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 43-48m at 4tph (+10m)
+* TWI-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 44-48m at 4tph (+10m)
 
 From Kingston to Baker Street
 -----------------------------
@@ -1186,6 +1263,10 @@ From Kingston to Old Street
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 48-54m at 8tph (+10m)
 * TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 46-57m at 4tph (+10m)
 
+From Kingston to Holborn
+------------------------
+* CR2 changing to Central at TCR in 35-37m at 8tph
+
 From Kingston to Chancery Lane
 ------------------------------
 * CR2 changing to Central at TCR in 37-39m at 8tph
@@ -1217,6 +1298,7 @@ From Hampton Court to Tottenham Court Road
 From Hampton Court to Euston
 ----------------------------
 * CR2 direct in 37m at 4tph
+* CR2 changing to Northern (West End) at TCR in 42-44m at 4tph (+6m)
 * CR2 changing to Victoria at VIC in 43-45m at 4tph (+7m)
 * CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Victoria at VXH in 42-47m at 4tph (+8m)
 
@@ -1247,29 +1329,33 @@ From Hampton Court to Oxford Circus
 
 From Hampton Court to Charing Cross
 -----------------------------------
-* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Bakerloo at WAT in 40-45m at 4tph
+* CR2 changing to Northern (West End) Southbound at TCR in 41-43m at 4tph
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Bakerloo at WAT in 40-45m at 4tph (+1m)
 * CR2 changing to District at VIC in 42-44m at 4tph (+1m)
-* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 41-46m at 4tph (+1m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 41-46m at 4tph (+2m)
 * CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 43-49m at 4tph (+4m)
 * CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 44-50m at 4tph (+5m)
 
 From Hampton Court to Leicester Square
 --------------------------------------
-* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 43-48m at 4tph
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 46-52m at 4tph (+4m)
+* CR2 changing to Northern (West End) Southbound at TCR in 39-41m at 4tph
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 43-48m at 4tph (+6m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 46-52m at 4tph (+9m)
 
 From Hampton Court to Goodge Street
 -----------------------------------
-* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 45-50m at 4tph
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 48-54m at 4tph (+4m)
+* CR2 changing to Northern (West End) at TCR in 39-41m at 4tph
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 45-50m at 4tph (+8m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 48-54m at 4tph (+11m)
 
 From Hampton Court to Warren Street
 -----------------------------------
-* CR2 changing to Victoria at VIC in 42-44m at 4tph
-* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Victoria at VXH in 41-46m at 4tph (+1m)
-* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 44-50m at 4tph (+4m)
-* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 47-52m at 4tph (+7m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 50-56m at 4tph (+10m)
+* CR2 changing to Northern (West End) at TCR in 41-43m at 4tph
+* CR2 changing to Victoria at VIC in 42-44m at 4tph (+1m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Victoria at VXH in 41-46m at 4tph (+2m)
+* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 44-50m at 4tph (+5m)
+* CR2 changing to SUR-WAT (SUR-WIM-CLJ-VXH-WAT) at SUR changing to Northern (West End) at WAT in 47-52m at 4tph (+8m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 50-56m at 4tph (+11m)
 
 From Hampton Court to Baker Street
 ----------------------------------
@@ -1329,6 +1415,10 @@ From Hampton Court to Old Street
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 47-51m at 4tph (+2m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 54-60m at 4tph (+10m)
 
+From Hampton Court to Holborn
+-----------------------------
+* CR2 changing to Central at TCR in 41-43m at 4tph
+
 From Hampton Court to Chancery Lane
 -----------------------------------
 * CR2 changing to Central at TCR in 43-45m at 4tph
@@ -1361,6 +1451,7 @@ From Surbiton to Euston
 -----------------------
 * CR2 direct in 29m at 4tph
 * SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Victoria at VXH in 31-34m at 10tph (+4m)
+* CR2 changing to Northern (West End) at TCR in 34-36m at 4tph (+6m)
 * CR2 changing to Victoria at VIC in 35-37m at 4tph (+7m)
 
 From Surbiton to Angel
@@ -1389,20 +1480,24 @@ From Surbiton to Charing Cross
 ------------------------------
 * SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Bakerloo at WAT in 29-32m at 10tph
 * SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT in 30-33m at 10tph (+1m)
+* CR2 changing to Northern (West End) Southbound at TCR in 33-35m at 4tph (+4m)
 * CR2 changing to District at VIC in 34-36m at 4tph (+5m)
 * SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to BAL-VIC at CLJ changing to District at VIC in 37-41m at 10tph (+9m)
 
 From Surbiton to Leicester Square
 ---------------------------------
-* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT in 32-35m at 10tph
+* CR2 changing to Northern (West End) Southbound at TCR in 31-33m at 4tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT in 32-35m at 10tph (+2m)
 
 From Surbiton to Goodge Street
 ------------------------------
-* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT in 34-37m at 10tph
+* CR2 changing to Northern (West End) at TCR in 31-33m at 4tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT in 34-37m at 10tph (+4m)
 
 From Surbiton to Warren Street
 ------------------------------
 * SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Victoria at VXH in 30-33m at 10tph
+* CR2 changing to Northern (West End) at TCR in 33-35m at 4tph (+3m)
 * CR2 changing to Victoria at VIC in 34-36m at 4tph (+4m)
 * SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Northern (West End) at WAT in 36-39m at 10tph (+6m)
 * SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to Bakerloo at WAT changing to Victoria at UOX in 36-41m at 10tph (+7m)
@@ -1475,6 +1570,11 @@ From Surbiton to Old Street
 * SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to W&C at WAT changing to Northern (City) at UBK in 39-50m at 10tph (+5m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 46-52m at 4tph (+10m)
 
+From Surbiton to Holborn
+------------------------
+* CR2 changing to Central at TCR in 33-35m at 4tph
+* SUR-WAT (SUR-WIM-CLJ-VXH-WAT) changing to W&C at WAT changing to Central (Westbound) at UBK in 41-52m at 10tph (+13m)
+
 From Surbiton to Chancery Lane
 ------------------------------
 * CR2 changing to Central at TCR in 35-37m at 4tph
@@ -1505,6 +1605,7 @@ From New Malden to Tottenham Court Road
 From New Malden to Euston
 -------------------------
 * CR2 direct in 24m at 12tph
+* CR2 changing to Northern (West End) at TCR in 29-31m at 12tph (+6m)
 * CR2 changing to Victoria at VIC in 30-32m at 12tph (+7m)
 
 From New Malden to Angel
@@ -1531,26 +1632,30 @@ From New Malden to Oxford Circus
 
 From New Malden to Charing Cross
 --------------------------------
-* CR2 changing to District at VIC in 29-31m at 12tph
-* TWI-WAT changing to Bakerloo at WAT in 29-32m at 4tph (+1m)
-* TWI-WAT changing to Northern (West End) at WAT in 30-33m at 4tph (+2m)
-* TWI-WAT changing to BAL-VIC at CLJ changing to District at VIC in 37-41m at 4tph (+9m)
+* CR2 changing to Northern (West End) Southbound at TCR in 28-30m at 12tph
+* CR2 changing to District at VIC in 29-31m at 12tph (+1m)
+* TWI-WAT changing to Bakerloo at WAT in 29-32m at 4tph (+2m)
+* TWI-WAT changing to Northern (West End) at WAT in 30-33m at 4tph (+3m)
+* TWI-WAT changing to BAL-VIC at CLJ changing to District at VIC in 37-41m at 4tph (+10m)
 
 From New Malden to Leicester Square
 -----------------------------------
-* TWI-WAT changing to Northern (West End) at WAT in 32-35m at 4tph
+* CR2 changing to Northern (West End) Southbound at TCR in 26-28m at 12tph
+* TWI-WAT changing to Northern (West End) at WAT in 32-35m at 4tph (+7m)
 
 From New Malden to Goodge Street
 --------------------------------
-* TWI-WAT changing to Northern (West End) at WAT in 34-37m at 4tph
+* CR2 changing to Northern (West End) at TCR in 26-28m at 12tph
+* TWI-WAT changing to Northern (West End) at WAT in 34-37m at 4tph (+9m)
 
 From New Malden to Warren Street
 --------------------------------
-* CR2 changing to Victoria at VIC in 29-31m at 12tph
-* TWI-WAT changing to Victoria at VXH in 30-33m at 4tph (+2m)
-* TWI-WAT changing to Northern (West End) at WAT in 36-39m at 4tph (+8m)
-* TWI-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 36-41m at 4tph (+9m)
-* TWI-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 37-41m at 4tph (+9m)
+* CR2 changing to Northern (West End) at TCR in 28-30m at 12tph
+* CR2 changing to Victoria at VIC in 29-31m at 12tph (+1m)
+* TWI-WAT changing to Victoria at VXH in 30-33m at 4tph (+3m)
+* TWI-WAT changing to Northern (West End) at WAT in 36-39m at 4tph (+9m)
+* TWI-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 36-41m at 4tph (+10m)
+* TWI-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 37-41m at 4tph (+10m)
 
 From New Malden to Baker Street
 -------------------------------
@@ -1620,6 +1725,10 @@ From New Malden to Old Street
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 41-47m at 12tph (+10m)
 * TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 39-50m at 4tph (+10m)
 
+From New Malden to Holborn
+--------------------------
+* CR2 changing to Central at TCR in 28-30m at 12tph
+
 From New Malden to Chancery Lane
 --------------------------------
 * CR2 changing to Central at TCR in 30-32m at 12tph
@@ -1649,6 +1758,7 @@ From Raynes Park to Tottenham Court Road
 From Raynes Park to Euston
 --------------------------
 * CR2 direct in 21m at 24tph
+* CR2 changing to Northern (West End) at TCR in 26-28m at 24tph (+6m)
 * CR2 changing to Victoria at VIC in 27-29m at 24tph (+7m)
 
 From Raynes Park to Angel
@@ -1673,23 +1783,27 @@ From Raynes Park to Oxford Circus
 
 From Raynes Park to Charing Cross
 ---------------------------------
-* CR2 changing to District at VIC in 26-28m at 24tph
-* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 27-33m at 18tph (+3m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 28-34m at 18tph (+4m)
+* CR2 changing to Northern (West End) Southbound at TCR in 25-27m at 24tph
+* CR2 changing to District at VIC in 26-28m at 24tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Bakerloo at WAT in 27-33m at 18tph (+4m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 28-34m at 18tph (+5m)
 
 From Raynes Park to Leicester Square
 ------------------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 30-36m at 18tph
+* CR2 changing to Northern (West End) Southbound at TCR in 23-25m at 24tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 30-36m at 18tph (+9m)
 
 From Raynes Park to Goodge Street
 ---------------------------------
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 32-38m at 18tph
+* CR2 changing to Northern (West End) at TCR in 23-25m at 24tph
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 32-38m at 18tph (+11m)
 
 From Raynes Park to Warren Street
 ---------------------------------
-* CR2 changing to Victoria at VIC in 26-28m at 24tph
-* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 28-34m at 18tph (+4m)
-* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 34-40m at 18tph (+10m)
+* CR2 changing to Northern (West End) at TCR in 25-27m at 24tph
+* CR2 changing to Victoria at VIC in 26-28m at 24tph (+1m)
+* CR2 changing to WIM-WAT at WIM changing to Victoria at VXH in 28-34m at 18tph (+5m)
+* CR2 changing to WIM-WAT at WIM changing to Northern (West End) at WAT in 34-40m at 18tph (+11m)
 
 From Raynes Park to Baker Street
 --------------------------------
@@ -1744,6 +1858,10 @@ From Raynes Park to Old Street
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 31-35m at 24tph (+2m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 38-44m at 24tph (+10m)
 
+From Raynes Park to Holborn
+---------------------------
+* CR2 changing to Central at TCR in 25-27m at 24tph
+
 From Raynes Park to Chancery Lane
 ---------------------------------
 * CR2 changing to Central at TCR in 27-29m at 24tph
@@ -1772,6 +1890,7 @@ From Wimbledon to Tottenham Court Road
 From Wimbledon to Euston
 ------------------------
 * CR2 direct in 17m at 30tph
+* CR2 changing to Northern (West End) at TCR in 22-24m at 30tph (+6m)
 * CR2 changing to Victoria at VIC in 23-25m at 30tph (+7m)
 
 From Wimbledon to Angel
@@ -1798,26 +1917,30 @@ From Wimbledon to Oxford Circus
 
 From Wimbledon to Charing Cross
 -------------------------------
-* CR2 changing to District at VIC in 22-24m at 27tph
-* WIM-WAT changing to Bakerloo at WAT in 22-25m at 18tph (+1m)
-* WIM-WAT changing to Northern (West End) at WAT in 23-26m at 18tph (+2m)
-* WIM-WAT changing to BAL-VIC at CLJ changing to District at VIC in 30-34m at 12tph (+9m)
+* CR2 changing to Northern (West End) Southbound at TCR in 21-23m at 30tph
+* CR2 changing to District at VIC in 22-24m at 27tph (+1m)
+* WIM-WAT changing to Bakerloo at WAT in 22-25m at 18tph (+2m)
+* WIM-WAT changing to Northern (West End) at WAT in 23-26m at 18tph (+3m)
+* WIM-WAT changing to BAL-VIC at CLJ changing to District at VIC in 30-34m at 12tph (+10m)
 
 From Wimbledon to Leicester Square
 ----------------------------------
-* WIM-WAT changing to Northern (West End) at WAT in 25-28m at 18tph
+* CR2 changing to Northern (West End) Southbound at TCR in 19-21m at 30tph
+* WIM-WAT changing to Northern (West End) at WAT in 25-28m at 18tph (+7m)
 
 From Wimbledon to Goodge Street
 -------------------------------
-* WIM-WAT changing to Northern (West End) at WAT in 27-30m at 18tph
+* CR2 changing to Northern (West End) at TCR in 19-21m at 30tph
+* WIM-WAT changing to Northern (West End) at WAT in 27-30m at 18tph (+9m)
 
 From Wimbledon to Warren Street
 -------------------------------
-* CR2 changing to Victoria at VIC in 22-24m at 30tph
-* WIM-WAT changing to Victoria at VXH in 23-26m at 18tph (+2m)
-* WIM-WAT changing to Northern (West End) at WAT in 29-32m at 18tph (+8m)
-* WIM-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 29-34m at 18tph (+9m)
-* WIM-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 30-34m at 12tph (+9m)
+* CR2 changing to Northern (West End) at TCR in 21-23m at 30tph
+* CR2 changing to Victoria at VIC in 22-24m at 30tph (+1m)
+* WIM-WAT changing to Victoria at VXH in 23-26m at 18tph (+3m)
+* WIM-WAT changing to Northern (West End) at WAT in 29-32m at 18tph (+9m)
+* WIM-WAT changing to Bakerloo at WAT changing to Victoria at UOX in 29-34m at 18tph (+10m)
+* WIM-WAT changing to BAL-VIC at CLJ changing to Victoria at VIC in 30-34m at 12tph (+10m)
 
 From Wimbledon to Baker Street
 ------------------------------
@@ -1887,6 +2010,10 @@ From Wimbledon to Old Street
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 34-40m at 30tph (+10m)
 * WIM-WAT changing to W&C at WAT changing to Northern (City) at UBK in 32-43m at 18tph (+10m)
 
+From Wimbledon to Holborn
+-------------------------
+* CR2 changing to Central at TCR in 21-23m at 30tph
+
 From Wimbledon to Chancery Lane
 -------------------------------
 * CR2 changing to Central at TCR in 23-25m at 30tph
@@ -1916,6 +2043,7 @@ From Earlsfield to Tottenham Court Road
 From Earlsfield to Euston
 -------------------------
 * CR2 direct in 14m at 30tph
+* CR2 changing to Northern (West End) at TCR in 19-21m at 30tph (+6m)
 * CR2 changing to Victoria at VIC in 20-22m at 30tph (+7m)
 
 From Earlsfield to Angel
@@ -1940,23 +2068,27 @@ From Earlsfield to Oxford Circus
 
 From Earlsfield to Charing Cross
 --------------------------------
-* CR2 changing to District at VIC in 19-21m at 27tph
-* CR2 changing to WIM-WAT at CLJ changing to Bakerloo at WAT in 23-28m at 18tph (+6m)
-* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 24-29m at 18tph (+7m)
+* CR2 changing to Northern (West End) Southbound at TCR in 18-20m at 30tph
+* CR2 changing to District at VIC in 19-21m at 27tph (+1m)
+* CR2 changing to WIM-WAT at CLJ changing to Bakerloo at WAT in 23-28m at 18tph (+7m)
+* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 24-29m at 18tph (+8m)
 
 From Earlsfield to Leicester Square
 -----------------------------------
-* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 26-31m at 18tph
+* CR2 changing to Northern (West End) Southbound at TCR in 16-18m at 30tph
+* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 26-31m at 18tph (+12m)
 
 From Earlsfield to Goodge Street
 --------------------------------
-* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 28-33m at 18tph
+* CR2 changing to Northern (West End) at TCR in 16-18m at 30tph
+* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 28-33m at 18tph (+14m)
 
 From Earlsfield to Warren Street
 --------------------------------
-* CR2 changing to Victoria at VIC in 19-21m at 30tph
-* CR2 changing to WIM-WAT at CLJ changing to Victoria at VXH in 24-29m at 18tph (+7m)
-* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 30-35m at 18tph (+13m)
+* CR2 changing to Northern (West End) at TCR in 18-20m at 30tph
+* CR2 changing to Victoria at VIC in 19-21m at 30tph (+1m)
+* CR2 changing to WIM-WAT at CLJ changing to Victoria at VXH in 24-29m at 18tph (+8m)
+* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 30-35m at 18tph (+14m)
 
 From Earlsfield to Baker Street
 -------------------------------
@@ -2010,6 +2142,10 @@ From Earlsfield to Old Street
 * CR2 changing to Northern (City) Southbound at AGL in 23-26m at 30tph
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 24-28m at 30tph (+2m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 31-37m at 30tph (+10m)
+
+From Earlsfield to Holborn
+--------------------------
+* CR2 changing to Central at TCR in 18-20m at 30tph
 
 From Earlsfield to Chancery Lane
 --------------------------------
@@ -2132,6 +2268,10 @@ From Morden to Old Street
 -------------------------
 * Northern (City) direct in 32m at 30tph
 
+From Morden to Holborn
+----------------------
+* Northern (City) changing to Central (Westbound) at UBK in 39-43m at 30tph
+
 From Morden to Chancery Lane
 ----------------------------
 * Northern (City) changing to Central (Westbound) at UBK in 37-41m at 30tph
@@ -2252,6 +2392,10 @@ From South Wimbledon to Moorgate
 From South Wimbledon to Old Street
 ----------------------------------
 * Northern (City) direct in 30m at 30tph
+
+From South Wimbledon to Holborn
+-------------------------------
+* Northern (City) changing to Central (Westbound) at UBK in 37-41m at 30tph
 
 From South Wimbledon to Chancery Lane
 -------------------------------------
@@ -2374,6 +2518,10 @@ From Tooting Broadway to Old Street
 -----------------------------------
 * Northern (City) direct in 26m at 30tph
 
+From Tooting Broadway to Holborn
+--------------------------------
+* Northern (City) changing to Central (Westbound) at UBK in 33-37m at 30tph
+
 From Tooting Broadway to Chancery Lane
 --------------------------------------
 * Northern (City) changing to Central (Westbound) at UBK in 31-35m at 30tph
@@ -2415,9 +2563,12 @@ From Tooting Broadway to Canary Wharf
 * RAY Raynes Park
 * SHP Shepperton
 * SNL Stoneleigh
+* SRH Streatham Hill
+* STE Streatham
 * STP St Pancras
 * SUR Surbiton
 * TCR Tottenham Court Road
+* TOO Tooting (mainline)
 * TWI Twickenham
 * UBH Borough
 * UBK Bank/Monument

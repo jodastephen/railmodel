@@ -90,6 +90,9 @@ public class Model {
     buf.append("From ").append(start.description()).append(" to ").append(end.description()).append(NEWLINE);
     buf.append(Strings.repeat("-", buf.length() - NEWLINE.length())).append(NEWLINE);
     List<Journey> solved = solve(start, end);
+    if (solved.isEmpty()) {
+      throw new IllegalStateException("No routes found: " + start + " - " + end);
+    }
     solved.sort(Comparator.naturalOrder());
     Journey first = solved.get(0);
     int maxExcess = MAX_EXCESS;
@@ -132,6 +135,7 @@ public class Model {
       Set<Change> allChanges = new HashSet<>();
       for (Station possibleChange : effectiveStations) {
         List<Change> changes = findChanges(possibleChange, allChanges, base, baseRoute, end);
+        //System.out.println(possibleChange + " " + changes);
         allChanges.addAll(changes);
         for (Change change : changes) {
           if (change.getRoute2().containsAfter(end, change.getStation())) {

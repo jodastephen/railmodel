@@ -37,7 +37,7 @@ public class Crossrail2BalhamSWLondonModel extends Model {
     ImmutableList<Station> starts = ImmutableList.of(
         CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB, BAL);
     ImmutableList<Station> ends = ImmutableList.of(
-        VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UCL, USP, CWF);
+        VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UHL, UCL, USP, CWF);
 
     List<String> output = new ArrayList<>();
     output.add("Modelling for SW London with Crossrail 2" + NEWLINE);
@@ -248,6 +248,12 @@ public class Crossrail2BalhamSWLondonModel extends Model {
         30,
         stations(UKN, WAT, CHX, ULS, TCR, UGS, UWS, EUS),
         times(2, 3, 2, 1, 1, 2, 1));
+    Route unorthernwestsb = Route.of(
+        "Northern (West End)",
+        "Northern (West End) Southbound",
+        30,
+        stations(TCR, ULS, CHX),
+        times(1, 2));
     Route uvictoria = Route.of(
         "Victoria",
         "Victoria",
@@ -306,6 +312,7 @@ public class Crossrail2BalhamSWLondonModel extends Model {
     addRoute(unortherncity);
     addRoute(unortherncitysb);
     addRoute(unorthernwest);
+    addRoute(unorthernwestsb);
     addRoute(uvictoria);
     addRoute(ubakerloo);
     addRoute(ujubilee);
@@ -360,6 +367,8 @@ public class Crossrail2BalhamSWLondonModel extends Model {
     // change at TCR
     addChange(Change.of(TCR, wimagl, cr1, 3, 5));
     addChange(Change.of(TCR, wimagl, ucentral, 4, 6));
+    addChange(Change.of(TCR, wimagl, unorthernwest, 3, 5));
+    addChange(Change.of(TCR, wimagl, unorthernwestsb, 3, 5));
 
     // change at Euston (pointless, might as well change at Angel)
     // addChange(Change.of(EUS, wimagl, unortherncitysb, 4, 8));
