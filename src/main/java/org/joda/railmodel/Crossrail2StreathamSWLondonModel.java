@@ -46,6 +46,9 @@ public class Crossrail2StreathamSWLondonModel extends Model {
     output.add("Modelling for SW London with Crossrail 2" + NEWLINE);
     output.add("========================================" + NEWLINE);
     output.add("This uses CR2 via Tooting (mainline) and Streatham, with best efforts guesses of interchange times." + NEWLINE);
+    output.add("This route is promoted by various groups in Streatham." + NEWLINE);
+    output.add("It adds at least 6 minutes to all journeys on Crossrail 2 between Wimbledon and Clapham Junction." + NEWLINE);
+    output.add("As such, no matter what benefits it gives Streatham, it simply will not happen." + NEWLINE);
     output.add(NEWLINE);
     output.add("A selection of interesting journeys is listed, together with calculated route options." + NEWLINE);
     output.add("A key for station codes is at the end." + NEWLINE);
@@ -382,7 +385,7 @@ public class Crossrail2StreathamSWLondonModel extends Model {
 
     // prefer change at RAY to WIM/CLJ if choice
     addPreferredChange(xraywatcr2, xwimwatcr2);
-    addPreferredChange(xraywatcr2, xcljwatcr2);
+//    addPreferredChange(xraywatcr2, xcljwatcr2);
     addPreferredChange(xraycr2wat, xwimcr2wat);
 
     // change at Victoria
