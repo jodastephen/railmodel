@@ -137,15 +137,15 @@ public class Model {
     buf.append("From ").append(start.description()).append(" to ").append(end.description());
     int points = solved.points();
     if (this instanceof CurrentSWLondonModel) {
-      buf.append(" (Effective time: ").append(points).append("m)").append(NEWLINE);
+      buf.append(" (").append(points).append("m)").append(NEWLINE);
     } else {
       JourneyOptions currentOptions = CurrentSWLondonModel.MODEL.solve(start, end);
       int currentPoints = currentOptions.points();
       int timeChange = points - currentPoints;
       if (timeChange > 0) {
-        buf.append(" (Effective time: ").append(timeChange).append("m worse)").append(NEWLINE);
+        buf.append(" (").append(timeChange).append("m worse)").append(NEWLINE);
       } else if (timeChange < 0) {
-        buf.append(" (Effective time: ").append(-timeChange).append("m better)").append(NEWLINE);
+        buf.append(" (").append(-timeChange).append("m better)").append(NEWLINE);
       } else {
         buf.append(" (No change)").append(NEWLINE);
       }
