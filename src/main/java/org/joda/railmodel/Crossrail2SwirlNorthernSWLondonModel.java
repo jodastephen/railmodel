@@ -30,18 +30,18 @@ import com.google.common.io.Files;
 /**
  * Calculates journey times for SW London with Crossrail 2 in place.
  */
-public class Crossrail2SwirlMaxSWLondonModel extends Model {
+public class Crossrail2SwirlNorthernSWLondonModel extends Model {
 
   public static void main(String[] args) throws Exception {
-    Crossrail2SwirlMaxSWLondonModel model = new Crossrail2SwirlMaxSWLondonModel();
+    Crossrail2SwirlNorthernSWLondonModel model = new Crossrail2SwirlNorthernSWLondonModel();
     ImmutableList<Station> starts = ImmutableList.of(
         CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB);
     ImmutableList<Station> ends = ImmutableList.of(
         VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UCL, USP, CWF);
 
     List<String> output = new ArrayList<>();
-    output.add("Modelling for SW London with Crossrail 2 Swirl-Max" + NEWLINE);
-    output.add("==================================================" + NEWLINE);
+    output.add("Modelling for SW London with Crossrail 2 Swirl plus Northern Line extension" + NEWLINE);
+    output.add("===========================================================================" + NEWLINE);
     output.add("This uses CR2 via Earlsfield based on the [Swirl plan](http://ukrail.blogspot.co.uk/2015/11/crossrail-2-swirl.html)," +
         " with best efforts guesses of interchange times." + NEWLINE);
     output.add("It then changes Chelsea to Battersea Power, and adds a Northern Line extension from " +
@@ -77,13 +77,13 @@ public class Crossrail2SwirlMaxSWLondonModel extends Model {
     output.add(NEWLINE);
     output.add("Feel free to send a pull request for errors and enhancments!." + NEWLINE);
 
-    File file = new File("CR2-SwirlMax-SWLondon.md");
+    File file = new File("CR2-SwirlNorthern-SWLondon.md");
     String result = Joiner.on("").join(output);
     Files.write(result, file, StandardCharsets.UTF_8);
     System.out.println(result);
   }
 
-  Crossrail2SwirlMaxSWLondonModel() {
+  Crossrail2SwirlNorthernSWLondonModel() {
     setup();
   }
 

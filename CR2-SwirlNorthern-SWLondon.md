@@ -1,5 +1,5 @@
-Modelling for SW London with Crossrail 2 Swirl-Max
-==================================================
+Modelling for SW London with Crossrail 2 Swirl plus Northern Line extension
+===========================================================================
 This uses CR2 via Earlsfield based on the [Swirl plan](http://ukrail.blogspot.co.uk/2015/11/crossrail-2-swirl.html), with best efforts guesses of interchange times.
 It then changes Chelsea to Battersea Power, and adds a Northern Line extension from Battersea Power to Balham with one intermediate stop.
 Trains from Morden run via Battersea Power to the West End.
@@ -2545,9 +2545,12 @@ From Tooting Broadway to Canary Wharf
 * RAY Raynes Park
 * SHP Shepperton
 * SNL Stoneleigh
+* SRH Streatham Hill
+* STE Streatham
 * STP St Pancras
 * SUR Surbiton
 * TCR Tottenham Court Road
+* TOO Tooting (mainline)
 * TWI Twickenham
 * UBH Borough
 * UBK Bank/Monument
