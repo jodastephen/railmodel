@@ -43,8 +43,8 @@ public class Crossrail2StreathamSWLondonModel extends Model {
         VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UHL, UCL, USP, CWF);
 
     List<String> output = new ArrayList<>();
-    output.add("Modelling for SW London with Crossrail 2" + NEWLINE);
-    output.add("========================================" + NEWLINE);
+    output.add("Modelling for SW London with Crossrail 2 via Streatham" + NEWLINE);
+    output.add("======================================================" + NEWLINE);
     output.add("This uses CR2 via Tooting (mainline) and Streatham, with best efforts guesses of interchange times." + NEWLINE);
     output.add("This route is promoted by various groups in Streatham." + NEWLINE);
     output.add("It adds at least 6 minutes to all journeys on Crossrail 2 between Wimbledon and Clapham Junction." + NEWLINE);

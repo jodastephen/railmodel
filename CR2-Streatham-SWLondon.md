@@ -1,5 +1,5 @@
-Modelling for SW London with Crossrail 2
-========================================
+Modelling for SW London with Crossrail 2 via Streatham
+======================================================
 This uses CR2 via Tooting (mainline) and Streatham, with best efforts guesses of interchange times.
 This route is promoted by various groups in Streatham.
 It adds at least 6 minutes to all journeys on Crossrail 2 between Wimbledon and Clapham Junction.

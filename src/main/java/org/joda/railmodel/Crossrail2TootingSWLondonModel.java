@@ -35,13 +35,13 @@ public class Crossrail2TootingSWLondonModel extends Model {
   public static void main(String[] args) throws Exception {
     Crossrail2TootingSWLondonModel model = new Crossrail2TootingSWLondonModel();
     ImmutableList<Station> starts = ImmutableList.of(
-        CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB);
+        CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB, BAL);
     ImmutableList<Station> ends = ImmutableList.of(
         VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UHL, UCL, USP, CWF);
 
     List<String> output = new ArrayList<>();
-    output.add("Modelling for SW London with Crossrail 2" + NEWLINE);
-    output.add("========================================" + NEWLINE);
+    output.add("Modelling for SW London with Crossrail 2 via Tooting Broadway" + NEWLINE);
+    output.add("=============================================================" + NEWLINE);
     output.add("This uses CR2 via Tooting Broadway, with best efforts guesses of interchange times." + NEWLINE);
     output.add(NEWLINE);
     output.add("A selection of interesting journeys is listed, together with calculated route options." + NEWLINE);

@@ -1,5 +1,5 @@
-Modelling for SW London with Crossrail 2
-========================================
+Modelling for SW London with Crossrail 2 via Balham
+===================================================
 This uses CR2 via Balham, with best efforts guesses of interchange times.
 
 A selection of interesting journeys is listed, together with calculated route options.

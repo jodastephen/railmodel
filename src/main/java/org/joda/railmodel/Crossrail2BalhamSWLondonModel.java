@@ -40,8 +40,8 @@ public class Crossrail2BalhamSWLondonModel extends Model {
         VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UHL, UCL, USP, CWF);
 
     List<String> output = new ArrayList<>();
-    output.add("Modelling for SW London with Crossrail 2" + NEWLINE);
-    output.add("========================================" + NEWLINE);
+    output.add("Modelling for SW London with Crossrail 2 via Balham" + NEWLINE);
+    output.add("===================================================" + NEWLINE);
     output.add("This uses CR2 via Balham, with best efforts guesses of interchange times." + NEWLINE);
     output.add(NEWLINE);
     output.add("A selection of interesting journeys is listed, together with calculated route options." + NEWLINE);

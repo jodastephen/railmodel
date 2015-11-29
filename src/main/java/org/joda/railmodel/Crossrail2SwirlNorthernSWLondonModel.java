@@ -35,9 +35,9 @@ public class Crossrail2SwirlNorthernSWLondonModel extends Model {
   public static void main(String[] args) throws Exception {
     Crossrail2SwirlNorthernSWLondonModel model = new Crossrail2SwirlNorthernSWLondonModel();
     ImmutableList<Station> starts = ImmutableList.of(
-        CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB);
+        CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB, BAL);
     ImmutableList<Station> ends = ImmutableList.of(
-        VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UCL, USP, CWF);
+        VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UHL, UCL, USP, CWF);
 
     List<String> output = new ArrayList<>();
     output.add("Modelling for SW London with Crossrail 2 Swirl plus Northern Line extension" + NEWLINE);
@@ -114,7 +114,7 @@ public class Crossrail2SwirlNorthernSWLondonModel extends Model {
     // 10tph Surbiton
     Route surwat = Route.of(
         "SWML",
-        "SUR-WAT",
+        "SUR-WAT (SUR-WIM-CLJ-VXH-WAT)",
         10,
         stations(SUR, WIM),
         times(7),
@@ -228,6 +228,12 @@ public class Crossrail2SwirlNorthernSWLondonModel extends Model {
         30,
         stations(UMD, USW, UTB, BAL, BPW, UKN, WAT, CHX, ULS, TCR, UGS, UWS, EUS),
         times(2, 4, 4, 6, 4, 2, 3, 2, 1, 1, 2, 1));
+    Route unorthernwestsb = Route.of(
+        "Northern (West End)",
+        "Northern (West End) Southbound",
+        30,
+        stations(TCR, ULS, CHX),
+        times(1, 2));
     Route uvictoria = Route.of(
         "Victoria",
         "Victoria",
@@ -337,6 +343,8 @@ public class Crossrail2SwirlNorthernSWLondonModel extends Model {
     // change at TCR
     addChange(Change.of(TCR, wimagl, cr1, 3, 5));
     addChange(Change.of(TCR, wimagl, ucentral, 4, 6));
+    addChange(Change.of(TCR, wimagl, unorthernwest, 3, 5));
+    addChange(Change.of(TCR, wimagl, unorthernwestsb, 3, 5));
 
     // change at Euston (pointless, might as well change at Angel)
     // addChange(Change.of(EUS, wimagl, unortherncitysb, 4, 8));
