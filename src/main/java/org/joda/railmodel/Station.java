@@ -50,6 +50,7 @@ public enum Station {
   EUS("Euston"),
   STP("St Pancras"),
   AGL("Angel"),
+  PAD("Paddington"),
   BDS("Bond Street"),
   ZFD("Farringdon"),
   MOG("Moorgate"),

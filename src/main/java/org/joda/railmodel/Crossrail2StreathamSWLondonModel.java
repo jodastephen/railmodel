@@ -30,7 +30,7 @@ import com.google.common.io.Files;
 /**
  * Calculates journey times for SW London with Crossrail 2 in place.
  */
-public class Crossrail2StreathamSWLondonModel extends Model {
+public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
 
   public static void main(String[] args) throws Exception {
     Crossrail2StreathamSWLondonModel model = new Crossrail2StreathamSWLondonModel();
@@ -40,7 +40,7 @@ public class Crossrail2StreathamSWLondonModel extends Model {
     ImmutableList<Station> starts = ImmutableList.of(
         CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB, BAL, SRH, STE);
     ImmutableList<Station> ends = ImmutableList.of(
-        VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UHL, UCL, USP, CWF);
+        VIC, TCR, EUS, AGL, WAT, UGP, UOX, BDS, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UHL, UCL, USP, CWF);
 
     List<String> output = new ArrayList<>();
     output.add("Modelling for SW London with Crossrail 2 via Streatham" + NEWLINE);
@@ -90,58 +90,13 @@ public class Crossrail2StreathamSWLondonModel extends Model {
 
   private void setup() {
     // WAT
-    Route cljwat = Route.of(
-        "SWML",
-        "CLJ-WAT",
-        18,
-        stations(CLJ, VXH, WAT),
-        times(5, 6));
-    Route wimwat = Route.of(
-        "SWML",
-        "WIM-WAT",
-        12,
-        stations(WIM, EAD, CLJ),
-        times(4, 4),
-        cljwat);
-    Route raywat = Route.of(
-        "SWML",
-        "RAY-WAT",
-        8,
-        stations(RAY, WIM),
-        times(4),
-        wimwat);
-    // 4tph from Twickenham/Loop
-    Route twiwat = Route.of(
-        "SWML",
-        "TWI-WAT",
-        4,
-        stations(TWI, KNG, NEM, RAY),
-        times(14, 7, 3),
-        raywat);
-    // 4tph from Dorking/Guildford
-    Route lhdwat = Route.of(
-        "SWML",
-        "LHD-WAT",
-        4,
-        stations(LHD, EPS, WCP, RAY),
-        times(8, 7, 6),
-        raywat);
-    // 6tph faster Surbiton, guess -2mins for not stopping WIM/EAD
-    Route surwat1 = Route.of(
-        "SWML fast",
-        "SUR-WAT (SUR-CLJ-VXH-WAT)",
-        6,
-        stations(SUR, CLJ),
-        times(13),
-        cljwat);
-    // 4tph slower Surbiton, guess -2mins for not stopping NEM
-    Route surwat2 = Route.of(
-        "SWML",
-        "SUR-WAT (SUR-WIM-EAD-CLJ-VXH-WAT)",
-        4,
-        stations(SUR, WIM),
-        times(7),
-        wimwat);
+    Route cljwat = SWML_CLJ_WAT_18;
+    Route wimwat = SWML_WIM_WAT_12;
+    Route raywat = SWML_RAY_WAT_8;
+    Route twiwat = SWML_TWI_WAT_4;
+    Route lhdwat = SWML_LHD_WAT_4;
+    Route surwat1 = SWML_SUR_WAT_FAST_6;
+    Route surwat2 = SWML_SUR_WAT_SLOW_4;
     addRoute(twiwat);
     addRoute(lhdwat);
     addRoute(surwat1);
@@ -153,8 +108,9 @@ public class Crossrail2StreathamSWLondonModel extends Model {
         "CR2",
         "CR2",
         30,
-        stations(WIM, TOO, STE, CLJ, CKR, VIC, TCR, EUS, STP, AGL),
-        times(4, 3, 6, 3, 3, 3, 2, 0, 3));
+        stations(WIM, TOO, STE, CLJ),
+        times(4, 3, 6),
+        CR2_CLJ_AGL);
     Route rayagl = Route.of(
         "CR2",
         "CR2",
@@ -218,137 +174,27 @@ public class Crossrail2StreathamSWLondonModel extends Model {
     addRoute(epsagl);
 
     // Southern
-    Route balvic = Route.of(
-        "Southern",
-        "BAL-VIC",
-        12,
-        stations(BAL, CLJ, VIC),
-        times(6, 10));
-    addRoute(balvic);
-    Route srhvic = Route.of(
-        "Southern",
-        "SRH-VIC",
-        4,
-        stations(SRH, BAL),
-        times(3),
-        balvic);
-    addRoute(srhvic);
-    Route ephzfd = Route.of(
-        "Thameslink",
-        "EPH-ZFD",
-        8,
-        stations(EPH, ZFD),
-        times(10));
-    addRoute(ephzfd);
-    Route stezfd = Route.of(
-        "Thameslink",
-        "STE-ZFD",
-        4,
-        stations(STE, EPH),
-        times(16),
-        ephzfd);
-    addRoute(stezfd);
-    Route strlbg = Route.of(
-        "Southern",
-        "STE-LBG",
-        4,  // 2 now, but assume 4 once LBG works complete
-        stations(STE, LBG),
-        times(23));
-    addRoute(strlbg);
+    addRoute(SOUTHERN_BAL_VIC);
+    addRoute(SOUTHERN_SRH_VIC);
+    addRoute(THAMESLINK_EPH_ZFD);
+    addRoute(THAMESLINK_STE_ZFD);
+    addRoute(SOUTHERN_STE_LBG);
 
     // Tube lines
-    Route unortherncity = Route.of(
-        "Northern (City)",
-        "Northern (City)",
-        30,
-        stations(UMD, USW, UTB, BAL, UCS, UST, UKN, EPH, UBH, LBG, UBK, MOG, UOS, AGL, STP, EUS),
-        times(2, 4, 4, 2, 5, 5, 2, 1, 2, 2, 2, 1, 3, 2, 2));
-    Route unortherncitysb = Route.of(
-        "Northern (City)",
-        "Northern (City) Southbound",
-        30,
-        stations(EUS, STP, AGL, UOS, MOG, UBK, LBG, UBH),
-        times(2, 2, 3, 1, 2, 2, 2));
-    Route unorthernwest = Route.of(
-        "Northern (West End)",
-        "Northern (West End)",
-        30,
-        stations(UKN, WAT, CHX, ULS, TCR, UGS, UWS, EUS),
-        times(2, 3, 2, 1, 1, 2, 1));
-    Route unorthernwestsb = Route.of(
-        "Northern (West End)",
-        "Northern (West End) Southbound",
-        30,
-        stations(TCR, ULS, CHX),
-        times(1, 2));
-    Route uvictoria = Route.of(
-        "Victoria",
-        "Victoria",
-        36,
-        stations(UST, VXH, VIC, UGP, UOX, UWS, EUS),
-        times(2, 3, 2, 2, 2, 1));
-    Route ubakerloo = Route.of(
-        "Bakerloo",
-        "Bakerloo",
-        27,
-        stations(EPH, WAT, CHX, UOX, UBS),
-        times(4, 2, 4, 4));
-    Route ujubilee = Route.of(
-        "Jubilee",
-        "Jubilee",
-        36,
-        stations(UBS, BDS, UGP, UWM, WAT, LBG, CWF),
-        times(2, 2, 2, 2, 3, 7));
-    Route ujubileenb = Route.of(
-        "Jubilee",
-        "Jubilee (Northbound)",
-        36,
-        stations(LBG, WAT, UWM, UGP, BDS, UBS),
-        times(3, 2, 2, 2, 2));
-    Route uwandc = Route.of(
-        "W&C",
-        "W&C",
-        24,
-        stations(WAT, UBK),
-        times(4));
-    // district not included WIM-VIC (29mins), complicates model and causes errors for fairly slow journey
-    Route udistrict = Route.of(
-        "District",
-        "District",
-        27,  // only 9tph from WIM-VIC, but terrible journey time so does not matter
-        stations(VIC, UWM, CHX, UTM, UBK),   // fudge Embankment as Charing Cross, Monument as Bank
-        times(4, 2, 2, 6));
-    Route ucentral = Route.of(
-        "Central",
-        "Central",
-        36,
-        stations(BDS, UOX, TCR, UHL, UCL, USP, UBK, LST),
-        times(1, 1, 2, 2, 2, 2, 2));
-    Route ucentralwb = Route.of(
-        "Central",
-        "Central (Westbound)",
-        36,
-        stations(UBK, USP, UCL, UHL),
-        times(2, 2, 2));
-    Route cr1 = Route.of(
-        "CR1",
-        "CR1",
-        30,
-        stations(BDS, TCR, ZFD, MOG, LST, CWF),
-        times(2, 3, 2, 0, 7));
-    addRoute(unortherncity);
-    addRoute(unortherncitysb);
-    addRoute(unorthernwest);
-    addRoute(unorthernwestsb);
-    addRoute(uvictoria);
-    addRoute(ubakerloo);
-    addRoute(ujubilee);
-    addRoute(ujubileenb);
-    addRoute(uwandc);
-    addRoute(udistrict);
-    addRoute(ucentral);
-    addRoute(ucentralwb);
-    addRoute(cr1);
+    addRoute(NORTHERN_CITY_NB);
+    addRoute(NORTHERN_CITY_SB);
+    addRoute(NORTHERN_WEST_NB);
+    addRoute(NORTHERN_WEST_SB);
+    addRoute(VICTORIA_NB);
+    addRoute(BAKERLOO_NB);
+    addRoute(JUBILEE_EB);
+    addRoute(JUBILEE_NB);
+    addRoute(WNC_NB);
+    addRoute(DISTRICT_EB);
+    addRoute(CENTRAL_EB);
+    addRoute(CENTRAL_WB);
+    addRoute(CR1_EB);
+    addRoute(CR1_WB);
 
     // change CR2 to WAT at SUR, assume 6 tracks between Surbiton and New Malden
     // gaps between fast trains work out at 4-6 mins with 10min gap twice an hour
@@ -370,18 +216,18 @@ public class Crossrail2StreathamSWLondonModel extends Model {
     addChange(xwimcr2wat);  // gaps of 3 to 6 mins
 
     // change at Balham
-    addChange(Change.of(BAL, balvic, unortherncity, 4, 6));
+    addChange(Change.of(BAL, SOUTHERN_BAL_VIC, NORTHERN_CITY_NB, 4, 6));
 
     // change at Streatham
-    addChange(Change.of(STE, wimagl, stezfd, 3, 5));
+    addChange(Change.of(STE, wimagl, THAMESLINK_STE_ZFD, 3, 5));
 
     // change at Clapham Junction
-    Change xcljwatcr2 = Change.of(CLJ, cljwat, wimagl, 4, 6);
+    Change xcljwatcr2 = Change.of(CLJ, cljwat, CR2_CLJ_AGL, 4, 6);
     addChange(xcljwatcr2);
-    addChange(Change.of(CLJ, cljwat, balvic, 4, 6));
-    addChange(Change.of(CLJ, balvic, wimagl, 4, 6));
-    addChange(Change.of(CLJ, balvic, cljwat, 4, 6));
-    addChange(Change.of(CLJ, wimagl, cljwat, 4, 6));
+    addChange(Change.of(CLJ, cljwat, SOUTHERN_BAL_VIC, 4, 6));
+    addChange(Change.of(CLJ, SOUTHERN_BAL_VIC, CR2_CLJ_AGL, 4, 6));
+    addChange(Change.of(CLJ, SOUTHERN_BAL_VIC, cljwat, 4, 6));
+    addChange(Change.of(CLJ, CR2_CLJ_AGL, cljwat, 4, 6));
 
     // prefer change at RAY to WIM/CLJ if choice
     addPreferredChange(xraywatcr2, xwimwatcr2);
@@ -389,72 +235,74 @@ public class Crossrail2StreathamSWLondonModel extends Model {
     addPreferredChange(xraycr2wat, xwimcr2wat);
 
     // change at Victoria
-    addChange(Change.of(VIC, wimagl, udistrict, 4, 6));
-    addChange(Change.of(VIC, wimagl, uvictoria, 4, 6));
-    addChange(Change.of(VIC, balvic, udistrict, 4, 6));
-    addChange(Change.of(VIC, balvic, uvictoria, 4, 6));
+    addChange(Change.of(VIC, CR2_VIC_AGL, DISTRICT_EB, 4, 6));
+    addChange(Change.of(VIC, CR2_VIC_AGL, VICTORIA_NB, 4, 6));
+    addChange(Change.of(VIC, SOUTHERN_BAL_VIC, DISTRICT_EB, 4, 6));
+    addChange(Change.of(VIC, SOUTHERN_BAL_VIC, VICTORIA_NB, 4, 6));
 
     // change at TCR
-    addChange(Change.of(TCR, wimagl, cr1, 3, 5));
-    addChange(Change.of(TCR, wimagl, ucentral, 4, 6));
-    addChange(Change.of(TCR, wimagl, unorthernwest, 3, 5));
-    addChange(Change.of(TCR, wimagl, unorthernwestsb, 3, 5));
+    addChange(Change.of(TCR, CR2_VIC_AGL, CR1_EB, 3, 5));
+    addChange(Change.of(TCR, CR2_VIC_AGL, CR1_WB, 3, 5));
+    addChange(Change.of(TCR, CR2_VIC_AGL, CENTRAL_EB, 4, 6));
+    addChange(Change.of(TCR, CR2_VIC_AGL, NORTHERN_WEST_NB, 3, 5));
+    addChange(Change.of(TCR, CR2_VIC_AGL, NORTHERN_WEST_SB, 3, 5));
 
     // change at Euston (pointless, might as well change at Angel)
     // addChange(Change.of(EUS, wimagl, unortherncitysb, 4, 8));
 
     // change at Angel
-    addChange(Change.of(AGL, wimagl, unortherncitysb, 3, 6));
+    addChange(Change.of(AGL, CR2_VIC_AGL, NORTHERN_CITY_SB, 3, 6));
 
     // change at Kennington
-    addChange(Change.of(UKN, unortherncity, unorthernwest, 1, 2));
+    addChange(Change.of(UKN, NORTHERN_CITY_NB, NORTHERN_WEST_NB, 1, 2));
 
     // change at Stockwell
-    addChange(Change.of(UST, unortherncity, uvictoria, 1, 2));
+    addChange(Change.of(UST, NORTHERN_CITY_NB, VICTORIA_NB, 1, 2));
 
     // change at Elephant & Castle
-    addChange(Change.of(EPH, unortherncity, ubakerloo, 2, 4));
-    addChange(Change.of(EPH, unortherncity, ephzfd, 8, 16));
+    addChange(Change.of(EPH, NORTHERN_CITY_NB, BAKERLOO_NB, 2, 4));
+    addChange(Change.of(EPH, NORTHERN_CITY_NB, THAMESLINK_EPH_ZFD, 8, 16));
 
     // change at London Bridge
-    addChange(Change.of(LBG, unortherncity, ujubilee, 2, 4));
-    addChange(Change.of(LBG, unortherncity, ujubileenb, 2, 4));
-    addChange(Change.of(LBG, ujubilee, unortherncity, 2, 4));
-    addChange(Change.of(LBG, ujubilee, unortherncitysb, 2, 4));
+    addChange(Change.of(LBG, NORTHERN_CITY_NB, JUBILEE_EB, 2, 4));
+    addChange(Change.of(LBG, NORTHERN_CITY_NB, JUBILEE_NB, 2, 4));
+    addChange(Change.of(LBG, JUBILEE_EB, NORTHERN_CITY_NB, 2, 4));
+    addChange(Change.of(LBG, JUBILEE_EB, NORTHERN_CITY_SB, 2, 4));
 
     // change at Bank
-    addChange(Change.of(UBK, ucentral, unortherncity, 4, 8));
-    addChange(Change.of(UBK, ucentral, unortherncitysb, 4, 8));
-    addChange(Change.of(UBK, unortherncity, ucentral, 4, 8));
-    addChange(Change.of(UBK, unortherncity, ucentralwb, 4, 8));
-    addChange(Change.of(UBK, uwandc, ucentralwb, 4, 8));
-    addChange(Change.of(UBK, uwandc, unortherncity, 5, 9));
-    addChange(Change.of(UBK, uwandc, unortherncitysb, 5, 9));
+    addChange(Change.of(UBK, CENTRAL_EB, NORTHERN_CITY_NB, 4, 8));
+    addChange(Change.of(UBK, CENTRAL_EB, NORTHERN_CITY_SB, 4, 8));
+    addChange(Change.of(UBK, NORTHERN_CITY_NB, CENTRAL_EB, 4, 8));
+    addChange(Change.of(UBK, NORTHERN_CITY_NB, CENTRAL_WB, 4, 8));
+    addChange(Change.of(UBK, WNC_NB, CENTRAL_WB, 4, 8));
+    addChange(Change.of(UBK, WNC_NB, NORTHERN_CITY_NB, 5, 9));
+    addChange(Change.of(UBK, WNC_NB, NORTHERN_CITY_SB, 5, 9));
 
     // change at Moorgate
-    addChange(Change.of(MOG, unortherncity, cr1, 3, 5));
-    addChange(Change.of(MOG, cr1, unortherncity, 3, 5));
-    addChange(Change.of(MOG, cr1, unortherncitysb, 3, 5));
+    addChange(Change.of(MOG, NORTHERN_CITY_NB, CR1_EB, 3, 5));
+    addChange(Change.of(MOG, NORTHERN_CITY_NB, CR1_WB, 3, 5));
+    addChange(Change.of(MOG, CR1_EB, NORTHERN_CITY_NB, 3, 5));
+    addChange(Change.of(MOG, CR1_EB, NORTHERN_CITY_SB, 3, 5));
 
     // change at Vauxhall
-    addChange(Change.of(VXH, cljwat, uvictoria, 3, 6));
+    addChange(Change.of(VXH, cljwat, VICTORIA_NB, 3, 6));
 
     // change at Waterloo
-    addChange(Change.of(WAT, cljwat, ujubilee, 3, 6));
-    addChange(Change.of(WAT, cljwat, ujubileenb, 3, 6));
-    addChange(Change.of(WAT, cljwat, unorthernwest, 3, 6));
-    addChange(Change.of(WAT, cljwat, ubakerloo, 3, 6));
-    addChange(Change.of(WAT, cljwat, uwandc, 3, 10));  // includes queuing for W&C
+    addChange(Change.of(WAT, cljwat, JUBILEE_EB, 3, 6));
+    addChange(Change.of(WAT, cljwat, JUBILEE_NB, 3, 6));
+    addChange(Change.of(WAT, cljwat, NORTHERN_WEST_NB, 3, 6));
+    addChange(Change.of(WAT, cljwat, BAKERLOO_NB, 3, 6));
+    addChange(Change.of(WAT, cljwat, WNC_NB, 3, 10));  // includes queuing for W&C
 
     // change at Green Park
-    addChange(Change.of(UGP, uvictoria, ujubileenb, 4, 6));
+    addChange(Change.of(UGP, VICTORIA_NB, JUBILEE_NB, 4, 6));
 
     // change at Embankment (this is a fudge)
-    addChange(Change.of(CHX, unorthernwest, udistrict, 3, 6));
+    addChange(Change.of(CHX, NORTHERN_WEST_NB, DISTRICT_EB, 3, 6));
 
     // change at Oxford Circus
-    addChange(Change.of(UOX, uvictoria, ubakerloo, 1, 3));
-    addChange(Change.of(UOX, ubakerloo, uvictoria, 1, 3));
+    addChange(Change.of(UOX, VICTORIA_NB, BAKERLOO_NB, 1, 3));
+    addChange(Change.of(UOX, BAKERLOO_NB, VICTORIA_NB, 1, 3));
 
   }
 

@@ -2052,55 +2052,55 @@ From Earlsfield to Angel
 
 From Earlsfield to Waterloo
 ---------------------------
-* CR2 changing to WIM-WAT at CLJ in 18-20m at 18tph
+* CR2 changing to CLJ-WAT at CLJ in 18-20m at 18tph
 
 From Earlsfield to Green Park
 -----------------------------
 * CR2 changing to Victoria at VIC in 15-17m at 30tph
-* CR2 changing to WIM-WAT at CLJ changing to Victoria at VXH in 20-25m at 18tph (+7m)
-* CR2 changing to WIM-WAT at CLJ changing to Jubilee (Northbound) at WAT in 25-30m at 18tph (+12m)
+* CR2 changing to CLJ-WAT at CLJ changing to Victoria at VXH in 20-25m at 18tph (+7m)
+* CR2 changing to CLJ-WAT at CLJ changing to Jubilee (Northbound) at WAT in 25-30m at 18tph (+12m)
 
 From Earlsfield to Oxford Circus
 --------------------------------
 * CR2 changing to Victoria at VIC in 17-19m at 30tph
-* CR2 changing to WIM-WAT at CLJ changing to Victoria at VXH in 22-27m at 18tph (+7m)
-* CR2 changing to WIM-WAT at CLJ changing to Bakerloo at WAT in 27-32m at 18tph (+12m)
+* CR2 changing to CLJ-WAT at CLJ changing to Victoria at VXH in 22-27m at 18tph (+7m)
+* CR2 changing to CLJ-WAT at CLJ changing to Bakerloo at WAT in 27-32m at 18tph (+12m)
 
 From Earlsfield to Charing Cross
 --------------------------------
 * CR2 changing to Northern (West End) Southbound at TCR in 18-20m at 30tph
 * CR2 changing to District at VIC in 19-21m at 27tph (+1m)
-* CR2 changing to WIM-WAT at CLJ changing to Bakerloo at WAT in 23-28m at 18tph (+7m)
-* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 24-29m at 18tph (+8m)
+* CR2 changing to CLJ-WAT at CLJ changing to Bakerloo at WAT in 23-28m at 18tph (+7m)
+* CR2 changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 24-29m at 18tph (+8m)
 
 From Earlsfield to Leicester Square
 -----------------------------------
 * CR2 changing to Northern (West End) Southbound at TCR in 16-18m at 30tph
-* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 26-31m at 18tph (+12m)
+* CR2 changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 26-31m at 18tph (+12m)
 
 From Earlsfield to Goodge Street
 --------------------------------
 * CR2 changing to Northern (West End) at TCR in 16-18m at 30tph
-* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 28-33m at 18tph (+14m)
+* CR2 changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 28-33m at 18tph (+14m)
 
 From Earlsfield to Warren Street
 --------------------------------
 * CR2 changing to Northern (West End) at TCR in 18-20m at 30tph
 * CR2 changing to Victoria at VIC in 19-21m at 30tph (+1m)
-* CR2 changing to WIM-WAT at CLJ changing to Victoria at VXH in 24-29m at 18tph (+8m)
-* CR2 changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 30-35m at 18tph (+14m)
+* CR2 changing to CLJ-WAT at CLJ changing to Victoria at VXH in 24-29m at 18tph (+8m)
+* CR2 changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 30-35m at 18tph (+14m)
 
 From Earlsfield to Baker Street
 -------------------------------
 * CR2 changing to Victoria at VIC changing to Bakerloo at UOX in 22-26m at 27tph
 * CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 23-27m at 30tph (+1m)
-* CR2 changing to WIM-WAT at CLJ changing to Jubilee (Northbound) at WAT in 29-34m at 18tph (+8m)
-* CR2 changing to WIM-WAT at CLJ changing to Bakerloo at WAT in 31-36m at 18tph (+10m)
+* CR2 changing to CLJ-WAT at CLJ changing to Jubilee (Northbound) at WAT in 29-34m at 18tph (+8m)
+* CR2 changing to CLJ-WAT at CLJ changing to Bakerloo at WAT in 31-36m at 18tph (+10m)
 
 From Earlsfield to Westminster
 ------------------------------
 * CR2 changing to District at VIC in 17-19m at 27tph
-* CR2 changing to WIM-WAT at CLJ changing to Jubilee (Northbound) at WAT in 23-28m at 18tph (+8m)
+* CR2 changing to CLJ-WAT at CLJ changing to Jubilee (Northbound) at WAT in 23-28m at 18tph (+8m)
 
 From Earlsfield to Temple
 -------------------------
@@ -2118,7 +2118,7 @@ From Earlsfield to Borough
 
 From Earlsfield to London Bridge
 --------------------------------
-* CR2 changing to WIM-WAT at CLJ changing to Jubilee at WAT in 24-29m at 18tph
+* CR2 changing to CLJ-WAT at CLJ changing to Jubilee at WAT in 24-29m at 18tph
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 27-31m at 30tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 28-31m at 30tph (+3m)
 * CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 30-36m at 30tph (+7m)
@@ -2129,7 +2129,7 @@ From Earlsfield to Bank/Monument
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 25-29m at 30tph (+2m)
 * CR2 changing to Northern (City) Southbound at AGL in 26-29m at 30tph (+3m)
 * CR2 changing to District at VIC in 27-29m at 27tph (+3m)
-* CR2 changing to WIM-WAT at CLJ changing to W&C at WAT in 25-34m at 18tph (+5m)
+* CR2 changing to CLJ-WAT at CLJ changing to W&C at WAT in 25-34m at 18tph (+5m)
 
 From Earlsfield to Moorgate
 ---------------------------
@@ -2158,7 +2158,7 @@ From Earlsfield to St Pauls
 From Earlsfield to Canary Wharf
 -------------------------------
 * CR2 changing to CR1 at TCR in 27-29m at 30tph
-* CR2 changing to WIM-WAT at CLJ changing to Jubilee at WAT in 31-36m at 18tph (+6m)
+* CR2 changing to CLJ-WAT at CLJ changing to Jubilee at WAT in 31-36m at 18tph (+6m)
 
 
 ----
@@ -2172,6 +2172,7 @@ From Morden to Tottenham Court Road
 -----------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 31-32m at 30tph
 * Northern (City) changing to BAL-VIC at BAL changing to CR2 at CLJ in 34-38m at 12tph (+5m)
+* Northern (City) changing to CR1 (Westbound) at MOG in 39-41m at 30tph (+9m)
 
 From Morden to Euston
 ---------------------
@@ -2192,7 +2193,7 @@ From Morden to Waterloo
 * Northern (City) changing to Northern (West End) at UKN in 25-26m at 30tph
 * Northern (City) changing to Bakerloo at EPH in 30-32m at 27tph (+6m)
 * Northern (City) changing to Jubilee (Northbound) at LBG in 32-34m at 30tph (+8m)
-* Northern (City) changing to BAL-VIC at BAL changing to WIM-WAT at CLJ in 36-40m at 12tph (+13m)
+* Northern (City) changing to BAL-VIC at BAL changing to CLJ-WAT at CLJ in 36-40m at 12tph (+13m)
 
 From Morden to Green Park
 -------------------------
@@ -2246,7 +2247,8 @@ From Morden to Temple
 
 From Morden to Farringdon
 -------------------------
-* Northern (City) changing to EPH-ZFD at EPH in 42-50m at 8tph
+* Northern (City) changing to CR1 (Westbound) at MOG in 36-38m at 30tph
+* Northern (City) changing to EPH-ZFD at EPH in 42-50m at 8tph (+9m)
 
 From Morden to Borough
 ----------------------
@@ -2297,6 +2299,7 @@ From South Wimbledon to Tottenham Court Road
 --------------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 29-30m at 30tph
 * Northern (City) changing to BAL-VIC at BAL changing to CR2 at CLJ in 32-36m at 12tph (+5m)
+* Northern (City) changing to CR1 (Westbound) at MOG in 37-39m at 30tph (+9m)
 
 From South Wimbledon to Euston
 ------------------------------
@@ -2317,7 +2320,7 @@ From South Wimbledon to Waterloo
 * Northern (City) changing to Northern (West End) at UKN in 23-24m at 30tph
 * Northern (City) changing to Bakerloo at EPH in 28-30m at 27tph (+6m)
 * Northern (City) changing to Jubilee (Northbound) at LBG in 30-32m at 30tph (+8m)
-* Northern (City) changing to BAL-VIC at BAL changing to WIM-WAT at CLJ in 34-38m at 12tph (+13m)
+* Northern (City) changing to BAL-VIC at BAL changing to CLJ-WAT at CLJ in 34-38m at 12tph (+13m)
 
 From South Wimbledon to Green Park
 ----------------------------------
@@ -2371,7 +2374,8 @@ From South Wimbledon to Temple
 
 From South Wimbledon to Farringdon
 ----------------------------------
-* Northern (City) changing to EPH-ZFD at EPH in 40-48m at 8tph
+* Northern (City) changing to CR1 (Westbound) at MOG in 34-36m at 30tph
+* Northern (City) changing to EPH-ZFD at EPH in 40-48m at 8tph (+9m)
 
 From South Wimbledon to Borough
 -------------------------------
@@ -2422,6 +2426,7 @@ From Tooting Broadway to Tottenham Court Road
 ---------------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 25-26m at 30tph
 * Northern (City) changing to BAL-VIC at BAL changing to CR2 at CLJ in 28-32m at 12tph (+5m)
+* Northern (City) changing to CR1 (Westbound) at MOG in 33-35m at 30tph (+9m)
 
 From Tooting Broadway to Euston
 -------------------------------
@@ -2442,7 +2447,7 @@ From Tooting Broadway to Waterloo
 * Northern (City) changing to Northern (West End) at UKN in 19-20m at 30tph
 * Northern (City) changing to Bakerloo at EPH in 24-26m at 27tph (+6m)
 * Northern (City) changing to Jubilee (Northbound) at LBG in 26-28m at 30tph (+8m)
-* Northern (City) changing to BAL-VIC at BAL changing to WIM-WAT at CLJ in 30-34m at 12tph (+13m)
+* Northern (City) changing to BAL-VIC at BAL changing to CLJ-WAT at CLJ in 30-34m at 12tph (+13m)
 
 From Tooting Broadway to Green Park
 -----------------------------------
@@ -2496,7 +2501,8 @@ From Tooting Broadway to Temple
 
 From Tooting Broadway to Farringdon
 -----------------------------------
-* Northern (City) changing to EPH-ZFD at EPH in 36-44m at 8tph
+* Northern (City) changing to CR1 (Westbound) at MOG in 30-32m at 30tph
+* Northern (City) changing to EPH-ZFD at EPH in 36-44m at 8tph (+9m)
 
 From Tooting Broadway to Borough
 --------------------------------
@@ -2543,13 +2549,14 @@ From Balham to Victoria
 * Northern (City) changing to Victoria at UST in 13-14m at 30tph
 * BAL-VIC direct in 16m at 12tph (+3m)
 * BAL-VIC changing to CR2 at CLJ in 16-18m at 12tph (+4m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Victoria at VXH in 21-26m at 12tph (+10m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Victoria at VXH in 21-26m at 12tph (+10m)
 
 From Balham to Tottenham Court Road
 -----------------------------------
 * BAL-VIC changing to CR2 at CLJ in 19-21m at 12tph
 * Northern (City) changing to Northern (West End) at UKN in 21-22m at 30tph (+2m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 30-35m at 12tph (+13m)
+* Northern (City) changing to CR1 (Westbound) at MOG in 29-31m at 30tph (+10m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 30-35m at 12tph (+13m)
 
 From Balham to Euston
 ---------------------
@@ -2558,7 +2565,7 @@ From Balham to Euston
 * Northern (City) changing to Northern (West End) at UKN in 25-26m at 30tph (+5m)
 * BAL-VIC changing to Victoria at VIC in 27-29m at 12tph (+8m)
 * Northern (City) direct in 29m at 30tph (+9m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Victoria at VXH in 28-33m at 12tph (+10m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Victoria at VXH in 28-33m at 12tph (+10m)
 * Northern (City) changing to Bakerloo at EPH changing to Victoria at UOX in 30-34m at 27tph (+12m)
 
 From Balham to Angel
@@ -2570,7 +2577,7 @@ From Balham to Waterloo
 -----------------------
 * Northern (City) changing to Northern (West End) at UKN in 15-16m at 30tph
 * Northern (City) changing to Bakerloo at EPH in 20-22m at 27tph (+6m)
-* BAL-VIC changing to WIM-WAT at CLJ in 21-23m at 12tph (+7m)
+* BAL-VIC changing to CLJ-WAT at CLJ in 21-23m at 12tph (+7m)
 * Northern (City) changing to Jubilee (Northbound) at LBG in 22-24m at 30tph (+8m)
 
 From Balham to Green Park
@@ -2578,9 +2585,9 @@ From Balham to Green Park
 * Northern (City) changing to Victoria at UST in 15-16m at 30tph
 * BAL-VIC changing to Victoria at VIC in 22-24m at 12tph (+8m)
 * BAL-VIC changing to CR2 at CLJ changing to Victoria at VIC in 22-26m at 12tph (+9m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Victoria at VXH in 23-28m at 12tph (+10m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Victoria at VXH in 23-28m at 12tph (+10m)
 * Northern (City) changing to Jubilee (Northbound) at LBG in 26-28m at 30tph (+12m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Jubilee (Northbound) at WAT in 28-33m at 12tph (+15m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Jubilee (Northbound) at WAT in 28-33m at 12tph (+15m)
 
 From Balham to Oxford Circus
 ----------------------------
@@ -2588,8 +2595,8 @@ From Balham to Oxford Circus
 * BAL-VIC changing to Victoria at VIC in 24-26m at 12tph (+8m)
 * BAL-VIC changing to CR2 at CLJ changing to Victoria at VIC in 24-28m at 12tph (+9m)
 * Northern (City) changing to Bakerloo at EPH in 26-28m at 27tph (+10m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Victoria at VXH in 25-30m at 12tph (+10m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Bakerloo at WAT in 30-35m at 12tph (+15m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Victoria at VXH in 25-30m at 12tph (+10m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Bakerloo at WAT in 30-35m at 12tph (+15m)
 
 From Balham to Charing Cross
 ----------------------------
@@ -2598,20 +2605,20 @@ From Balham to Charing Cross
 * BAL-VIC changing to CR2 at CLJ changing to Northern (West End) Southbound at TCR in 25-29m at 12tph (+9m)
 * BAL-VIC changing to District at VIC in 26-28m at 12tph (+9m)
 * BAL-VIC changing to CR2 at CLJ changing to District at VIC in 26-30m at 12tph (+10m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Bakerloo at WAT in 26-31m at 12tph (+10m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 27-32m at 12tph (+11m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Bakerloo at WAT in 26-31m at 12tph (+10m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 27-32m at 12tph (+11m)
 
 From Balham to Leicester Square
 -------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 20-21m at 30tph
 * BAL-VIC changing to CR2 at CLJ changing to Northern (West End) Southbound at TCR in 23-27m at 12tph (+5m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 29-34m at 12tph (+11m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 29-34m at 12tph (+11m)
 
 From Balham to Goodge Street
 ----------------------------
 * Northern (City) changing to Northern (West End) at UKN in 22-23m at 30tph
 * BAL-VIC changing to CR2 at CLJ changing to Northern (West End) at TCR in 23-27m at 12tph (+3m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Northern (West End) at WAT in 31-36m at 12tph (+11m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 31-36m at 12tph (+11m)
 
 From Balham to Warren Street
 ----------------------------
@@ -2620,7 +2627,7 @@ From Balham to Warren Street
 * BAL-VIC changing to CR2 at CLJ changing to Northern (West End) at TCR in 25-29m at 12tph (+8m)
 * BAL-VIC changing to Victoria at VIC in 26-28m at 12tph (+8m)
 * BAL-VIC changing to CR2 at CLJ changing to Victoria at VIC in 26-30m at 12tph (+9m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Victoria at VXH in 27-32m at 12tph (+10m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Victoria at VXH in 27-32m at 12tph (+10m)
 * Northern (City) changing to Bakerloo at EPH changing to Victoria at UOX in 29-33m at 27tph (+12m)
 
 From Balham to Baker Street
@@ -2631,15 +2638,15 @@ From Balham to Baker Street
 * Northern (City) changing to Bakerloo at EPH in 30-32m at 27tph (+8m)
 * Northern (City) changing to Jubilee (Northbound) at LBG in 30-32m at 30tph (+8m)
 * BAL-VIC changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 30-34m at 12tph (+9m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Jubilee (Northbound) at WAT in 32-37m at 12tph (+11m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Bakerloo at WAT in 34-39m at 12tph (+13m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Jubilee (Northbound) at WAT in 32-37m at 12tph (+11m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Bakerloo at WAT in 34-39m at 12tph (+13m)
 
 From Balham to Westminster
 --------------------------
 * BAL-VIC changing to District at VIC in 24-26m at 12tph
 * Northern (City) changing to Jubilee (Northbound) at LBG in 24-26m at 30tph (+0m)
 * BAL-VIC changing to CR2 at CLJ changing to District at VIC in 24-28m at 12tph (+1m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Jubilee (Northbound) at WAT in 26-31m at 12tph (+4m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Jubilee (Northbound) at WAT in 26-31m at 12tph (+4m)
 
 From Balham to Temple
 ---------------------
@@ -2650,6 +2657,7 @@ From Balham to Temple
 From Balham to Farringdon
 -------------------------
 * BAL-VIC changing to CR2 at CLJ changing to CR1 at TCR in 25-29m at 12tph
+* Northern (City) changing to CR1 (Westbound) at MOG in 26-28m at 30tph (+0m)
 * Northern (City) changing to EPH-ZFD at EPH in 32-40m at 8tph (+9m)
 
 From Balham to Borough
@@ -2693,7 +2701,7 @@ From Balham to Canary Wharf
 * Northern (City) changing to Jubilee at LBG in 26-28m at 30tph
 * Northern (City) changing to CR1 at MOG in 31-33m at 30tph (+5m)
 * BAL-VIC changing to CR2 at CLJ changing to CR1 at TCR in 34-38m at 12tph (+9m)
-* BAL-VIC changing to WIM-WAT at CLJ changing to Jubilee at WAT in 34-39m at 12tph (+10m)
+* BAL-VIC changing to CLJ-WAT at CLJ changing to Jubilee at WAT in 34-39m at 12tph (+10m)
 
 
 ----
@@ -2720,6 +2728,7 @@ From Balham to Canary Wharf
 * MOG Moorgate
 * MOT Motspur Park
 * NEM New Malden
+* PAD Paddington
 * RAY Raynes Park
 * SHP Shepperton
 * SNL Stoneleigh
