@@ -28,28 +28,28 @@ It is a reasonable proxy for the total enhancement provided by the scheme.
 
 Total effective times
 ---------------------
-From Chessington South: 1360, 43m better
-From Leatherhead: 1516, 62m better
-From Epsom: 1302, 76m better
-From Stoneleigh: 1235, 43m better
-From Worcester Park: 1113, 90m better
-From Motspur Park: 1037, 91m better
-From Shepperton: 1835, 43m better
-From Fulwell: 1510, 43m better
-From Kingston: 1213, 90m better
-From Hampton Court: 1360, 93m better
-From Surbiton: 1058, 112m better
-From New Malden: 1010, 68m better
-From Raynes Park: 899, 104m better
-From Wimbledon: 769, 109m better
-From Earlsfield: 741, 37m better
-From Morden: 841, 0m better
-From South Wimbledon: 791, 0m better
-From Tooting Broadway: 691, 0m better
-From Balham: 591, 0m better
-From Streatham Hill: 898, 48m better
-From Streatham: 615, 441m better
-TOTAL: 22385, 1593m better
+* From Chessington South: 1360, 43m better
+* From Leatherhead: 1516, 62m better
+* From Epsom: 1302, 76m better
+* From Stoneleigh: 1235, 43m better
+* From Worcester Park: 1113, 90m better
+* From Motspur Park: 1037, 91m better
+* From Shepperton: 1835, 43m better
+* From Fulwell: 1510, 43m better
+* From Kingston: 1213, 90m better
+* From Hampton Court: 1360, 93m better
+* From Surbiton: 1058, 112m better
+* From New Malden: 1010, 68m better
+* From Raynes Park: 899, 104m better
+* From Wimbledon: 769, 109m better
+* From Earlsfield: 741, 37m better
+* From Morden: 841, 0m better
+* From South Wimbledon: 791, 0m better
+* From Tooting Broadway: 691, 0m better
+* From Balham: 591, 0m better
+* From Streatham Hill: 898, 48m better
+* From Streatham: 615, 441m better
+* TOTAL: 22385, 1593m better
 
 ----
 
@@ -3368,14 +3368,12 @@ From Streatham to Green Park (Effective time: 20m better)
 * CR2 changing to CLJ-WAT at CLJ changing to Victoria at VXH in 23-28m at 18tph (+7m)
 * CR2 changing to CLJ-WAT at CLJ changing to Jubilee (Northbound) at WAT in 28-33m at 18tph (+12m)
 * STE-ZFD changing to HNH-VIC at HNH changing to Victoria at BRX in 24-40m at 4tph (+13m)
-* STE-ZFD changing to HNH-VIC at HNH changing to Victoria at BRX in 24-40m at 4tph (+13m)
 
 From Streatham to Oxford Circus (Effective time: 20m better)
 ------------------------------------------------------------
 * CR2 changing to Victoria at VIC in 20-22m at 30tph
 * CR2 changing to CLJ-WAT at CLJ changing to Victoria at VXH in 25-30m at 18tph (+7m)
 * CR2 changing to CLJ-WAT at CLJ changing to Bakerloo at WAT in 30-35m at 18tph (+12m)
-* STE-ZFD changing to HNH-VIC at HNH changing to Victoria at BRX in 26-42m at 4tph (+13m)
 * STE-ZFD changing to HNH-VIC at HNH changing to Victoria at BRX in 26-42m at 4tph (+13m)
 
 From Streatham to Bond Street (Effective time: 19m better)
@@ -3409,7 +3407,6 @@ From Streatham to Warren Street (Effective time: 21m better)
 * CR2 changing to Victoria at VIC in 22-24m at 30tph (+1m)
 * CR2 changing to CLJ-WAT at CLJ changing to Victoria at VXH in 27-32m at 18tph (+8m)
 * CR2 changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 33-38m at 18tph (+14m)
-* STE-ZFD changing to HNH-VIC at HNH changing to Victoria at BRX in 28-44m at 4tph (+14m)
 * STE-ZFD changing to HNH-VIC at HNH changing to Victoria at BRX in 28-44m at 4tph (+14m)
 
 From Streatham to Baker Street (Effective time: 15m better)

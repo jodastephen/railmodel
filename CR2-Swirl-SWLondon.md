@@ -25,26 +25,26 @@ It is a reasonable proxy for the total enhancement provided by the scheme.
 
 Total effective times
 ---------------------
-From Chessington South: 1190, 213m better
-From Leatherhead: 1437, 141m better
-From Epsom: 1174, 204m better
-From Stoneleigh: 1065, 213m better
-From Worcester Park: 978, 225m better
-From Motspur Park: 865, 263m better
-From Shepperton: 1665, 213m better
-From Fulwell: 1340, 213m better
-From Kingston: 1034, 269m better
-From Hampton Court: 1233, 220m better
-From Surbiton: 966, 204m better
-From New Malden: 859, 219m better
-From Raynes Park: 717, 286m better
-From Wimbledon: 609, 269m better
-From Earlsfield: 547, 231m better
-From Morden: 841, 0m better
-From South Wimbledon: 791, 0m better
-From Tooting Broadway: 691, 0m better
-From Balham: 591, 0m better
-TOTAL: 18593, 3383m better
+* From Chessington South: 1190, 213m better
+* From Leatherhead: 1437, 141m better
+* From Epsom: 1174, 204m better
+* From Stoneleigh: 1065, 213m better
+* From Worcester Park: 978, 225m better
+* From Motspur Park: 865, 263m better
+* From Shepperton: 1665, 213m better
+* From Fulwell: 1340, 213m better
+* From Kingston: 1034, 269m better
+* From Hampton Court: 1233, 220m better
+* From Surbiton: 966, 204m better
+* From New Malden: 859, 219m better
+* From Raynes Park: 717, 286m better
+* From Wimbledon: 609, 269m better
+* From Earlsfield: 547, 231m better
+* From Morden: 841, 0m better
+* From South Wimbledon: 791, 0m better
+* From Tooting Broadway: 691, 0m better
+* From Balham: 591, 0m better
+* TOTAL: 18593, 3383m better
 
 ----
 
