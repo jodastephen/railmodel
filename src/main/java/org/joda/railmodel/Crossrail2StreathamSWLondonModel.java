@@ -268,6 +268,10 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     addChange(Change.of(LBG, NORTHERN_CITY_NB, JUBILEE_NB, 2, 4));
     addChange(Change.of(LBG, JUBILEE_EB, NORTHERN_CITY_NB, 2, 4));
     addChange(Change.of(LBG, JUBILEE_EB, NORTHERN_CITY_SB, 2, 4));
+    addChange(Change.of(LBG, SOUTHERN_STE_LBG, NORTHERN_CITY_NB, 4, 6));
+    addChange(Change.of(LBG, SOUTHERN_STE_LBG, NORTHERN_CITY_SB, 4, 6));
+    addChange(Change.of(LBG, SOUTHERN_STE_LBG, JUBILEE_EB, 4, 6));
+    addChange(Change.of(LBG, SOUTHERN_STE_LBG, JUBILEE_NB, 4, 6));
 
     // change at Bank
     addChange(Change.of(UBK, CENTRAL_EB, NORTHERN_CITY_NB, 4, 8));
@@ -277,6 +281,10 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     addChange(Change.of(UBK, WNC_NB, CENTRAL_WB, 4, 8));
     addChange(Change.of(UBK, WNC_NB, NORTHERN_CITY_NB, 5, 9));
     addChange(Change.of(UBK, WNC_NB, NORTHERN_CITY_SB, 5, 9));
+
+    // change at Farringdon
+    addChange(Change.of(ZFD, THAMESLINK_EPH_ZFD, CR1_EB, 3, 5));
+    addChange(Change.of(ZFD, THAMESLINK_EPH_ZFD, CR1_WB, 3, 5));
 
     // change at Moorgate
     addChange(Change.of(MOG, NORTHERN_CITY_NB, CR1_EB, 3, 5));

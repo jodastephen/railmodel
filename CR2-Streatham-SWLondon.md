@@ -147,6 +147,7 @@ From Chessington South to Moorgate
 ----------------------------------
 * CR2 changing to CR1 at TCR in 48-50m at 4tph
 * CR2 changing to Northern (City) Southbound at AGL in 52-55m at 4tph (+5m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 59-63m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 58-64m at 4tph (+12m)
 
 From Chessington South to Old Street
@@ -172,6 +173,7 @@ From Chessington South to Canary Wharf
 * CR2 changing to CR1 at TCR in 55-57m at 4tph
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 51-62m at 4tph (+1m)
 * CR2 changing to CLJ-WAT at CLJ changing to Jubilee at WAT in 59-64m at 4tph (+6m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 66-70m at 4tph (+12m)
 
 
 ----
@@ -492,6 +494,7 @@ From Epsom to Moorgate
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 48-53m at 4tph (+2m)
 * CR2 changing to Northern (City) Southbound at AGL in 52-55m at 6tph (+5m)
 * LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 50-61m at 4tph (+7m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 59-63m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 58-64m at 6tph (+12m)
 
 From Epsom to Old Street
@@ -653,6 +656,7 @@ From Stoneleigh to Moorgate
 ---------------------------
 * CR2 changing to CR1 at TCR in 43-45m at 6tph
 * CR2 changing to Northern (City) Southbound at AGL in 47-50m at 6tph (+5m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 54-58m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 53-59m at 6tph (+12m)
 
 From Stoneleigh to Old Street
@@ -678,6 +682,7 @@ From Stoneleigh to Canary Wharf
 * CR2 changing to CR1 at TCR in 50-52m at 6tph
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 46-57m at 6tph (+1m)
 * CR2 changing to CLJ-WAT at CLJ changing to Jubilee at WAT in 54-59m at 6tph (+6m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 61-65m at 4tph (+12m)
 
 
 ----
@@ -814,6 +819,7 @@ From Worcester Park to Moorgate
 * LHD-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 41-46m at 4tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 44-47m at 6tph (+5m)
 * LHD-WAT changing to W&C at WAT changing to Northern (City) at UBK in 43-54m at 4tph (+8m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 51-55m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 50-56m at 6tph (+12m)
 
 From Worcester Park to Old Street
@@ -975,6 +981,7 @@ From Motspur Park to Moorgate
 -----------------------------
 * CR2 changing to CR1 at TCR in 37-39m at 10tph
 * CR2 changing to Northern (City) Southbound at AGL in 41-44m at 10tph (+5m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 48-52m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 47-53m at 10tph (+12m)
 
 From Motspur Park to Old Street
@@ -1000,6 +1007,7 @@ From Motspur Park to Canary Wharf
 * CR2 changing to CR1 at TCR in 44-46m at 10tph
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 40-51m at 8tph (+1m)
 * CR2 changing to CLJ-WAT at CLJ changing to Jubilee at WAT in 48-53m at 10tph (+6m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 55-59m at 4tph (+12m)
 
 
 ----
@@ -1132,6 +1140,7 @@ From Shepperton to Moorgate
 ---------------------------
 * CR2 changing to CR1 at TCR in 67-69m at 4tph
 * CR2 changing to Northern (City) Southbound at AGL in 71-74m at 4tph (+5m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 78-82m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 77-83m at 4tph (+12m)
 
 From Shepperton to Old Street
@@ -1157,6 +1166,7 @@ From Shepperton to Canary Wharf
 * CR2 changing to CR1 at TCR in 74-76m at 4tph
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 70-81m at 4tph (+1m)
 * CR2 changing to CLJ-WAT at CLJ changing to Jubilee at WAT in 78-83m at 4tph (+6m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 85-89m at 4tph (+12m)
 
 
 ----
@@ -1289,6 +1299,7 @@ From Fulwell to Moorgate
 ------------------------
 * CR2 changing to CR1 at TCR in 54-56m at 4tph
 * CR2 changing to Northern (City) Southbound at AGL in 58-61m at 4tph (+5m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 65-69m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 64-70m at 4tph (+12m)
 
 From Fulwell to Old Street
@@ -1314,6 +1325,7 @@ From Fulwell to Canary Wharf
 * CR2 changing to CR1 at TCR in 61-63m at 4tph
 * CR2 changing to RAY-WAT at RAY changing to Jubilee at WAT in 57-68m at 4tph (+1m)
 * CR2 changing to CLJ-WAT at CLJ changing to Jubilee at WAT in 65-70m at 4tph (+6m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 72-76m at 4tph (+12m)
 
 
 ----
@@ -1450,6 +1462,7 @@ From Kingston to Moorgate
 * TWI-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 45-50m at 4tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 48-51m at 6tph (+5m)
 * TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 47-58m at 4tph (+8m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 55-59m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 54-60m at 6tph (+12m)
 
 From Kingston to Old Street
@@ -1650,6 +1663,7 @@ From Hampton Court to Moorgate
 ------------------------------
 * CR2 changing to CR1 at TCR in 50-52m at 4tph
 * CR2 changing to Northern (City) Southbound at AGL in 54-57m at 4tph (+5m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 61-65m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 60-66m at 4tph (+12m)
 
 From Hampton Court to Old Street
@@ -2042,6 +2056,7 @@ From New Malden to Moorgate
 * TWI-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 38-43m at 4tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 41-44m at 10tph (+5m)
 * TWI-WAT changing to W&C at WAT changing to Northern (City) at UBK in 40-51m at 4tph (+8m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 48-52m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 47-53m at 10tph (+12m)
 
 From New Malden to Old Street
@@ -2207,6 +2222,7 @@ From Raynes Park to Moorgate
 * RAY-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 35-40m at 8tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 38-41m at 20tph (+5m)
 * RAY-WAT changing to W&C at WAT changing to Northern (City) at UBK in 37-48m at 8tph (+8m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 45-49m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 44-50m at 20tph (+12m)
 
 From Raynes Park to Old Street
@@ -2372,6 +2388,7 @@ From Wimbledon to Moorgate
 * WIM-WAT changing to Jubilee at WAT changing to Northern (City) at LBG in 31-36m at 12tph (+3m)
 * CR2 changing to Northern (City) Southbound at AGL in 34-37m at 30tph (+5m)
 * WIM-WAT changing to W&C at WAT changing to Northern (City) at UBK in 33-44m at 12tph (+8m)
+* CR2 changing to STE-ZFD at STE changing to CR1 at ZFD in 41-45m at 4tph (+12m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 40-46m at 30tph (+12m)
 
 From Wimbledon to Old Street
@@ -3289,6 +3306,7 @@ From Streatham to Angel
 From Streatham to Waterloo
 --------------------------
 * CR2 changing to CLJ-WAT at CLJ in 21-23m at 18tph
+* STE-LBG changing to Jubilee (Northbound) at LBG in 30-32m at 4tph (+9m)
 
 From Streatham to Green Park
 ----------------------------
@@ -3307,6 +3325,7 @@ From Streatham to Bond Street
 * CR2 changing to CR1 (Westbound) at TCR in 20-22m at 30tph
 * CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 24-28m at 30tph (+5m)
 * CR2 changing to CLJ-WAT at CLJ changing to Jubilee (Northbound) at WAT in 30-35m at 18tph (+12m)
+* STE-ZFD changing to CR1 (Westbound) at ZFD in 34-36m at 4tph (+14m)
 
 From Streatham to Charing Cross
 -------------------------------
@@ -3338,11 +3357,13 @@ From Streatham to Baker Street
 * CR2 changing to Victoria at VIC changing to Jubilee (Northbound) at UGP in 26-30m at 30tph (+1m)
 * CR2 changing to CLJ-WAT at CLJ changing to Jubilee (Northbound) at WAT in 32-37m at 18tph (+8m)
 * CR2 changing to CLJ-WAT at CLJ changing to Bakerloo at WAT in 34-39m at 18tph (+10m)
+* STE-LBG changing to Jubilee (Northbound) at LBG in 38-40m at 4tph (+12m)
 
 From Streatham to Westminster
 -----------------------------
 * CR2 changing to District at VIC in 20-22m at 27tph
 * CR2 changing to CLJ-WAT at CLJ changing to Jubilee (Northbound) at WAT in 26-31m at 18tph (+8m)
+* STE-LBG changing to Jubilee (Northbound) at LBG in 32-34m at 4tph (+12m)
 
 From Streatham to Temple
 ------------------------
@@ -3355,9 +3376,11 @@ From Streatham to Farringdon
 
 From Streatham to Borough
 -------------------------
-* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 32-36m at 30tph
-* CR2 changing to Northern (City) Southbound at AGL in 33-36m at 30tph (+1m)
-* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 35-41m at 30tph (+4m)
+* STE-LBG changing to Northern (City) Southbound at LBG in 29-31m at 4tph
+* CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 32-36m at 30tph (+4m)
+* CR2 changing to Northern (City) Southbound at AGL in 33-36m at 30tph (+5m)
+* CR2 changing to Central at TCR changing to Northern (City) Southbound at UBK in 35-41m at 30tph (+8m)
+* STE-ZFD changing to CR1 at ZFD changing to Northern (City) Southbound at MOG in 40-44m at 4tph (+12m)
 
 From Streatham to London Bridge
 -------------------------------
@@ -3368,21 +3391,27 @@ From Streatham to Bank/Monument
 -------------------------------
 * CR2 changing to Central at TCR in 27-29m at 30tph
 * CR2 changing to CR1 at TCR changing to Northern (City) Southbound at MOG in 28-32m at 30tph (+2m)
+* STE-LBG changing to Northern (City) at LBG in 29-31m at 4tph (+2m)
 * CR2 changing to Northern (City) Southbound at AGL in 29-32m at 30tph (+3m)
 * CR2 changing to District at VIC in 30-32m at 27tph (+3m)
 * CR2 changing to CLJ-WAT at CLJ changing to W&C at WAT in 28-37m at 18tph (+5m)
+* STE-ZFD changing to CR1 at ZFD changing to Northern (City) Southbound at MOG in 36-40m at 4tph (+10m)
 
 From Streatham to Moorgate
 --------------------------
 * CR2 changing to CR1 at TCR in 23-25m at 30tph
 * CR2 changing to Northern (City) Southbound at AGL in 27-30m at 30tph (+5m)
+* STE-ZFD changing to CR1 at ZFD in 31-33m at 4tph (+8m)
+* STE-LBG changing to Northern (City) at LBG in 31-33m at 4tph (+8m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 33-39m at 30tph (+12m)
 
 From Streatham to Old Street
 ----------------------------
 * CR2 changing to Northern (City) Southbound at AGL in 26-29m at 30tph
 * CR2 changing to CR1 at TCR changing to Northern (City) at MOG in 27-31m at 30tph (+2m)
+* STE-LBG changing to Northern (City) at LBG in 32-34m at 4tph (+6m)
 * CR2 changing to Central at TCR changing to Northern (City) at UBK in 34-40m at 30tph (+10m)
+* STE-ZFD changing to CR1 at ZFD changing to Northern (City) at MOG in 35-39m at 4tph (+10m)
 
 From Streatham to Holborn
 -------------------------
@@ -3395,11 +3424,15 @@ From Streatham to Chancery Lane
 From Streatham to St Pauls
 --------------------------
 * CR2 changing to Central at TCR in 25-27m at 30tph
+* STE-LBG changing to Northern (City) at LBG changing to Central (Westbound) at UBK in 35-41m at 4tph (+12m)
 
 From Streatham to Canary Wharf
 ------------------------------
 * CR2 changing to CR1 at TCR in 30-32m at 30tph
+* STE-LBG changing to Jubilee at LBG in 34-36m at 4tph (+4m)
 * CR2 changing to CLJ-WAT at CLJ changing to Jubilee at WAT in 34-39m at 18tph (+6m)
+* STE-ZFD changing to CR1 at ZFD in 38-40m at 4tph (+8m)
+* STE-LBG changing to Northern (City) at LBG changing to CR1 at MOG in 41-45m at 4tph (+12m)
 
 
 ----

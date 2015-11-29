@@ -310,6 +310,10 @@ public class Crossrail2SwirlNorthernSWLondonModel extends BaseLondonModel {
     addChange(Change.of(UBK, WNC_NB, unortherncity, 5, 9));
     addChange(Change.of(UBK, WNC_NB, unortherncitysb, 5, 9));
 
+    // change at Farringdon
+    addChange(Change.of(ZFD, THAMESLINK_EPH_ZFD, CR1_EB, 3, 5));
+    addChange(Change.of(ZFD, THAMESLINK_EPH_ZFD, CR1_WB, 3, 5));
+
     // change at Moorgate
     addChange(Change.of(MOG, unortherncity, CR1_EB, 3, 5));
     addChange(Change.of(MOG, unortherncity, CR1_WB, 3, 5));
