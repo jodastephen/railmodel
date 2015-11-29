@@ -101,10 +101,10 @@ public class Model {
       totalTotal += totalPoints;
       totalCurrentTotal += totalCurrentPoints;
       int pointsDiff = totalCurrentPoints - totalPoints;
-      output.add("* From " + start.description() + ": " + totalPoints + ", " + pointsDiff + "m better" + NEWLINE);
+      output.add("* From " + start.description() + ": " + totalPoints + "m - " + pointsDiff + "m better" + NEWLINE);
     }
     int totalPointsDiff = totalCurrentTotal - totalTotal;
-    output.add("* TOTAL: " + totalTotal + ", " + totalPointsDiff + "m better" + NEWLINE);
+    output.add("* TOTAL: " + totalTotal + "m - " + totalPointsDiff + "m better" + NEWLINE);
   }
 
   static void appendStations(List<String> output) {

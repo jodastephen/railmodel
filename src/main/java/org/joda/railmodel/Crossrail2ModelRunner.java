@@ -28,6 +28,7 @@ public class Crossrail2ModelRunner {
     Crossrail2EarlsfieldSWLondonModel.main(noargs);
     Crossrail2StreathamSWLondonModel.main(noargs);
     Crossrail2SwirlNorthernSWLondonModel.main(noargs);
+    Crossrail2SwirlMaxSWLondonModel.main(noargs);
   }
 
 }
