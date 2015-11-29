@@ -37,7 +37,7 @@ public class Crossrail2EarlsfieldSWLondonModel extends BaseLondonModel {
     ImmutableList<Station> starts = ImmutableList.of(
         CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB, BAL);
     ImmutableList<Station> ends = ImmutableList.of(
-        VIC, TCR, EUS, AGL, WAT, UGP, UOX, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UHL, UCL, USP, CWF);
+        VIC, TCR, EUS, AGL, WAT, UGP, UOX, BDS, CHX, ULS, UGS, UWS, UBS, UWM, UTM, ZFD, UBH, LBG, UBK, MOG, UOS, UHL, UCL, USP, CWF);
 
     List<String> output = new ArrayList<>();
     output.add("Modelling for SW London with Crossrail 2 Swirl" + NEWLINE);
@@ -45,18 +45,8 @@ public class Crossrail2EarlsfieldSWLondonModel extends BaseLondonModel {
     output.add("This uses CR2 via Earlsfield based on the [Swirl plan](http://ukrail.blogspot.co.uk/2015/11/crossrail-2-swirl.html)," +
         " with best efforts guesses of interchange times." + NEWLINE);
     output.add(NEWLINE);
-    output.add("A selection of interesting journeys is listed, together with calculated route options." + NEWLINE);
-    output.add("A key for station codes is at the end." + NEWLINE);
-    output.add("The route options are sorted, with the fastest first." + NEWLINE);
-    output.add("The excess over the fastest route option is listed in brackets." + NEWLINE);
-    output.add("If the fastest route is direct, then only limited alternatives are shown." + NEWLINE);
-    output.add("No alternative that takes over 15 minutes longer is shown." + NEWLINE);
-    output.add("The number of trains per hour (tph) is also shown." + NEWLINE);
-    output.add(NEWLINE);
-    output.add("Station entry/exit times, buses and walking times are not included." + NEWLINE);
-    output.add("Walking may affect the faster route on occasion, notably to Leicester Square, " +
-        "which is easily accessed from the new proposed Shaftesbury Avenue exit of CR2." + NEWLINE);
-    output.add(NEWLINE);
+    appendDocs(output);
+    appendTotals(output, starts, ends, model);
     appendSeparator(output);
     for (Iterator<Station> it = starts.iterator(); it.hasNext();) {
       Station start = it.next();

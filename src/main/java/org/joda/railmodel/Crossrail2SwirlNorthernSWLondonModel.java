@@ -49,18 +49,8 @@ public class Crossrail2SwirlNorthernSWLondonModel extends BaseLondonModel {
     output.add("Trains from Morden run via Battersea Power to the West End." + NEWLINE);
     output.add("Trains from Balham run via Stockwell to the City." + NEWLINE);
     output.add(NEWLINE);
-    output.add("A selection of interesting journeys is listed, together with calculated route options." + NEWLINE);
-    output.add("A key for station codes is at the end." + NEWLINE);
-    output.add("The route options are sorted, with the fastest first." + NEWLINE);
-    output.add("The excess over the fastest route option is listed in brackets." + NEWLINE);
-    output.add("If the fastest route is direct, then only limited alternatives are shown." + NEWLINE);
-    output.add("No alternative that takes over 15 minutes longer is shown." + NEWLINE);
-    output.add("The number of trains per hour (tph) is also shown." + NEWLINE);
-    output.add(NEWLINE);
-    output.add("Station entry/exit times, buses and walking times are not included." + NEWLINE);
-    output.add("Walking may affect the faster route on occasion, notably to Leicester Square, " +
-        "which is easily accessed from the new proposed Shaftesbury Avenue exit of CR2." + NEWLINE);
-    output.add(NEWLINE);
+    appendDocs(output);
+    appendTotals(output, starts, ends, model);
     appendSeparator(output);
     for (Iterator<Station> it = starts.iterator(); it.hasNext();) {
       Station start = it.next();

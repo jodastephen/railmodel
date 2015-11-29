@@ -57,6 +57,25 @@ public class CurrentSWLondonModel extends BaseLondonModel {
     output.add("Station entry/exit times, buses and walking times are not included." + NEWLINE);
     output.add("Walking may affect the faster route on occasion." + NEWLINE);
     output.add(NEWLINE);
+    output.add("The 'effective time' adds some fudge factors to take into account low frequency " +
+        "start service and an additional penalty per interchange. It is intended to be used as a rough metric " +
+        "of what a more typical journey would be like (ie. a non-perfect one)." + NEWLINE);
+    output.add("The 'total effective time' is the sum of all effective times modelled." + NEWLINE);
+    output.add("It is a reasonable proxy for the total enhancement provided by the scheme." + NEWLINE);
+    output.add(NEWLINE);
+    output.add("Total effective times" + NEWLINE);
+    output.add("---------------------" + NEWLINE);
+    int totalTotal = 0;
+    for (Iterator<Station> it = starts.iterator(); it.hasNext();) {
+      Station start = it.next();
+      int totalPoints = 0;
+      for (Station end : ends) {
+        totalPoints += model.solve(start, end).points();
+      }
+      totalTotal += totalPoints;
+      output.add("From " + start.description() + ": " + totalPoints + NEWLINE);
+    }
+    output.add("TOTAL: " + totalTotal + NEWLINE);
     appendSeparator(output);
     for (Iterator<Station> it = starts.iterator(); it.hasNext();) {
       Station start = it.next();
@@ -69,6 +88,7 @@ public class CurrentSWLondonModel extends BaseLondonModel {
         appendSeparator(output);
       }
     }
+    appendSeparator(output);
     appendStations(output);
     output.add(NEWLINE);
     output.add("Feel free to send a pull request for errors and enhancments!." + NEWLINE);

@@ -20,6 +20,12 @@ package org.joda.railmodel;
  */
 public final class Journey implements Comparable<Journey> {
 
+  private static final int START_WAIT_SHORT = 2;
+  private static final int START_WAIT_MID = 3;
+  private static final int START_WAIT_LONG = 5;
+  private static final int CHANGE_POINTS = 2;
+  private static final int CHANGE_POINTS_LOWER = 3;
+
   private final Station start;
   private final Station end;
   private final Route route1;
@@ -90,6 +96,34 @@ public final class Journey implements Comparable<Journey> {
         change1.getRoute2().time(change1.getStation(), change2.getStation()) +
         change2.getTimeMax() +
         change2.getRoute2().time(change2.getStation(), end);
+  }
+
+  public int points() {
+    int time = (this.timeMax() + this.timeMin() + 1) / 2;
+    int startWait = 0;
+    if (route1.getFrequency() < 8) {
+      startWait = START_WAIT_LONG;
+    } else if (route1.getFrequency() < 16) {
+      startWait = START_WAIT_MID;
+    } else if (route1.getFrequency() <= 20) {
+      startWait = START_WAIT_SHORT;
+    }
+    int changePoints = 0;
+    if (change1 != null) {
+      changePoints = isSecondJourneyLowerFrequency() ? CHANGE_POINTS_LOWER : CHANGE_POINTS;
+      if (change2 != null) {
+        changePoints += isThirdJourneyLowerFrequency() ? CHANGE_POINTS_LOWER : CHANGE_POINTS;
+      }
+    }
+    return time + startWait + changePoints;
+  }
+
+  boolean isSecondJourneyLowerFrequency() {
+    return route1.getFrequency() > change1.getRoute2().getFrequency() && change1.getRoute2().getFrequency() < 20;
+  }
+
+  boolean isThirdJourneyLowerFrequency() {
+    return change1.getRoute2().getFrequency() > change2.getRoute2().getFrequency() && change2.getRoute2().getFrequency() < 20;
   }
 
   public int differenceTo(Journey other) {

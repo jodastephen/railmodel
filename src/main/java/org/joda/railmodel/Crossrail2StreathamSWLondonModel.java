@@ -50,18 +50,8 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     output.add("It adds at least 6 minutes to all journeys on Crossrail 2 between Wimbledon and Clapham Junction." + NEWLINE);
     output.add("As such, no matter what benefits it gives Streatham, it simply will not happen." + NEWLINE);
     output.add(NEWLINE);
-    output.add("A selection of interesting journeys is listed, together with calculated route options." + NEWLINE);
-    output.add("A key for station codes is at the end." + NEWLINE);
-    output.add("The route options are sorted, with the fastest first." + NEWLINE);
-    output.add("The excess over the fastest route option is listed in brackets." + NEWLINE);
-    output.add("If the fastest route is direct, then only limited alternatives are shown." + NEWLINE);
-    output.add("No alternative that takes over 15 minutes longer is shown." + NEWLINE);
-    output.add("The number of trains per hour (tph) is also shown." + NEWLINE);
-    output.add(NEWLINE);
-    output.add("Station entry/exit times, buses and walking times are not included." + NEWLINE);
-    output.add("Walking may affect the faster route on occasion, notably to Leicester Square, " +
-        "which is easily accessed from the new proposed Shaftesbury Avenue exit of CR2." + NEWLINE);
-    output.add(NEWLINE);
+    appendDocs(output);
+    appendTotals(output, starts, ends, model);
     appendSeparator(output);
     for (Iterator<Station> it = starts.iterator(); it.hasNext();) {
       Station start = it.next();
@@ -307,6 +297,11 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     addChange(Change.of(WAT, cljwat, NORTHERN_WEST_NB, 3, 6));
     addChange(Change.of(WAT, cljwat, BAKERLOO_NB, 3, 6));
     addChange(Change.of(WAT, cljwat, WNC_NB, 3, 10));  // includes queuing for W&C
+    addChange(Change.of(WAT, JUBILEE_NB, NORTHERN_WEST_NB, 3, 5));
+    addChange(Change.of(WAT, JUBILEE_NB, BAKERLOO_NB, 3, 5));
+
+    // change at Brixton
+    addChange(Change.of(BRX, SOUTHEAST_HNH_VIC, VICTORIA_NB, 4, 6));
 
     // change at Brixton
     addChange(Change.of(BRX, SOUTHEAST_HNH_VIC, VICTORIA_NB, 4, 6));

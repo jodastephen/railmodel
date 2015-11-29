@@ -20,6 +20,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -62,6 +63,50 @@ public class Model {
     output.add(NEWLINE);
   }
 
+  static void appendDocs(List<String> output) {
+    output.add("A selection of interesting journeys is listed, together with calculated route options." + NEWLINE);
+    output.add("A key for station codes is at the end." + NEWLINE);
+    output.add("The route options are sorted, with the fastest first." + NEWLINE);
+    output.add("The excess over the fastest route option is listed in brackets." + NEWLINE);
+    output.add("If the fastest route is direct, then only limited alternatives are shown." + NEWLINE);
+    output.add("No alternative that takes over 15 minutes longer is shown." + NEWLINE);
+    output.add("The number of trains per hour (tph) is also shown." + NEWLINE);
+    output.add(NEWLINE);
+    output.add("Station entry/exit times, buses and walking times are not included." + NEWLINE);
+    output.add("Walking may affect the faster route on occasion, notably to Leicester Square, " + NEWLINE);
+    output.add("which is easily accessed from the new proposed Shaftesbury Avenue exit of CR2." + NEWLINE);
+    output.add(NEWLINE);
+    output.add("The 'effective time' comparison adds some fudge factors to take into account low frequency " + NEWLINE);
+    output.add("start service and an additional penalty per interchange. It is intended to be used as a rough metric " + NEWLINE);
+    output.add("of what a more typical journey would be like (ie. a non-perfect one)." + NEWLINE);
+    output.add("The 'total effective time' is the sum of all effective times modelled." + NEWLINE);
+    output.add("It is a reasonable proxy for the total enhancement provided by the scheme." + NEWLINE);
+    output.add(NEWLINE);
+  }
+
+  static void appendTotals(List<String> output, List<Station> starts, List<Station> ends, Model model) {
+    appendSeparator(output);
+    output.add("Total effective times" + NEWLINE);
+    output.add("---------------------" + NEWLINE);
+    int totalTotal = 0;
+    int totalCurrentTotal = 0;
+    for (Iterator<Station> it = starts.iterator(); it.hasNext();) {
+      Station start = it.next();
+      int totalPoints = 0;
+      int totalCurrentPoints = 0;
+      for (Station end : ends) {
+        totalPoints += model.solve(start, end).points();
+        totalCurrentPoints += CurrentSWLondonModel.MODEL.solve(start, end).points();
+      }
+      totalTotal += totalPoints;
+      totalCurrentTotal += totalCurrentPoints;
+      int pointsDiff = totalCurrentPoints - totalPoints;
+      output.add("From " + start.description() + ": " + totalPoints + ", " + pointsDiff + "m better" + NEWLINE);
+    }
+    int totalPointsDiff = totalCurrentTotal - totalTotal;
+    output.add("TOTAL: " + totalTotal + ", " + totalPointsDiff + "m better" + NEWLINE);
+  }
+
   static void appendStations(List<String> output) {
     List<Station> stations = new ArrayList<>(Arrays.asList(Station.values()));
     stations.sort(Comparator.comparing(Station::name));
@@ -86,20 +131,32 @@ public class Model {
 
   //-------------------------------------------------------------------------
   public String explain(Station start, Station end) {
+    JourneyOptions solved = solve(start, end);
+    Journey first = solved.first();
     StringBuilder buf = new StringBuilder();
-    buf.append("From ").append(start.description()).append(" to ").append(end.description()).append(NEWLINE);
-    buf.append(Strings.repeat("-", buf.length() - NEWLINE.length())).append(NEWLINE);
-    List<Journey> solved = solve(start, end);
-    if (solved.isEmpty()) {
-      throw new IllegalStateException("No routes found: " + start + " - " + end);
+    buf.append("From ").append(start.description()).append(" to ").append(end.description());
+    int points = solved.points();
+    if (this instanceof CurrentSWLondonModel) {
+      buf.append(" (Effective time: ").append(points).append("m)").append(NEWLINE);
+    } else {
+      JourneyOptions currentOptions = CurrentSWLondonModel.MODEL.solve(start, end);
+      int currentPoints = currentOptions.points();
+      int timeChange = points - currentPoints;
+      if (timeChange > 0) {
+        buf.append(" (Effective time: ").append(timeChange).append("m worse)").append(NEWLINE);
+      } else if (timeChange < 0) {
+        buf.append(" (Effective time: ").append(-timeChange).append("m better)").append(NEWLINE);
+      } else {
+        buf.append(" (No change)").append(NEWLINE);
+      }
     }
-    solved.sort(Comparator.naturalOrder());
-    Journey first = solved.get(0);
+    buf.append(Strings.repeat("-", buf.length() - NEWLINE.length())).append(NEWLINE);
+
     int maxExcess = MAX_EXCESS;
     if (first.isDirect()) {
       maxExcess = MAX_EXCESS_WHEN_DIRECT;
     }
-    for (Journey journey : solved) {
+    for (Journey journey : solved.getJourneys()) {
       if (journey != first) {
         int diff = first.differenceTo(journey);
         if (diff <= maxExcess) {
@@ -112,7 +169,7 @@ public class Model {
     return buf.toString();
   }
 
-  public List<Journey> solve(Station start, Station end) {
+  public JourneyOptions solve(Station start, Station end) {
     List<Route> base = routes.stream()
         .flatMap(r -> r.matches(start).map(Stream::of).orElse(Stream.empty()))
         .distinct()
@@ -160,7 +217,8 @@ public class Model {
         }
       }
     }
-    return journeys;
+    journeys.sort(Comparator.naturalOrder());
+    return JourneyOptions.of(start, end, journeys);
   }
 
   private List<Change> findChanges(Station possibleChange, Set<Change> allChanges, List<Route> allBase, Route baseRoute, Station dest) {
