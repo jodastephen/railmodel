@@ -3303,6 +3303,7 @@ From Balham to Canary Wharf
 * BAL Balham
 * BDS Bond Street
 * BPW Battersea Power
+* BRX Brixton
 * CHX Charing Cross
 * CKR Chelsea Kings Road
 * CLJ Clapham Junction
@@ -3314,6 +3315,7 @@ From Balham to Canary Wharf
 * EUS Euston
 * FLW Fulwell
 * HMC Hampton Court
+* HNH Herne Hill
 * KNG Kingston
 * LBG London Bridge
 * LHD Leatherhead

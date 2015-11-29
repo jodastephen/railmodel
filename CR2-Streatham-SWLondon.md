@@ -3313,12 +3313,14 @@ From Streatham to Green Park
 * CR2 changing to Victoria at VIC in 18-20m at 30tph
 * CR2 changing to CLJ-WAT at CLJ changing to Victoria at VXH in 23-28m at 18tph (+7m)
 * CR2 changing to CLJ-WAT at CLJ changing to Jubilee (Northbound) at WAT in 28-33m at 18tph (+12m)
+* STE-ZFD changing to HNH-VIC at HNH changing to Victoria at BRX in 24-40m at 4tph (+13m)
 
 From Streatham to Oxford Circus
 -------------------------------
 * CR2 changing to Victoria at VIC in 20-22m at 30tph
 * CR2 changing to CLJ-WAT at CLJ changing to Victoria at VXH in 25-30m at 18tph (+7m)
 * CR2 changing to CLJ-WAT at CLJ changing to Bakerloo at WAT in 30-35m at 18tph (+12m)
+* STE-ZFD changing to HNH-VIC at HNH changing to Victoria at BRX in 26-42m at 4tph (+13m)
 
 From Streatham to Bond Street
 -----------------------------
@@ -3350,6 +3352,7 @@ From Streatham to Warren Street
 * CR2 changing to Victoria at VIC in 22-24m at 30tph (+1m)
 * CR2 changing to CLJ-WAT at CLJ changing to Victoria at VXH in 27-32m at 18tph (+8m)
 * CR2 changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 33-38m at 18tph (+14m)
+* STE-ZFD changing to HNH-VIC at HNH changing to Victoria at BRX in 28-44m at 4tph (+14m)
 
 From Streatham to Baker Street
 ------------------------------
@@ -3441,6 +3444,7 @@ From Streatham to Canary Wharf
 * BAL Balham
 * BDS Bond Street
 * BPW Battersea Power
+* BRX Brixton
 * CHX Charing Cross
 * CKR Chelsea Kings Road
 * CLJ Clapham Junction
@@ -3452,6 +3456,7 @@ From Streatham to Canary Wharf
 * EUS Euston
 * FLW Fulwell
 * HMC Hampton Court
+* HNH Herne Hill
 * KNG Kingston
 * LBG London Bridge
 * LHD Leatherhead

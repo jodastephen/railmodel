@@ -117,8 +117,8 @@ public class BaseLondonModel extends Model {
       "Victoria",
       "Victoria",
       36,
-      stations(UST, VXH, VIC, UGP, UOX, UWS, EUS),
-      times(2, 3, 2, 2, 2, 1));
+      stations(BRX, UST, VXH, VIC, UGP, UOX, UWS, EUS),
+      times(2, 2, 3, 2, 2, 2, 1));
   static final Route BAKERLOO_NB = Route.of(
       "Bakerloo",
       "Bakerloo",
@@ -182,6 +182,12 @@ public class BaseLondonModel extends Model {
       4,  // 2 now, but assume 4 once LBG works complete
       stations(STE, LBG),
       times(23));
+  static final Route SOUTHEAST_HNH_VIC = Route.of(
+      "SouthEast",
+      "HNH-VIC",
+      4,
+      stations(HNH, BRX, VIC),
+      times(2, 10));
 
   static final Route THAMESLINK_EPH_ZFD = Route.of(
       "Thameslink",
@@ -193,8 +199,8 @@ public class BaseLondonModel extends Model {
       "Thameslink",
       "STE-ZFD",
       4,
-      stations(STE, EPH),
-      times(16),
+      stations(STE, HNH, EPH),
+      times(8, 8),
       THAMESLINK_EPH_ZFD);
   static final Route CR1_EB = Route.of(
       "CR1",

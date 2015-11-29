@@ -22,6 +22,7 @@ public class Crossrail2ModelRunner {
 
   public static void main(String[] args) throws Exception {
     String[] noargs = new String[0];
+    CurrentSWLondonModel.main(noargs);
     Crossrail2BalhamSWLondonModel.main(noargs);
     Crossrail2TootingSWLondonModel.main(noargs);
     Crossrail2EarlsfieldSWLondonModel.main(noargs);

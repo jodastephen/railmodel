@@ -179,6 +179,7 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     addRoute(THAMESLINK_EPH_ZFD);
     addRoute(THAMESLINK_STE_ZFD);
     addRoute(SOUTHERN_STE_LBG);
+    addRoute(SOUTHEAST_HNH_VIC);
 
     // Tube lines
     addRoute(NORTHERN_CITY_NB);
@@ -239,6 +240,8 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     addChange(Change.of(VIC, CR2_VIC_AGL, VICTORIA_NB, 4, 6));
     addChange(Change.of(VIC, SOUTHERN_BAL_VIC, DISTRICT_EB, 4, 6));
     addChange(Change.of(VIC, SOUTHERN_BAL_VIC, VICTORIA_NB, 4, 6));
+    addChange(Change.of(VIC, SOUTHEAST_HNH_VIC, DISTRICT_EB, 4, 6));
+    addChange(Change.of(VIC, SOUTHEAST_HNH_VIC, VICTORIA_NB, 4, 6));
 
     // change at TCR
     addChange(Change.of(TCR, CR2_VIC_AGL, CR1_EB, 3, 5));
@@ -262,6 +265,9 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     // change at Elephant & Castle
     addChange(Change.of(EPH, NORTHERN_CITY_NB, BAKERLOO_NB, 2, 4));
     addChange(Change.of(EPH, NORTHERN_CITY_NB, THAMESLINK_EPH_ZFD, 8, 16));
+
+    // change at Herne Hill
+    addChange(Change.of(HNH, THAMESLINK_STE_ZFD, SOUTHEAST_HNH_VIC, 1, 15));
 
     // change at London Bridge
     addChange(Change.of(LBG, NORTHERN_CITY_NB, JUBILEE_EB, 2, 4));
@@ -301,6 +307,9 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     addChange(Change.of(WAT, cljwat, NORTHERN_WEST_NB, 3, 6));
     addChange(Change.of(WAT, cljwat, BAKERLOO_NB, 3, 6));
     addChange(Change.of(WAT, cljwat, WNC_NB, 3, 10));  // includes queuing for W&C
+
+    // change at Brixton
+    addChange(Change.of(BRX, SOUTHEAST_HNH_VIC, VICTORIA_NB, 4, 6));
 
     // change at Green Park
     addChange(Change.of(UGP, VICTORIA_NB, JUBILEE_NB, 4, 6));
