@@ -60,7 +60,7 @@ public class Crossrail2TootingSWLondonModel extends BaseLondonModel {
     }
     appendStations(output);
     output.add(NEWLINE);
-    output.add("Feel free to send a pull request for errors and enhancments!." + NEWLINE);
+    output.add("Feel free to send a pull request for errors and enhancments!" + NEWLINE);
 
     File file = new File("CR2-Tooting-SWLondon.md");
     String result = Joiner.on("").join(output);
@@ -237,79 +237,7 @@ public class Crossrail2TootingSWLondonModel extends BaseLondonModel {
     // change at Angel
     addChange(Change.of(AGL, CR2_VIC_AGL, NORTHERN_CITY_SB, 3, 6));
 
-    // change at Kennington
-    Change xkennington = Change.of(UKN, NORTHERN_CITY_NB, NORTHERN_WEST_NB, 1, 2);
-    addChange(xkennington);
-
-    // change at Stockwell
-    addChange(Change.of(UST, NORTHERN_CITY_NB, VICTORIA_NB, 1, 2));
-
-    // change at Elephant & Castle
-    Change xephnorthernbakerloo = Change.of(EPH, NORTHERN_CITY_NB, BAKERLOO_NB, 2, 4);
-    addChange(xephnorthernbakerloo);
-    addChange(Change.of(EPH, NORTHERN_CITY_NB, THAMESLINK_EPH_ZFD, 8, 16));
-
-    // change at Herne Hill
-    addChange(Change.of(HNH, THAMESLINK_STE_ZFD, SOUTHEAST_HNH_VIC, 1, 15));
-
-    // change at Brixton
-    addChange(Change.of(BRX, SOUTHEAST_HNH_VIC, VICTORIA_NB, 4, 6));
-
-    // change at London Bridge
-    addChange(Change.of(LBG, NORTHERN_CITY_NB, JUBILEE_EB, 2, 4));
-    addChange(Change.of(LBG, NORTHERN_CITY_NB, JUBILEE_NB, 2, 4));
-    addChange(Change.of(LBG, JUBILEE_EB, NORTHERN_CITY_NB, 2, 4));
-    addChange(Change.of(LBG, JUBILEE_EB, NORTHERN_CITY_SB, 2, 4));
-    addChange(Change.of(LBG, SOUTHERN_STE_LBG, NORTHERN_CITY_NB, 4, 6));
-    addChange(Change.of(LBG, SOUTHERN_STE_LBG, NORTHERN_CITY_SB, 4, 6));
-    addChange(Change.of(LBG, SOUTHERN_STE_LBG, JUBILEE_EB, 4, 6));
-    addChange(Change.of(LBG, SOUTHERN_STE_LBG, JUBILEE_NB, 4, 6));
-
-    // change at Bank
-    addChange(Change.of(UBK, CENTRAL_EB, NORTHERN_CITY_NB, 4, 8));
-    addChange(Change.of(UBK, CENTRAL_EB, NORTHERN_CITY_SB, 4, 8));
-    addChange(Change.of(UBK, NORTHERN_CITY_NB, CENTRAL_EB, 4, 8));
-    addChange(Change.of(UBK, NORTHERN_CITY_NB, CENTRAL_WB, 4, 8));
-    addChange(Change.of(UBK, WNC_NB, CENTRAL_WB, 4, 8));
-    addChange(Change.of(UBK, WNC_NB, NORTHERN_CITY_NB, 5, 9));
-    addChange(Change.of(UBK, WNC_NB, NORTHERN_CITY_SB, 5, 9));
-
-    // change at Farringdon
-    addChange(Change.of(ZFD, THAMESLINK_EPH_ZFD, CR1_EB, 3, 5));
-    addChange(Change.of(ZFD, THAMESLINK_EPH_ZFD, CR1_WB, 3, 5));
-
-    // change at Moorgate
-    addChange(Change.of(MOG, NORTHERN_CITY_NB, CR1_EB, 3, 5));
-    addChange(Change.of(MOG, NORTHERN_CITY_NB, CR1_WB, 3, 5));
-    addChange(Change.of(MOG, CR1_EB, NORTHERN_CITY_NB, 3, 5));
-    addChange(Change.of(MOG, CR1_EB, NORTHERN_CITY_SB, 3, 5));
-
-    // change at Vauxhall
-    addChange(Change.of(VXH, SWML_CLJ_WAT_18, VICTORIA_NB, 3, 6));
-
-    // change at Waterloo
-    addChange(Change.of(WAT, SWML_CLJ_WAT_18, JUBILEE_EB, 3, 6));
-    addChange(Change.of(WAT, SWML_CLJ_WAT_18, JUBILEE_NB, 3, 6));
-    addChange(Change.of(WAT, SWML_CLJ_WAT_18, NORTHERN_WEST_NB, 3, 6));
-    addChange(Change.of(WAT, SWML_CLJ_WAT_18, BAKERLOO_NB, 3, 6));
-    addChange(Change.of(WAT, SWML_CLJ_WAT_18, WNC_NB, 3, 10));  // includes queuing for W&C
-    Change xwatjubileenorthern = Change.of(WAT, JUBILEE_NB, NORTHERN_WEST_NB, 3, 5);
-    Change xwatjubileebakerloo = Change.of(WAT, JUBILEE_NB, BAKERLOO_NB, 3, 5);
-    addChange(xwatjubileenorthern);
-    addChange(xwatjubileebakerloo);
-    addPreferredChange(xkennington, xwatjubileenorthern);
-    addPreferredChange(xephnorthernbakerloo, xwatjubileebakerloo);
-
-    // change at Green Park
-    addChange(Change.of(UGP, VICTORIA_NB, JUBILEE_NB, 4, 6));
-
-    // change at Embankment (this is a fudge)
-    addChange(Change.of(CHX, NORTHERN_WEST_NB, DISTRICT_EB, 3, 6));
-
-    // change at Oxford Circus
-    addChange(Change.of(UOX, VICTORIA_NB, BAKERLOO_NB, 1, 3));
-    addChange(Change.of(UOX, BAKERLOO_NB, VICTORIA_NB, 1, 3));
-
+    commonChanges(NORTHERN_CITY_NB);
   }
 
 }
