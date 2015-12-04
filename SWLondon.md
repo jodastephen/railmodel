@@ -2498,7 +2498,6 @@ From Morden to Tottenham Court Road (34m)
 -----------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 31-32m at 30tph
 * Northern (City) changing to CR1 (Westbound) at MOG in 39-41m at 30tph (+9m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 41-45m at 30tph (+12m)
 
 From Morden to Euston (33m)
 ---------------------------
@@ -2539,18 +2538,14 @@ From Morden to Charing Cross (31m)
 * Northern (City) changing to Northern (West End) at UKN in 28-29m at 30tph
 * Northern (City) changing to Bakerloo at EPH in 32-34m at 27tph (+5m)
 * Northern (City) changing to Victoria at UST changing to District at VIC in 33-36m at 27tph (+6m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Bakerloo at WAT in 37-41m at 27tph (+11m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 38-42m at 30tph (+12m)
 
 From Morden to Leicester Square (33m)
 -------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 30-31m at 30tph
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 40-44m at 30tph (+12m)
 
 From Morden to Goodge Street (35m)
 ----------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 32-33m at 30tph
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 42-46m at 30tph (+12m)
 
 From Morden to Warren Street (32m)
 ----------------------------------
@@ -2633,7 +2628,6 @@ From South Wimbledon to Tottenham Court Road (32m)
 --------------------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 29-30m at 30tph
 * Northern (City) changing to CR1 (Westbound) at MOG in 37-39m at 30tph (+9m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 39-43m at 30tph (+12m)
 
 From South Wimbledon to Euston (31m)
 ------------------------------------
@@ -2674,18 +2668,14 @@ From South Wimbledon to Charing Cross (29m)
 * Northern (City) changing to Northern (West End) at UKN in 26-27m at 30tph
 * Northern (City) changing to Bakerloo at EPH in 30-32m at 27tph (+5m)
 * Northern (City) changing to Victoria at UST changing to District at VIC in 31-34m at 27tph (+6m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Bakerloo at WAT in 35-39m at 27tph (+11m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 36-40m at 30tph (+12m)
 
 From South Wimbledon to Leicester Square (31m)
 ----------------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 28-29m at 30tph
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 38-42m at 30tph (+12m)
 
 From South Wimbledon to Goodge Street (33m)
 -------------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 30-31m at 30tph
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 40-44m at 30tph (+12m)
 
 From South Wimbledon to Warren Street (30m)
 -------------------------------------------
@@ -2768,7 +2758,6 @@ From Tooting Broadway to Tottenham Court Road (28m)
 ---------------------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 25-26m at 30tph
 * Northern (City) changing to CR1 (Westbound) at MOG in 33-35m at 30tph (+9m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 35-39m at 30tph (+12m)
 
 From Tooting Broadway to Euston (27m)
 -------------------------------------
@@ -2809,18 +2798,14 @@ From Tooting Broadway to Charing Cross (25m)
 * Northern (City) changing to Northern (West End) at UKN in 22-23m at 30tph
 * Northern (City) changing to Bakerloo at EPH in 26-28m at 27tph (+5m)
 * Northern (City) changing to Victoria at UST changing to District at VIC in 27-30m at 27tph (+6m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Bakerloo at WAT in 31-35m at 27tph (+11m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 32-36m at 30tph (+12m)
 
 From Tooting Broadway to Leicester Square (27m)
 -----------------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 24-25m at 30tph
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 34-38m at 30tph (+12m)
 
 From Tooting Broadway to Goodge Street (29m)
 --------------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 26-27m at 30tph
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 36-40m at 30tph (+12m)
 
 From Tooting Broadway to Warren Street (26m)
 --------------------------------------------
@@ -2906,7 +2891,6 @@ From Balham to Tottenham Court Road (24m)
 * Northern (City) changing to Northern (West End) at UKN in 21-22m at 30tph
 * Northern (City) changing to CR1 (Westbound) at MOG in 29-31m at 30tph (+9m)
 * BAL-VIC changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 30-35m at 12tph (+11m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 31-35m at 30tph (+12m)
 
 From Balham to Euston (23m)
 ---------------------------
@@ -2960,21 +2944,17 @@ From Balham to Charing Cross (21m)
 * Northern (City) changing to Victoria at UST changing to District at VIC in 23-26m at 27tph (+6m)
 * BAL-VIC changing to District at VIC in 26-28m at 12tph (+9m)
 * BAL-VIC changing to CLJ-WAT at CLJ changing to Bakerloo at WAT in 26-31m at 12tph (+10m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Bakerloo at WAT in 27-31m at 27tph (+11m)
 * BAL-VIC changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 27-32m at 12tph (+11m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 28-32m at 30tph (+12m)
 
 From Balham to Leicester Square (23m)
 -------------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 20-21m at 30tph
 * BAL-VIC changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 29-34m at 12tph (+11m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 30-34m at 30tph (+12m)
 
 From Balham to Goodge Street (25m)
 ----------------------------------
 * Northern (City) changing to Northern (West End) at UKN in 22-23m at 30tph
 * BAL-VIC changing to CLJ-WAT at CLJ changing to Northern (West End) at WAT in 31-36m at 12tph (+11m)
-* Northern (City) changing to Jubilee (Northbound) at LBG changing to Northern (West End) at WAT in 32-36m at 30tph (+12m)
 
 From Balham to Warren Street (22m)
 ----------------------------------

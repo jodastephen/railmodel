@@ -34,9 +34,6 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
 
   public static void main(String[] args) throws Exception {
     Crossrail2StreathamSWLondonModel model = new Crossrail2StreathamSWLondonModel();
-
-    model.explain(STE, WAT);
-
     ImmutableList<Station> starts = ImmutableList.of(
         CSS, LHD, EPS, SNL, WCP, MOT, SHP, FLW, KNG, HMC, SUR, NEM, RAY, WIM, EAD, UMD, USW, UTB, BAL, SRH, STE);
     ImmutableList<Station> ends = ImmutableList.of(
@@ -80,17 +77,10 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
 
   private void setup() {
     // WAT
-    Route cljwat = SWML_CLJ_WAT_18;
-    Route wimwat = SWML_WIM_WAT_12;
-    Route raywat = SWML_RAY_WAT_8;
-    Route twiwat = SWML_TWI_WAT_4;
-    Route lhdwat = SWML_LHD_WAT_4;
-    Route surwat1 = SWML_SUR_WAT_FAST_6;
-    Route surwat2 = SWML_SUR_WAT_SLOW_4;
-    addRoute(twiwat);
-    addRoute(lhdwat);
-    addRoute(surwat1);
-    addRoute(surwat2);
+    addRoute(SWML_TWI_WAT_4);
+    addRoute(SWML_LHD_WAT_4);
+    addRoute(SWML_SUR_WAT_FAST_6);
+    addRoute(SWML_SUR_WAT_SLOW_4);
     // CR2
     // CLJ-CKR known as 3 mins
     // CKR-VIC and VIC-TCR are similar distances
@@ -190,19 +180,19 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     // change CR2 to WAT at SUR, assume 6 tracks between Surbiton and New Malden
     // gaps between fast trains work out at 4-6 mins with 10min gap twice an hour
     // assume a sensible timetable minimises interchange time
-    addChange(Change.of(SUR, hmcagl, surwat1, 3, 5));
-    addChange(Change.of(SUR, hmcagl, surwat2, 3, 5));
+    addChange(Change.of(SUR, hmcagl, SWML_SUR_WAT_FAST_6, 3, 5));
+    addChange(Change.of(SUR, hmcagl, SWML_SUR_WAT_SLOW_4, 3, 5));
 
     // change CR2 to WAT at RAY, assume 8tph at gaps of 6 and 9 minutes
-    Change xraycr2wat = Change.of(RAY, rayagl, raywat, 1, 9);
+    Change xraycr2wat = Change.of(RAY, rayagl, SWML_RAY_WAT_8, 1, 9);
     addChange(xraycr2wat);
     // change WAT to CR2 at RAY, 20tph at gaps of 2 and 4 minutes
-    Change xraywatcr2 = Change.of(RAY, raywat, rayagl, 1, 5);
+    Change xraywatcr2 = Change.of(RAY, SWML_RAY_WAT_8, rayagl, 1, 5);
     addChange(xraywatcr2);
 
     // change at Wimbledon
-    Change xwimwatcr2 = Change.of(WIM, wimwat, wimagl, 4, 6);
-    Change xwimcr2wat = Change.of(WIM, wimagl, wimwat, 4, 10);
+    Change xwimwatcr2 = Change.of(WIM, SWML_WIM_WAT_12, wimagl, 4, 6);
+    Change xwimcr2wat = Change.of(WIM, wimagl, SWML_WIM_WAT_12, 4, 10);
     addChange(xwimwatcr2);
     addChange(xwimcr2wat);  // gaps of 3 to 6 mins
 
@@ -213,12 +203,12 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     addChange(Change.of(STE, wimagl, THAMESLINK_STE_ZFD, 3, 5));
 
     // change at Clapham Junction
-    Change xcljwatcr2 = Change.of(CLJ, cljwat, CR2_CLJ_AGL, 4, 6);
+    Change xcljwatcr2 = Change.of(CLJ, SWML_CLJ_WAT_18, CR2_CLJ_AGL, 4, 6);
     addChange(xcljwatcr2);
-    addChange(Change.of(CLJ, cljwat, SOUTHERN_BAL_VIC, 4, 6));
+    addChange(Change.of(CLJ, SWML_CLJ_WAT_18, SOUTHERN_BAL_VIC, 4, 6));
     addChange(Change.of(CLJ, SOUTHERN_BAL_VIC, CR2_CLJ_AGL, 4, 6));
-    addChange(Change.of(CLJ, SOUTHERN_BAL_VIC, cljwat, 4, 6));
-    addChange(Change.of(CLJ, CR2_CLJ_AGL, cljwat, 4, 6));
+    addChange(Change.of(CLJ, SOUTHERN_BAL_VIC, SWML_CLJ_WAT_18, 4, 6));
+    addChange(Change.of(CLJ, CR2_CLJ_AGL, SWML_CLJ_WAT_18, 4, 6));
 
     // prefer change at RAY to WIM/CLJ if choice
     addPreferredChange(xraywatcr2, xwimwatcr2);
@@ -228,6 +218,7 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     // change at Victoria
     addChange(Change.of(VIC, CR2_VIC_AGL, DISTRICT_EB, 4, 6));
     addChange(Change.of(VIC, CR2_VIC_AGL, VICTORIA_NB, 4, 6));
+    addChange(Change.of(VIC, VICTORIA_NB, DISTRICT_EB, 4, 6));
     addChange(Change.of(VIC, SOUTHERN_BAL_VIC, DISTRICT_EB, 4, 6));
     addChange(Change.of(VIC, SOUTHERN_BAL_VIC, VICTORIA_NB, 4, 6));
     addChange(Change.of(VIC, SOUTHEAST_HNH_VIC, DISTRICT_EB, 4, 6));
@@ -247,13 +238,15 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     addChange(Change.of(AGL, CR2_VIC_AGL, NORTHERN_CITY_SB, 3, 6));
 
     // change at Kennington
-    addChange(Change.of(UKN, NORTHERN_CITY_NB, NORTHERN_WEST_NB, 1, 2));
+    Change xkennington = Change.of(UKN, NORTHERN_CITY_NB, NORTHERN_WEST_NB, 1, 2);
+    addChange(xkennington);
 
     // change at Stockwell
     addChange(Change.of(UST, NORTHERN_CITY_NB, VICTORIA_NB, 1, 2));
 
     // change at Elephant & Castle
-    addChange(Change.of(EPH, NORTHERN_CITY_NB, BAKERLOO_NB, 2, 4));
+    Change xephnorthernbakerloo = Change.of(EPH, NORTHERN_CITY_NB, BAKERLOO_NB, 2, 4);
+    addChange(xephnorthernbakerloo);
     addChange(Change.of(EPH, NORTHERN_CITY_NB, THAMESLINK_EPH_ZFD, 8, 16));
 
     // change at Herne Hill
@@ -292,16 +285,20 @@ public class Crossrail2StreathamSWLondonModel extends BaseLondonModel {
     addChange(Change.of(MOG, CR1_EB, NORTHERN_CITY_SB, 3, 5));
 
     // change at Vauxhall
-    addChange(Change.of(VXH, cljwat, VICTORIA_NB, 3, 6));
+    addChange(Change.of(VXH, SWML_CLJ_WAT_18, VICTORIA_NB, 3, 6));
 
     // change at Waterloo
-    addChange(Change.of(WAT, cljwat, JUBILEE_EB, 3, 6));
-    addChange(Change.of(WAT, cljwat, JUBILEE_NB, 3, 6));
-    addChange(Change.of(WAT, cljwat, NORTHERN_WEST_NB, 3, 6));
-    addChange(Change.of(WAT, cljwat, BAKERLOO_NB, 3, 6));
-    addChange(Change.of(WAT, cljwat, WNC_NB, 3, 10));  // includes queuing for W&C
-    addChange(Change.of(WAT, JUBILEE_NB, NORTHERN_WEST_NB, 3, 5));
-    addChange(Change.of(WAT, JUBILEE_NB, BAKERLOO_NB, 3, 5));
+    addChange(Change.of(WAT, SWML_CLJ_WAT_18, JUBILEE_EB, 3, 6));
+    addChange(Change.of(WAT, SWML_CLJ_WAT_18, JUBILEE_NB, 3, 6));
+    addChange(Change.of(WAT, SWML_CLJ_WAT_18, NORTHERN_WEST_NB, 3, 6));
+    addChange(Change.of(WAT, SWML_CLJ_WAT_18, BAKERLOO_NB, 3, 6));
+    addChange(Change.of(WAT, SWML_CLJ_WAT_18, WNC_NB, 3, 10));  // includes queuing for W&C
+    Change xwatjubileenorthern = Change.of(WAT, JUBILEE_NB, NORTHERN_WEST_NB, 3, 5);
+    Change xwatjubileebakerloo = Change.of(WAT, JUBILEE_NB, BAKERLOO_NB, 3, 5);
+    addChange(xwatjubileenorthern);
+    addChange(xwatjubileebakerloo);
+    addPreferredChange(xkennington, xwatjubileenorthern);
+    addPreferredChange(xephnorthernbakerloo, xwatjubileebakerloo);
 
     // change at Green Park
     addChange(Change.of(UGP, VICTORIA_NB, JUBILEE_NB, 4, 6));
