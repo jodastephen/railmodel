@@ -15,7 +15,7 @@
  */
 package org.joda.railmodel;
 
-import static org.joda.railmodel.Station.*;
+import static org.joda.railmodel.Stations.*;
 
 /**
  * Common code for current London.
