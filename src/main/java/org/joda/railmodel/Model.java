@@ -108,7 +108,7 @@ public class Model {
   }
 
   static void appendStations(List<String> output) {
-    List<Station> stations = new ArrayList<>(Arrays.asList(Station.values()));
+    List<Station> stations = new ArrayList<>(Arrays.asList(Stations.values()));
     stations.sort(Comparator.comparing(Station::name));
     appendSeparator(output);
     for (Station station : stations) {

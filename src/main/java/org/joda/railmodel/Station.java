@@ -16,80 +16,9 @@
 package org.joda.railmodel;
 
 /**
- * Stations.
+ * Train Station
  */
-public enum Station {
-
-  HMC("Hampton Court"),
-  SUR("Surbiton"),
-  TWI("Twickenham"),
-  SHP("Shepperton"),
-  FLW("Fulwell"),
-  KNG("Kingston"),
-  NEM("New Malden"),
-  CSS("Chessington South"),
-  LHD("Leatherhead"),
-  EPS("Epsom"),
-  SNL("Stoneleigh"),
-  WCP("Worcester Park"),
-  MOT("Motspur Park"),
-  RAY("Raynes Park"),
-  WIM("Wimbledon"),
-  EAD("Earlsfield"),
-  BAL("Balham"),
-  CLJ("Clapham Junction"),
-  VXH("Vauxhall"),
-  WAT("Waterloo"),
-  HNH("Herne Hill"),
-  STE("Streatham"),
-  SRH("Streatham Hill"),
-  TOO("Tooting (mainline)"),
-  CKR("Chelsea Kings Road"),
-  BPW("Battersea Power"),
-  VIC("Victoria"),
-  TCR("Tottenham Court Road"),
-  EUS("Euston"),
-  STP("St Pancras"),
-  AGL("Angel"),
-  PAD("Paddington"),
-  BDS("Bond Street"),
-  ZFD("Farringdon"),
-  MOG("Moorgate"),
-  LST("Liverpool Street"),
-  CWF("Canary Wharf"),
-  CHX("Charing Cross"),
-  LBG("London Bridge"),
-  BRX("Brixton"),
-  UMD("Morden"),
-  USW("South Wimbledon"),
-  UTB("Tooting Broadway"),
-  UCS("Clapham South"),
-  UST("Stockwell"),
-  UKN("Kennington"),
-  EPH("Elephant & Castle"),
-  UBH("Borough"),
-  UBK("Bank/Monument"),
-  UOS("Old Street"),
-  ULS("Leicester Square"),
-  UGS("Goodge Street"),
-  UWS("Warren Street"),
-  UGP("Green Park"),
-  UOX("Oxford Circus"),
-  UBS("Baker Street"),
-  UHL("Holborn"),
-  UCL("Chancery Lane"),
-  USP("St Pauls"),
-  UWM("Westminster"),
-  UTM("Temple");
-
-  private final String description;
-
-  private Station(String description) {
-    this.description = description;
-  }
-
-  public String description() {
-    return description;
-  }
-
+public interface Station {
+    String description();
+    String name();
 }
