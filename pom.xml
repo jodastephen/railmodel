@@ -33,6 +33,14 @@
     </developer>
   </developers>
 
+  <contributors>
+    <contributor>
+      <name>Sleiman Jneidi</name>
+      <email>jneidi.sleiman@gmail.com</email>
+      <timezone>0</timezone>
+      <url>https://github.com/SleimanJneidi</url>
+    </contributor>
+  </contributors>
   <!-- ==================================================================== -->
   <licenses>
     <license>
